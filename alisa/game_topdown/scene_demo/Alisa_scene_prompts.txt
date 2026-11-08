@@ -1,0 +1,28 @@
+Инструмент: встроенный image_gen.
+
+Фон игровой сцены:
+Use case: stylized-concept.
+Asset type: static background for a small top-down pixel-art game animation preview.
+Create an EMPTY quiet stone courtyard, an orthogonal RPG camera with a slight elevated oblique view, no horizon or vanishing point, 4:3 composition. Intended native game resolution320x240 pixels, presented enlarged with clean hard pixel clusters.
+A broad flat cool-grey flagstone paved floor occupies almost all of the scene. Small square/rectangular paving tiles, subtle controlled stone variation and thin darker seams, not a busy texture. Floor midtones around muted slate grey; a white-haired character in black clothing will be clearly visible against it.
+Very restrained environment dressing at the outermost edges only: a low dark stone curb across the top and sides, tiny patches of subdued grass/moss in the corners and a few small plants along the outer border. A soft warm daylight feel with consistent quiet lighting. No tall structures.
+CRITICAL: keep the central playable rectangle x50..275, y40..225, in the320x240 logical frame completely unobstructed continuous paving. This area must be free for the character to walk a rectangular path and then dance. The scene is a flat game background, no foreground objects that require masking. No people, characters, animals, shadows of characters, props in the centre, UI, writing, signs, logos or watermarks. No depth of field, no bloom, no painterly blur, no fake checkerboard.
+Polished but understated 2D RPG pixel art. The paving is screen aligned, not a diamond/isometric grid. The image fills the canvas, no frame.
+
+Переход из idle в исходную танцевальную позу:
+Use case: identity-preserve.
+Asset type: pixel-art animation TRANSITION poses, the SAME Alisa moving from idle into her original dance stance.
+Input image1 is the exact START idle pose. Input image2 is the exact END pose, the first frame of the ORIGINAL dance. These are the same character. Image3 shows the original dance only to clarify her existing figure, costume and gesture.
+Create exactly EIGHT consecutive full-body transition poses in a FOUR COLUMN by TWO ROW spritesheet, ordered left to right across top row then bottom row. Genuinely transparent background.
+Frame1: match image1's relaxed forward-facing idle, arms down.
+Frame2: transfer weight slightly, start looking a little to her left, left foot begins a small outward step.
+Frame3: place left foot a little farther left, start bending both elbows. Torso turns about a quarter towards her left.
+Frame4: widen stance smoothly towards image2, left forearm starts to rise across her torso while right hand moves towards right hip.
+Frame5: right hand reaches her hip, left forearm rises near chest, hip tilts gently.
+Frame6: almost image2: feet planted wide, weight settles, torso and head facing slightly left, left hand near chest and right on hip.
+Frame7: finish settling into the EXACT stance and silhouette of image2, no new dance gesture.
+Frame8: match image2 exactly in pose and character orientation.
+Preserve the original long-legged adult proportions and full figure: fairly large anime head, white bob with cowlick, blue eyes, fair skin, fitted black high-neck long sleeve sweater with small chest keyhole, white pleated mini skirt, charcoal thigh-high stockings and dark shoes. Same bust, narrow waist, hips and height as the input references. Do not make a chibi or redesign her.
+The apparent perspective naturally turns from the front idle in image1 to the three-quarter left view in image2. Face turns in the same direction as her torso, no head spinning independently.
+Every sprite fits a36x86 logical pixel cell at the same scale and ground baseline. Head and neck heights must stay consistent; shoulders around y31, waist y44, skirt hem y57, soles y85. Native pixel-art density like the inputs, enlarged crisp square pixels, no high resolution painted details. Clean coherent silhouette and continuous limb positions, distinct readable preparation poses.
+No glow, no shadows, no floor, no lettering, no grid, no captions, no extra figures, no accessories. Hands and feet do not change size. Feet remain grounded, no jumping.

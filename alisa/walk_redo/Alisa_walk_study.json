@@ -1,0 +1,241 @@
+{
+  "frames": [
+    {
+      "filename": "walk_00.png",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "duration": 100,
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "trimmed": false,
+      "rotated": false
+    },
+    {
+      "filename": "walk_01.png",
+      "frame": {
+        "x": 36,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "duration": 100,
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "trimmed": false,
+      "rotated": false
+    },
+    {
+      "filename": "walk_02.png",
+      "frame": {
+        "x": 72,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "duration": 100,
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "trimmed": false,
+      "rotated": false
+    },
+    {
+      "filename": "walk_03.png",
+      "frame": {
+        "x": 108,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "duration": 100,
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "trimmed": false,
+      "rotated": false
+    },
+    {
+      "filename": "walk_04.png",
+      "frame": {
+        "x": 144,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "duration": 100,
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "trimmed": false,
+      "rotated": false
+    },
+    {
+      "filename": "walk_05.png",
+      "frame": {
+        "x": 180,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "duration": 100,
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "trimmed": false,
+      "rotated": false
+    },
+    {
+      "filename": "walk_06.png",
+      "frame": {
+        "x": 216,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "duration": 100,
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "trimmed": false,
+      "rotated": false
+    },
+    {
+      "filename": "walk_07.png",
+      "frame": {
+        "x": 252,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "duration": 100,
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "trimmed": false,
+      "rotated": false
+    },
+    {
+      "filename": "walk_08.png",
+      "frame": {
+        "x": 288,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "duration": 100,
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "trimmed": false,
+      "rotated": false
+    },
+    {
+      "filename": "walk_09.png",
+      "frame": {
+        "x": 324,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "duration": 100,
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "trimmed": false,
+      "rotated": false
+    }
+  ],
+  "meta": {
+    "image": "Alisa_walk_study_atlas.png",
+    "size": {
+      "w": 360,
+      "h": 86
+    },
+    "format": "RGBA8888",
+    "scale": "1",
+    "frameTags": [
+      {
+        "name": "walk_down_left",
+        "from": 0,
+        "to": 9,
+        "direction": "forward"
+      }
+    ]
+  }
+}

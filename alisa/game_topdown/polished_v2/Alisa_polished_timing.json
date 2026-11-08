@@ -1,0 +1,26 @@
+{
+  "durationMs": 37900,
+  "nativeSprite": [
+    36,
+    86
+  ],
+  "fps": 50,
+  "walkDirections": [
+    "down",
+    "down_left",
+    "left",
+    "up_left",
+    "up",
+    "up_right",
+    "right",
+    "down_right"
+  ],
+  "walkStart": 1.44,
+  "walkEnd": 23.740000000000002,
+  "danceStart": 26.18,
+  "danceEnd": 34.18,
+  "phaseDriver": "travelled planar distance",
+  "strideWorldPixels": 30.6666666667,
+  "diagonalSpeedNormalized": true,
+  "imageMorphing": false
+}

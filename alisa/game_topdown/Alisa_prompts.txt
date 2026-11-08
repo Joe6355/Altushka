@@ -1,0 +1,79 @@
+Инструмент: встроенный image_gen.
+Референс внешности: исходная Алиса, вариант с голубыми глазами и белой юбкой.
+Референсы движения: SLYNYRD, Pixelblog 22 и Pixelblog 25; ссылки и параметры экспорта указаны в README.md.
+
+Модель, четыре ракурса:
+Use case: identity-preserve.
+Asset type: game-ready pixel art character turnaround, Alisa.
+The input is the APPROVED character in three poses. Preserve THIS exact woman: the same body proportions, figure, face, white bob hairstyle with curved cowlick, blue eyes, fair skin, fitted black high-neck sweater with small chest keyhole and long sleeves, white pleated short skirt, charcoal thigh-high stockings and dark shoes. The reference is not a suggestion to redesign her. Her substantial bust, narrow waist, hips and long slim legs must keep the reference's proportions. Head approximately 28–30 out of 86 total logical pixels, waist at y44, hem at y57, soles at y85. Do not shorten the legs or widen her body.
+Create a clean cohesive sprite model sheet in ONE HORIZONTAL ROW of FOUR equally sized cells. Each native sprite cell is 36 pixels wide x 86 pixels tall. This is enlarged native pixel art, draw with the same pixel density and large deliberate square pixel clusters as the source, not a fine-detailed illustration reduced to pixels.
+Views, left to right:
+1. DOWN: facing towards the bottom of the screen, slightly three-quarter front like the original reference. Eyes look forward into this facing direction.
+2. RIGHT: facing right, clear side profile with ONE visible blue eye looking to the right. Nose and chest face right, far eye hidden.
+3. UP: facing away, back of the same white bob, back of the black sweater, back of white pleated skirt. NO FACE OR EYES visible.
+4. LEFT: facing left, clear side profile, one blue eye looking left.
+Camera: very slight overhead RPG camera, about 10–15 degrees downward, just enough to show the top of her head and shoe tops. Keep her tall original figure, no foreshortening into a squat character.
+Pose: relaxed ready idle, arms comfortably at the sides with one pixel of silhouette separation from torso; hands by upper thighs; two feet planted slightly apart. Same apparent height and body proportions in every view. A recognizable, uncluttered silhouette.
+Background: genuine transparent alpha, absolutely no shadow, floor, board, text or grid.
+Visual finish: match the original clean anime pixel art. Coherent eye shapes; preserve the reference facial character. A small controlled colour palette, clean pixel clusters, white hair highlights with cool grey shadows, black costume with readable charcoal shading, one-native-pixel contours. No thick black rim round the hair, no random stray pixels, no blurred edges or gradients.
+NONNEGOTIABLE: DO NOT turn Alisa into a chibi; DO NOT enlarge her head, flatten her bust, thicken her waist, make her shorter, shorten her stockings or change her clothing. Source figure and distinctive face first. These four sprites will become one consistent game character.
+
+Ходьба down:
+Use case: identity-preserve. Production pixel-art WALK animation for Alisa.
+Input 1 is the exact game model, four views: DOWN, RIGHT, UP, LEFT. Copy the appropriate view's appearance and proportions faithfully. Input 2 is the ORIGINAL Alisa and confirms her identity/figure. Input 3 is only a motion reference, NOT a style or character reference.
+Keep Alisa's ORIGINAL tall figure: her original head size, substantial bust, narrow waist, hips, LONG slim legs. White bob with cowlick, blue eyes, fair skin, black fitted high-neck long-sleeve keyhole sweater, white pleated miniskirt, charcoal thigh-high stockings, dark shoes. No chibi proportions, no shortened legs, no huge head.
+Output one clean spritesheet, FOUR COLUMNS by TWO ROWS, exactly EIGHT full-body poses ordered 1–4 top and 5–8 bottom. Same scale, centre registration and lighting in every cell. Native intended cell is 36x86 pixels, shown enlarged with crisp square pixels and the same pixel density as input 1. Each sprite fits inside 36 pixels width including arm/foot swing.
+Transparent alpha background ONLY. No bloom, no glow, no gradients around sprites, no shadows, no floor, no captions, no lines. Colours and highlights only inside the opaque character. Do not surround the hair with a thick black rim.
+Head/facial features/hairstyle must be IDENTICAL in all eight frames, only a tiny 1-pixel vertical bob follows the body. Anatomical proportions and costume details stay fixed. Relaxed natural walking: alternate weight between legs, knees bend during recovery, arms swing opposite their corresponding leg. Walk, do not run or march. Whole body follows the movement coherently; subtle hem motion. Hands relaxed near thighs. Elbows only slightly bent.
+
+VIEW: DOWN, walking TOWARDS camera/bottom of screen, from the slight elevated RPG viewpoint in input 1's FIRST sprite. Face remains oriented forward towards bottom, gaze forward, not off to either side. Do NOT turn to a side view. Front torso with keyhole visible. Footwork must read as an approach, not a side-step.
+Eight consecutive phases:
+1 Left foot forward towards bottom, right foot back; right hand forward, left hand back.
+2 Weight settles onto left leg, right heel lifts; shoulders dip one pixel.
+3 Left leg supports while right foot lifts and passes under the pelvis, arms passing neutral.
+4 Right knee moves forward and foot prepares to land, left heel rises.
+5 Right foot forward towards bottom, left foot back; left hand forward, right hand back.
+6 Weight settles onto right leg, left heel lifts.
+7 Right leg supports, left foot lifts and passes under pelvis.
+8 Left knee moves forward, preparing next left contact.
+In this front view the forward foot appears lower/larger and the rear foot higher/smaller; keep leg lanes under the hips instead of spreading sideways. Keep actual long leg anatomy from the model. Head, waist, stocking lengths and skirt shape consistent.
+
+Ходьба right:
+Use case: identity-preserve. Production pixel-art WALK animation for Alisa.
+Input 1 is the exact game model, four views: DOWN, RIGHT, UP, LEFT. Copy the appropriate view's appearance and proportions faithfully. Input 2 is the ORIGINAL Alisa and confirms her identity/figure. Input 3 is only a motion reference, NOT a style or character reference.
+Keep Alisa's ORIGINAL tall figure: her original head size, substantial bust, narrow waist, hips, LONG slim legs. White bob with cowlick, blue eyes, fair skin, black fitted high-neck long-sleeve keyhole sweater, white pleated miniskirt, charcoal thigh-high stockings, dark shoes. No chibi proportions, no shortened legs, no huge head.
+Output one clean spritesheet, FOUR COLUMNS by TWO ROWS, exactly EIGHT full-body poses ordered 1–4 top and 5–8 bottom. Same scale, centre registration and lighting in every cell. Native intended cell is 36x86 pixels, shown enlarged with crisp square pixels and the same pixel density as input 1. Each sprite fits inside 36 pixels width including arm/foot swing.
+Transparent alpha background ONLY. No bloom, no glow, no gradients around sprites, no shadows, no floor, no captions, no lines. Colours and highlights only inside the opaque character. Do not surround the hair with a thick black rim.
+Head/facial features/hairstyle must be IDENTICAL in all eight frames, only a tiny 1-pixel vertical bob follows the body. Anatomical proportions and costume details stay fixed. Relaxed natural walking: alternate weight between legs, knees bend during recovery, arms swing opposite their corresponding leg. Walk, do not run or march. Whole body follows the movement coherently; subtle hem motion. Hands relaxed near thighs. Elbows only slightly bent.
+
+VIEW: RIGHT, walking to the RIGHT, same slight elevated profile as input 1's SECOND sprite. Head, nose, torso, eye and toes face RIGHT. Exactly one visible blue eye looking RIGHT, no eye contact with viewer.
+Eight consecutive phases:
+1 CONTACT A: near leg forward right heel down, far leg back left toe down; near arm BACK, far arm forward.
+2 DOWN A: near leg planted, knee soft; far foot peels off behind. Body1px lower, arms closing.
+3 PASS A: near support leg under hips, far leg bent lifting to pass forward, hands near sides.
+4 UP A: near leg behind on toe, far leg reaches forward preparing heel strike; near arm FORWARD. Body1px higher.
+5 CONTACT B: far leg forward right, near leg behind left. Near arm FORWARD and far arm back.
+6 DOWN B: far leg planted, near foot lifts behind. Body1px lower.
+7 PASS B: far support leg under hips, near knee swings ahead with foot raised, hands near sides.
+8 UP B: far leg behind on toe, near leg reaches forward, near arm BACK, preparing frame1.
+Far limbs slightly darker behind near limbs. This is a full alternating-leg cycle; second row exchanges which physical leg is in front. No second row duplicates. MODERATE stride within 36px cell: forward and trailing heels roughly24 native pixels apart.
+
+Ходьба up:
+Use case: identity-preserve. Production pixel-art WALK animation for Alisa.
+Input 1 is the exact game model, four views: DOWN, RIGHT, UP, LEFT. Copy the appropriate view's appearance and proportions faithfully. Input 2 is the ORIGINAL Alisa and confirms her identity/figure. Input 3 is only a motion reference, NOT a style or character reference.
+Keep Alisa's ORIGINAL tall figure: her original head size, substantial bust, narrow waist, hips, LONG slim legs. White bob with cowlick, blue eyes, fair skin, black fitted high-neck long-sleeve keyhole sweater, white pleated miniskirt, charcoal thigh-high stockings, dark shoes. No chibi proportions, no shortened legs, no huge head.
+Output one clean spritesheet, FOUR COLUMNS by TWO ROWS, exactly EIGHT full-body poses ordered 1–4 top and 5–8 bottom. Same scale, centre registration and lighting in every cell. Native intended cell is 36x86 pixels, shown enlarged with crisp square pixels and the same pixel density as input 1. Each sprite fits inside 36 pixels width including arm/foot swing.
+Transparent alpha background ONLY. No bloom, no glow, no gradients around sprites, no shadows, no floor, no captions, no lines. Colours and highlights only inside the opaque character. Do not surround the hair with a thick black rim.
+Head/facial features/hairstyle must be IDENTICAL in all eight frames, only a tiny 1-pixel vertical bob follows the body. Anatomical proportions and costume details stay fixed. Relaxed natural walking: alternate weight between legs, knees bend during recovery, arms swing opposite their corresponding leg. Walk, do not run or march. Whole body follows the movement coherently; subtle hem motion. Hands relaxed near thighs. Elbows only slightly bent.
+
+VIEW: UP, walking AWAY from camera/towards TOP of screen, same slightly elevated BACK view as input 1's THIRD sprite. Show only back of white bob, back of black sweater, back of white pleated skirt and legs. NO visible face, eyes or chest keyhole in ANY frame. Do not turn the character around.
+Eight consecutive phases:
+1 Left foot steps forward AWAY/up the screen, right foot trails back/down; right arm swings forward away, left arm back.
+2 Weight settles onto left leg; right heel lifts showing a hint of sole. Shoulders1px down.
+3 Left leg supports, right knee bends and lifted foot passes forward.
+4 Right foot extends away to land, left heel rises; body1px up.
+5 Right foot steps forward AWAY/up, left foot trails back/down; left arm forward away, right arm back.
+6 Weight settles onto right leg, left heel lifts.
+7 Right leg supports while left knee bends and foot passes forward.
+8 Left foot extends away preparing frame1, right heel rises.
+The forward foot recedes upward and is partly hidden by the leg; trailing foot is lower and its raised sole is visible. Keep feet in narrow lanes under hips, not walking sideways. Clear long leg silhouette. Same hair, shoulder width, narrow waist, hips and skirt silhouette throughout.

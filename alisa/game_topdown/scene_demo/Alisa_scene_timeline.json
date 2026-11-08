@@ -1,0 +1,468 @@
+{
+  "durationMs": 32000,
+  "fps": 50,
+  "videoSize": {
+    "w": 1280,
+    "h": 960
+  },
+  "nativeSceneSize": {
+    "w": 320,
+    "h": 240
+  },
+  "spriteSize": {
+    "w": 36,
+    "h": 86
+  },
+  "danceSource": "recolor/blue_eyes/Altushka_blue_atlas.png",
+  "danceRepeats": 2,
+  "clips": [
+    {
+      "label": "Ожидание: down",
+      "kind": "idle",
+      "startMs": 0,
+      "durationMs": 1440,
+      "from": [
+        96.0,
+        194.0
+      ],
+      "to": [
+        96.0,
+        194.0
+      ]
+    },
+    {
+      "label": "Поворот: right",
+      "kind": "morph",
+      "startMs": 1440,
+      "durationMs": 160,
+      "from": [
+        96.0,
+        194.0
+      ],
+      "to": [
+        96.0,
+        194.0
+      ]
+    },
+    {
+      "label": "Начало шага: right",
+      "kind": "morph",
+      "startMs": 1600,
+      "durationMs": 160,
+      "from": [
+        96.0,
+        194.0
+      ],
+      "to": [
+        96.0,
+        194.0
+      ]
+    },
+    {
+      "label": "Ходьба: right",
+      "kind": "walk",
+      "startMs": 1760,
+      "durationMs": 2880,
+      "from": [
+        96.0,
+        194.0
+      ],
+      "to": [
+        224.0,
+        194.0
+      ]
+    },
+    {
+      "label": "Остановка: right",
+      "kind": "morph",
+      "startMs": 4640,
+      "durationMs": 160,
+      "from": [
+        224.0,
+        194.0
+      ],
+      "to": [
+        224.0,
+        194.0
+      ]
+    },
+    {
+      "label": "Ожидание: right",
+      "kind": "idle",
+      "startMs": 4800,
+      "durationMs": 320,
+      "from": [
+        224.0,
+        194.0
+      ],
+      "to": [
+        224.0,
+        194.0
+      ]
+    },
+    {
+      "label": "Поворот: up",
+      "kind": "morph",
+      "startMs": 5120,
+      "durationMs": 160,
+      "from": [
+        224.0,
+        194.0
+      ],
+      "to": [
+        224.0,
+        194.0
+      ]
+    },
+    {
+      "label": "Начало шага: up",
+      "kind": "morph",
+      "startMs": 5280,
+      "durationMs": 160,
+      "from": [
+        224.0,
+        194.0
+      ],
+      "to": [
+        224.0,
+        194.0
+      ]
+    },
+    {
+      "label": "Ходьба: up",
+      "kind": "walk",
+      "startMs": 5440,
+      "durationMs": 2880,
+      "from": [
+        224.0,
+        194.0
+      ],
+      "to": [
+        224.0,
+        132.0
+      ]
+    },
+    {
+      "label": "Остановка: up",
+      "kind": "morph",
+      "startMs": 8320,
+      "durationMs": 160,
+      "from": [
+        224.0,
+        132.0
+      ],
+      "to": [
+        224.0,
+        132.0
+      ]
+    },
+    {
+      "label": "Ожидание: up",
+      "kind": "idle",
+      "startMs": 8480,
+      "durationMs": 320,
+      "from": [
+        224.0,
+        132.0
+      ],
+      "to": [
+        224.0,
+        132.0
+      ]
+    },
+    {
+      "label": "Поворот: left",
+      "kind": "morph",
+      "startMs": 8800,
+      "durationMs": 160,
+      "from": [
+        224.0,
+        132.0
+      ],
+      "to": [
+        224.0,
+        132.0
+      ]
+    },
+    {
+      "label": "Начало шага: left",
+      "kind": "morph",
+      "startMs": 8960,
+      "durationMs": 160,
+      "from": [
+        224.0,
+        132.0
+      ],
+      "to": [
+        224.0,
+        132.0
+      ]
+    },
+    {
+      "label": "Ходьба: left",
+      "kind": "walk",
+      "startMs": 9120,
+      "durationMs": 2880,
+      "from": [
+        224.0,
+        132.0
+      ],
+      "to": [
+        96.0,
+        132.0
+      ]
+    },
+    {
+      "label": "Остановка: left",
+      "kind": "morph",
+      "startMs": 12000,
+      "durationMs": 160,
+      "from": [
+        96.0,
+        132.0
+      ],
+      "to": [
+        96.0,
+        132.0
+      ]
+    },
+    {
+      "label": "Ожидание: left",
+      "kind": "idle",
+      "startMs": 12160,
+      "durationMs": 320,
+      "from": [
+        96.0,
+        132.0
+      ],
+      "to": [
+        96.0,
+        132.0
+      ]
+    },
+    {
+      "label": "Поворот: down",
+      "kind": "morph",
+      "startMs": 12480,
+      "durationMs": 160,
+      "from": [
+        96.0,
+        132.0
+      ],
+      "to": [
+        96.0,
+        132.0
+      ]
+    },
+    {
+      "label": "Начало шага: down",
+      "kind": "morph",
+      "startMs": 12640,
+      "durationMs": 160,
+      "from": [
+        96.0,
+        132.0
+      ],
+      "to": [
+        96.0,
+        132.0
+      ]
+    },
+    {
+      "label": "Ходьба: down",
+      "kind": "walk",
+      "startMs": 12800,
+      "durationMs": 2880,
+      "from": [
+        96.0,
+        132.0
+      ],
+      "to": [
+        96.0,
+        194.0
+      ]
+    },
+    {
+      "label": "Остановка: down",
+      "kind": "morph",
+      "startMs": 15680,
+      "durationMs": 160,
+      "from": [
+        96.0,
+        194.0
+      ],
+      "to": [
+        96.0,
+        194.0
+      ]
+    },
+    {
+      "label": "Ожидание: down",
+      "kind": "idle",
+      "startMs": 15840,
+      "durationMs": 320,
+      "from": [
+        96.0,
+        194.0
+      ],
+      "to": [
+        96.0,
+        194.0
+      ]
+    },
+    {
+      "label": "Поворот: right",
+      "kind": "morph",
+      "startMs": 16160,
+      "durationMs": 160,
+      "from": [
+        96.0,
+        194.0
+      ],
+      "to": [
+        96.0,
+        194.0
+      ]
+    },
+    {
+      "label": "Начало шага: right",
+      "kind": "morph",
+      "startMs": 16320,
+      "durationMs": 160,
+      "from": [
+        96.0,
+        194.0
+      ],
+      "to": [
+        96.0,
+        194.0
+      ]
+    },
+    {
+      "label": "Ходьба: right",
+      "kind": "walk",
+      "startMs": 16480,
+      "durationMs": 1920,
+      "from": [
+        96.0,
+        194.0
+      ],
+      "to": [
+        160.0,
+        194.0
+      ]
+    },
+    {
+      "label": "Остановка: right",
+      "kind": "morph",
+      "startMs": 18400,
+      "durationMs": 160,
+      "from": [
+        160.0,
+        194.0
+      ],
+      "to": [
+        160.0,
+        194.0
+      ]
+    },
+    {
+      "label": "Ожидание: right",
+      "kind": "idle",
+      "startMs": 18560,
+      "durationMs": 320,
+      "from": [
+        160.0,
+        194.0
+      ],
+      "to": [
+        160.0,
+        194.0
+      ]
+    },
+    {
+      "label": "Поворот: down",
+      "kind": "morph",
+      "startMs": 18880,
+      "durationMs": 160,
+      "from": [
+        160.0,
+        194.0
+      ],
+      "to": [
+        160.0,
+        194.0
+      ]
+    },
+    {
+      "label": "Ожидание: down",
+      "kind": "idle",
+      "startMs": 19040,
+      "durationMs": 480,
+      "from": [
+        160.0,
+        194.0
+      ],
+      "to": [
+        160.0,
+        194.0
+      ]
+    },
+    {
+      "label": "Подготовка к танцу",
+      "kind": "entry",
+      "startMs": 19520,
+      "durationMs": 800,
+      "from": [
+        160.0,
+        194.0
+      ],
+      "to": [
+        160.0,
+        194.0
+      ]
+    },
+    {
+      "label": "Исходный танец, два повтора",
+      "kind": "dance",
+      "startMs": 20320,
+      "durationMs": 8000,
+      "from": [
+        160.0,
+        194.0
+      ],
+      "to": [
+        160.0,
+        194.0
+      ]
+    },
+    {
+      "label": "Возвращение из танца",
+      "kind": "exit",
+      "startMs": 28320,
+      "durationMs": 800,
+      "from": [
+        160.0,
+        194.0
+      ],
+      "to": [
+        160.0,
+        194.0
+      ]
+    },
+    {
+      "label": "Ожидание: down",
+      "kind": "idle",
+      "startMs": 29120,
+      "durationMs": 2880,
+      "from": [
+        160.0,
+        194.0
+      ],
+      "to": [
+        160.0,
+        194.0
+      ]
+    }
+  ]
+}

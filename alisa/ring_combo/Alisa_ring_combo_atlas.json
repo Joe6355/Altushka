@@ -1,0 +1,2125 @@
+{
+  "frames": [
+    {
+      "filename": "Alisa_ring_combo_000.png",
+      "frame": {
+        "x": 758,
+        "y": 949,
+        "w": 180,
+        "h": 87
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 35,
+        "y": 151,
+        "w": 180,
+        "h": 87
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 250
+    },
+    {
+      "filename": "Alisa_ring_combo_001.png",
+      "frame": {
+        "x": 2,
+        "y": 1051,
+        "w": 180,
+        "h": 85
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 35,
+        "y": 153,
+        "w": 180,
+        "h": 85
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 50
+    },
+    {
+      "filename": "Alisa_ring_combo_002.png",
+      "frame": {
+        "x": 1341,
+        "y": 1051,
+        "w": 178,
+        "h": 82
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 37,
+        "y": 156,
+        "w": 178,
+        "h": 82
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 80
+    },
+    {
+      "filename": "Alisa_ring_combo_003.png",
+      "frame": {
+        "x": 701,
+        "y": 1051,
+        "w": 159,
+        "h": 83
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 50,
+        "y": 155,
+        "w": 159,
+        "h": 83
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 80
+    },
+    {
+      "filename": "Alisa_ring_combo_004.png",
+      "frame": {
+        "x": 1659,
+        "y": 1051,
+        "w": 149,
+        "h": 81
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 52,
+        "y": 157,
+        "w": 149,
+        "h": 81
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 80
+    },
+    {
+      "filename": "Alisa_ring_combo_005.png",
+      "frame": {
+        "x": 1889,
+        "y": 949,
+        "w": 137,
+        "h": 85
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 66,
+        "y": 153,
+        "w": 137,
+        "h": 85
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 90
+    },
+    {
+      "filename": "Alisa_ring_combo_006.png",
+      "frame": {
+        "x": 630,
+        "y": 949,
+        "w": 126,
+        "h": 88
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 71,
+        "y": 150,
+        "w": 126,
+        "h": 88
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 90
+    },
+    {
+      "filename": "Alisa_ring_combo_007.png",
+      "frame": {
+        "x": 666,
+        "y": 1138,
+        "w": 128,
+        "h": 75
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 76,
+        "y": 163,
+        "w": 128,
+        "h": 75
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 80
+    },
+    {
+      "filename": "Alisa_ring_combo_008.png",
+      "frame": {
+        "x": 940,
+        "y": 949,
+        "w": 128,
+        "h": 87
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 86,
+        "y": 151,
+        "w": 128,
+        "h": 87
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 80
+    },
+    {
+      "filename": "Alisa_ring_combo_009.png",
+      "frame": {
+        "x": 234,
+        "y": 949,
+        "w": 134,
+        "h": 97
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 89,
+        "y": 141,
+        "w": 134,
+        "h": 97
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 80
+    },
+    {
+      "filename": "Alisa_ring_combo_010.png",
+      "frame": {
+        "x": 1521,
+        "y": 1051,
+        "w": 136,
+        "h": 82
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 90,
+        "y": 156,
+        "w": 136,
+        "h": 82
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 80
+    },
+    {
+      "filename": "Alisa_ring_combo_011.png",
+      "frame": {
+        "x": 364,
+        "y": 1138,
+        "w": 139,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 106,
+        "y": 160,
+        "w": 139,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 60
+    },
+    {
+      "filename": "Alisa_ring_combo_012.png",
+      "frame": {
+        "x": 1810,
+        "y": 1051,
+        "w": 121,
+        "h": 79
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 125,
+        "y": 159,
+        "w": 121,
+        "h": 79
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 60
+    },
+    {
+      "filename": "Alisa_ring_combo_013.png",
+      "frame": {
+        "x": 1933,
+        "y": 1051,
+        "w": 87,
+        "h": 68
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 156,
+        "y": 170,
+        "w": 87,
+        "h": 68
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 60
+    },
+    {
+      "filename": "Alisa_ring_combo_014.png",
+      "frame": {
+        "x": 1964,
+        "y": 201,
+        "w": 73,
+        "h": 75
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 180,
+        "y": 163,
+        "w": 73,
+        "h": 75
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 70
+    },
+    {
+      "filename": "Alisa_ring_combo_015.png",
+      "frame": {
+        "x": 1912,
+        "y": 823,
+        "w": 113,
+        "h": 100
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 160,
+        "y": 138,
+        "w": 113,
+        "h": 100
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 80
+    },
+    {
+      "filename": "Alisa_ring_combo_016.png",
+      "frame": {
+        "x": 778,
+        "y": 823,
+        "w": 107,
+        "h": 117
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 174,
+        "y": 121,
+        "w": 107,
+        "h": 117
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 80
+    },
+    {
+      "filename": "Alisa_ring_combo_017.png",
+      "frame": {
+        "x": 1156,
+        "y": 686,
+        "w": 100,
+        "h": 130
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 194,
+        "y": 108,
+        "w": 100,
+        "h": 130
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 80
+    },
+    {
+      "filename": "Alisa_ring_combo_018.png",
+      "frame": {
+        "x": 2,
+        "y": 823,
+        "w": 148,
+        "h": 124
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 152,
+        "y": 114,
+        "w": 148,
+        "h": 124
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 80
+    },
+    {
+      "filename": "Alisa_ring_combo_019.png",
+      "frame": {
+        "x": 1410,
+        "y": 545,
+        "w": 165,
+        "h": 138
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 133,
+        "y": 100,
+        "w": 165,
+        "h": 138
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 70
+    },
+    {
+      "filename": "Alisa_ring_combo_020.png",
+      "frame": {
+        "x": 562,
+        "y": 2,
+        "w": 169,
+        "h": 188
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 131,
+        "y": 50,
+        "w": 169,
+        "h": 188
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 70
+    },
+    {
+      "filename": "Alisa_ring_combo_021.png",
+      "frame": {
+        "x": 1180,
+        "y": 2,
+        "w": 370,
+        "h": 181
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 136,
+        "y": 57,
+        "w": 370,
+        "h": 181
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 30
+    },
+    {
+      "filename": "Alisa_ring_combo_022.png",
+      "frame": {
+        "x": 124,
+        "y": 2,
+        "w": 369,
+        "h": 191
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 120,
+        "y": 47,
+        "w": 369,
+        "h": 191
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 30
+    },
+    {
+      "filename": "Alisa_ring_combo_023.png",
+      "frame": {
+        "x": 733,
+        "y": 2,
+        "w": 383,
+        "h": 186
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 130,
+        "y": 52,
+        "w": 383,
+        "h": 186
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 40
+    },
+    {
+      "filename": "Alisa_ring_combo_024.png",
+      "frame": {
+        "x": 1552,
+        "y": 2,
+        "w": 383,
+        "h": 181
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 127,
+        "y": 57,
+        "w": 383,
+        "h": 181
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 80
+    },
+    {
+      "filename": "Alisa_ring_combo_025.png",
+      "frame": {
+        "x": 681,
+        "y": 201,
+        "w": 290,
+        "h": 179
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 225,
+        "y": 59,
+        "w": 290,
+        "h": 179
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 80
+    },
+    {
+      "filename": "Alisa_ring_combo_026.png",
+      "frame": {
+        "x": 2,
+        "y": 201,
+        "w": 294,
+        "h": 180
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 224,
+        "y": 58,
+        "w": 294,
+        "h": 180
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 90
+    },
+    {
+      "filename": "Alisa_ring_combo_027.png",
+      "frame": {
+        "x": 973,
+        "y": 201,
+        "w": 294,
+        "h": 179
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 226,
+        "y": 59,
+        "w": 294,
+        "h": 179
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 90
+    },
+    {
+      "filename": "Alisa_ring_combo_028.png",
+      "frame": {
+        "x": 796,
+        "y": 1138,
+        "w": 288,
+        "h": 74
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 233,
+        "y": 164,
+        "w": 288,
+        "h": 74
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 50
+    },
+    {
+      "filename": "Alisa_ring_combo_029.png",
+      "frame": {
+        "x": 1760,
+        "y": 686,
+        "w": 200,
+        "h": 126
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 276,
+        "y": 112,
+        "w": 200,
+        "h": 126
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 70
+    },
+    {
+      "filename": "Alisa_ring_combo_030.png",
+      "frame": {
+        "x": 1258,
+        "y": 686,
+        "w": 86,
+        "h": 130
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 294,
+        "y": 108,
+        "w": 86,
+        "h": 130
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 80
+    },
+    {
+      "filename": "Alisa_ring_combo_031.png",
+      "frame": {
+        "x": 1056,
+        "y": 686,
+        "w": 98,
+        "h": 133
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 284,
+        "y": 105,
+        "w": 98,
+        "h": 133
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 90
+    },
+    {
+      "filename": "Alisa_ring_combo_032.png",
+      "frame": {
+        "x": 1595,
+        "y": 201,
+        "w": 87,
+        "h": 160
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 316,
+        "y": 78,
+        "w": 87,
+        "h": 160
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 80
+    },
+    {
+      "filename": "Alisa_ring_combo_033.png",
+      "frame": {
+        "x": 1900,
+        "y": 201,
+        "w": 62,
+        "h": 152
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 358,
+        "y": 86,
+        "w": 62,
+        "h": 152
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 80
+    },
+    {
+      "filename": "Alisa_ring_combo_034.png",
+      "frame": {
+        "x": 1539,
+        "y": 201,
+        "w": 54,
+        "h": 164
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 360,
+        "y": 74,
+        "w": 54,
+        "h": 164
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 80
+    },
+    {
+      "filename": "Alisa_ring_combo_035.png",
+      "frame": {
+        "x": 1998,
+        "y": 2,
+        "w": 46,
+        "h": 167
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 364,
+        "y": 71,
+        "w": 46,
+        "h": 167
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 80
+    },
+    {
+      "filename": "Alisa_ring_combo_036.png",
+      "frame": {
+        "x": 1397,
+        "y": 201,
+        "w": 60,
+        "h": 170
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 352,
+        "y": 68,
+        "w": 60,
+        "h": 170
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 90
+    },
+    {
+      "filename": "Alisa_ring_combo_037.png",
+      "frame": {
+        "x": 1269,
+        "y": 201,
+        "w": 58,
+        "h": 176
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 364,
+        "y": 62,
+        "w": 58,
+        "h": 176
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 80
+    },
+    {
+      "filename": "Alisa_ring_combo_038.png",
+      "frame": {
+        "x": 1459,
+        "y": 201,
+        "w": 78,
+        "h": 169
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 358,
+        "y": 69,
+        "w": 78,
+        "h": 169
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 70
+    },
+    {
+      "filename": "Alisa_ring_combo_039.png",
+      "frame": {
+        "x": 1579,
+        "y": 383,
+        "w": 129,
+        "h": 146
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 347,
+        "y": 92,
+        "w": 129,
+        "h": 146
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 60
+    },
+    {
+      "filename": "Alisa_ring_combo_040.png",
+      "frame": {
+        "x": 1577,
+        "y": 545,
+        "w": 145,
+        "h": 137
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 346,
+        "y": 101,
+        "w": 145,
+        "h": 137
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 70
+    },
+    {
+      "filename": "Alisa_ring_combo_041.png",
+      "frame": {
+        "x": 1346,
+        "y": 686,
+        "w": 150,
+        "h": 130
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 346,
+        "y": 108,
+        "w": 150,
+        "h": 130
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 80
+    },
+    {
+      "filename": "Alisa_ring_combo_042.png",
+      "frame": {
+        "x": 152,
+        "y": 823,
+        "w": 202,
+        "h": 124
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 335,
+        "y": 114,
+        "w": 202,
+        "h": 124
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 60
+    },
+    {
+      "filename": "Alisa_ring_combo_043.png",
+      "frame": {
+        "x": 298,
+        "y": 201,
+        "w": 381,
+        "h": 180
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 282,
+        "y": 58,
+        "w": 381,
+        "h": 180
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 70
+    },
+    {
+      "filename": "Alisa_ring_combo_044.png",
+      "frame": {
+        "x": 2,
+        "y": 383,
+        "w": 499,
+        "h": 160
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 278,
+        "y": 78,
+        "w": 499,
+        "h": 160
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 60
+    },
+    {
+      "filename": "Alisa_ring_combo_045.png",
+      "frame": {
+        "x": 503,
+        "y": 383,
+        "w": 522,
+        "h": 160
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 274,
+        "y": 78,
+        "w": 522,
+        "h": 160
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 70
+    },
+    {
+      "filename": "Alisa_ring_combo_046.png",
+      "frame": {
+        "x": 1027,
+        "y": 383,
+        "w": 550,
+        "h": 149
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 272,
+        "y": 89,
+        "w": 550,
+        "h": 149
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 70
+    },
+    {
+      "filename": "Alisa_ring_combo_047.png",
+      "frame": {
+        "x": 2,
+        "y": 545,
+        "w": 359,
+        "h": 139
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 484,
+        "y": 99,
+        "w": 359,
+        "h": 139
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 70
+    },
+    {
+      "filename": "Alisa_ring_combo_048.png",
+      "frame": {
+        "x": 2,
+        "y": 686,
+        "w": 366,
+        "h": 135
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 485,
+        "y": 103,
+        "w": 366,
+        "h": 135
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 70
+    },
+    {
+      "filename": "Alisa_ring_combo_049.png",
+      "frame": {
+        "x": 363,
+        "y": 545,
+        "w": 359,
+        "h": 139
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 494,
+        "y": 99,
+        "w": 359,
+        "h": 139
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 70
+    },
+    {
+      "filename": "Alisa_ring_combo_050.png",
+      "frame": {
+        "x": 370,
+        "y": 686,
+        "w": 351,
+        "h": 135
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 502,
+        "y": 103,
+        "w": 351,
+        "h": 135
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 70
+    },
+    {
+      "filename": "Alisa_ring_combo_051.png",
+      "frame": {
+        "x": 724,
+        "y": 545,
+        "w": 348,
+        "h": 139
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 503,
+        "y": 99,
+        "w": 348,
+        "h": 139
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 70
+    },
+    {
+      "filename": "Alisa_ring_combo_052.png",
+      "frame": {
+        "x": 723,
+        "y": 686,
+        "w": 331,
+        "h": 135
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 510,
+        "y": 103,
+        "w": 331,
+        "h": 135
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 70
+    },
+    {
+      "filename": "Alisa_ring_combo_053.png",
+      "frame": {
+        "x": 1074,
+        "y": 545,
+        "w": 334,
+        "h": 139
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 507,
+        "y": 99,
+        "w": 334,
+        "h": 139
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 70
+    },
+    {
+      "filename": "Alisa_ring_combo_054.png",
+      "frame": {
+        "x": 1724,
+        "y": 545,
+        "w": 319,
+        "h": 135
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 508,
+        "y": 103,
+        "w": 319,
+        "h": 135
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 70
+    },
+    {
+      "filename": "Alisa_ring_combo_055.png",
+      "frame": {
+        "x": 2,
+        "y": 1138,
+        "w": 360,
+        "h": 79
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 451,
+        "y": 159,
+        "w": 360,
+        "h": 79
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 70
+    },
+    {
+      "filename": "Alisa_ring_combo_056.png",
+      "frame": {
+        "x": 1409,
+        "y": 1138,
+        "w": 347,
+        "h": 62
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 437,
+        "y": 176,
+        "w": 347,
+        "h": 62
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 80
+    },
+    {
+      "filename": "Alisa_ring_combo_057.png",
+      "frame": {
+        "x": 1086,
+        "y": 1138,
+        "w": 321,
+        "h": 68
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 355,
+        "y": 170,
+        "w": 321,
+        "h": 68
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 80
+    },
+    {
+      "filename": "Alisa_ring_combo_058.png",
+      "frame": {
+        "x": 1598,
+        "y": 823,
+        "w": 312,
+        "h": 103
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 360,
+        "y": 135,
+        "w": 312,
+        "h": 103
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 80
+    },
+    {
+      "filename": "Alisa_ring_combo_059.png",
+      "frame": {
+        "x": 982,
+        "y": 823,
+        "w": 184,
+        "h": 110
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 365,
+        "y": 128,
+        "w": 184,
+        "h": 110
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 80
+    },
+    {
+      "filename": "Alisa_ring_combo_060.png",
+      "frame": {
+        "x": 1168,
+        "y": 823,
+        "w": 150,
+        "h": 109
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 363,
+        "y": 120,
+        "w": 150,
+        "h": 109
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 80
+    },
+    {
+      "filename": "Alisa_ring_combo_061.png",
+      "frame": {
+        "x": 887,
+        "y": 823,
+        "w": 93,
+        "h": 113
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 368,
+        "y": 125,
+        "w": 93,
+        "h": 113
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 80
+    },
+    {
+      "filename": "Alisa_ring_combo_062.png",
+      "frame": {
+        "x": 2,
+        "y": 949,
+        "w": 121,
+        "h": 100
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 313,
+        "y": 138,
+        "w": 121,
+        "h": 100
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 70
+    },
+    {
+      "filename": "Alisa_ring_combo_063.png",
+      "frame": {
+        "x": 862,
+        "y": 1051,
+        "w": 136,
+        "h": 83
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 272,
+        "y": 154,
+        "w": 136,
+        "h": 83
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 90
+    },
+    {
+      "filename": "Alisa_ring_combo_064.png",
+      "frame": {
+        "x": 475,
+        "y": 949,
+        "w": 153,
+        "h": 93
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 254,
+        "y": 139,
+        "w": 153,
+        "h": 93
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 70
+    },
+    {
+      "filename": "Alisa_ring_combo_065.png",
+      "frame": {
+        "x": 1451,
+        "y": 823,
+        "w": 145,
+        "h": 107
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 258,
+        "y": 114,
+        "w": 145,
+        "h": 107
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 90
+    },
+    {
+      "filename": "Alisa_ring_combo_066.png",
+      "frame": {
+        "x": 501,
+        "y": 823,
+        "w": 138,
+        "h": 122
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 268,
+        "y": 115,
+        "w": 138,
+        "h": 122
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 80
+    },
+    {
+      "filename": "Alisa_ring_combo_067.png",
+      "frame": {
+        "x": 641,
+        "y": 823,
+        "w": 135,
+        "h": 120
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 264,
+        "y": 118,
+        "w": 135,
+        "h": 120
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 80
+    },
+    {
+      "filename": "Alisa_ring_combo_068.png",
+      "frame": {
+        "x": 1320,
+        "y": 823,
+        "w": 129,
+        "h": 109
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 254,
+        "y": 123,
+        "w": 129,
+        "h": 109
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 80
+    },
+    {
+      "filename": "Alisa_ring_combo_069.png",
+      "frame": {
+        "x": 1070,
+        "y": 949,
+        "w": 145,
+        "h": 87
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 239,
+        "y": 149,
+        "w": 145,
+        "h": 87
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 60
+    },
+    {
+      "filename": "Alisa_ring_combo_070.png",
+      "frame": {
+        "x": 356,
+        "y": 823,
+        "w": 143,
+        "h": 123
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 231,
+        "y": 115,
+        "w": 143,
+        "h": 123
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 30
+    },
+    {
+      "filename": "Alisa_ring_combo_071.png",
+      "frame": {
+        "x": 1615,
+        "y": 686,
+        "w": 143,
+        "h": 127
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 240,
+        "y": 108,
+        "w": 143,
+        "h": 127
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 30
+    },
+    {
+      "filename": "Alisa_ring_combo_072.png",
+      "frame": {
+        "x": 1710,
+        "y": 383,
+        "w": 130,
+        "h": 146
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 237,
+        "y": 88,
+        "w": 130,
+        "h": 146
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 30
+    },
+    {
+      "filename": "Alisa_ring_combo_073.png",
+      "frame": {
+        "x": 1842,
+        "y": 383,
+        "w": 130,
+        "h": 145
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 237,
+        "y": 93,
+        "w": 130,
+        "h": 145
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 40
+    },
+    {
+      "filename": "Alisa_ring_combo_074.png",
+      "frame": {
+        "x": 1795,
+        "y": 201,
+        "w": 103,
+        "h": 157
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 237,
+        "y": 81,
+        "w": 103,
+        "h": 157
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 70
+    },
+    {
+      "filename": "Alisa_ring_combo_075.png",
+      "frame": {
+        "x": 495,
+        "y": 2,
+        "w": 65,
+        "h": 189
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 237,
+        "y": 49,
+        "w": 65,
+        "h": 189
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 80
+    },
+    {
+      "filename": "Alisa_ring_combo_076.png",
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 59,
+        "h": 197
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 237,
+        "y": 41,
+        "w": 59,
+        "h": 197
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 90
+    },
+    {
+      "filename": "Alisa_ring_combo_077.png",
+      "frame": {
+        "x": 63,
+        "y": 2,
+        "w": 59,
+        "h": 197
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 237,
+        "y": 41,
+        "w": 59,
+        "h": 197
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 90
+    },
+    {
+      "filename": "Alisa_ring_combo_078.png",
+      "frame": {
+        "x": 1937,
+        "y": 2,
+        "w": 59,
+        "h": 178
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 235,
+        "y": 60,
+        "w": 59,
+        "h": 178
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 90
+    },
+    {
+      "filename": "Alisa_ring_combo_079.png",
+      "frame": {
+        "x": 1118,
+        "y": 2,
+        "w": 60,
+        "h": 185
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 233,
+        "y": 53,
+        "w": 60,
+        "h": 185
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 80
+    },
+    {
+      "filename": "Alisa_ring_combo_080.png",
+      "frame": {
+        "x": 1329,
+        "y": 201,
+        "w": 66,
+        "h": 171
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 224,
+        "y": 67,
+        "w": 66,
+        "h": 171
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 80
+    },
+    {
+      "filename": "Alisa_ring_combo_081.png",
+      "frame": {
+        "x": 1684,
+        "y": 201,
+        "w": 109,
+        "h": 158
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 177,
+        "y": 80,
+        "w": 109,
+        "h": 158
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 80
+    },
+    {
+      "filename": "Alisa_ring_combo_082.png",
+      "frame": {
+        "x": 1498,
+        "y": 686,
+        "w": 115,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 151,
+        "y": 110,
+        "w": 115,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 80
+    },
+    {
+      "filename": "Alisa_ring_combo_083.png",
+      "frame": {
+        "x": 505,
+        "y": 1138,
+        "w": 159,
+        "h": 77
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 103,
+        "y": 147,
+        "w": 159,
+        "h": 77
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 80
+    },
+    {
+      "filename": "Alisa_ring_combo_084.png",
+      "frame": {
+        "x": 370,
+        "y": 949,
+        "w": 103,
+        "h": 97
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 135,
+        "y": 141,
+        "w": 103,
+        "h": 97
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 70
+    },
+    {
+      "filename": "Alisa_ring_combo_085.png",
+      "frame": {
+        "x": 1974,
+        "y": 383,
+        "w": 72,
+        "h": 98
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 135,
+        "y": 140,
+        "w": 72,
+        "h": 98
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 90
+    },
+    {
+      "filename": "Alisa_ring_combo_086.png",
+      "frame": {
+        "x": 125,
+        "y": 949,
+        "w": 107,
+        "h": 99
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 81,
+        "y": 139,
+        "w": 107,
+        "h": 99
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 70
+    },
+    {
+      "filename": "Alisa_ring_combo_087.png",
+      "frame": {
+        "x": 1217,
+        "y": 949,
+        "w": 143,
+        "h": 87
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 45,
+        "y": 151,
+        "w": 143,
+        "h": 87
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 70
+    },
+    {
+      "filename": "Alisa_ring_combo_088.png",
+      "frame": {
+        "x": 1726,
+        "y": 949,
+        "w": 161,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 25,
+        "y": 152,
+        "w": 161,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 30
+    },
+    {
+      "filename": "Alisa_ring_combo_089.png",
+      "frame": {
+        "x": 184,
+        "y": 1051,
+        "w": 169,
+        "h": 85
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 38,
+        "y": 153,
+        "w": 169,
+        "h": 85
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 40
+    },
+    {
+      "filename": "Alisa_ring_combo_090.png",
+      "frame": {
+        "x": 355,
+        "y": 1051,
+        "w": 162,
+        "h": 85
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 45,
+        "y": 153,
+        "w": 162,
+        "h": 85
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 40
+    },
+    {
+      "filename": "Alisa_ring_combo_091.png",
+      "frame": {
+        "x": 1000,
+        "y": 1051,
+        "w": 159,
+        "h": 83
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 155,
+        "w": 159,
+        "h": 83
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 40
+    },
+    {
+      "filename": "Alisa_ring_combo_092.png",
+      "frame": {
+        "x": 1161,
+        "y": 1051,
+        "w": 178,
+        "h": 83
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 35,
+        "y": 155,
+        "w": 178,
+        "h": 83
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 80
+    },
+    {
+      "filename": "Alisa_ring_combo_093.png",
+      "frame": {
+        "x": 1362,
+        "y": 949,
+        "w": 180,
+        "h": 87
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 35,
+        "y": 151,
+        "w": 180,
+        "h": 87
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 80
+    },
+    {
+      "filename": "Alisa_ring_combo_094.png",
+      "frame": {
+        "x": 519,
+        "y": 1051,
+        "w": 180,
+        "h": 85
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 35,
+        "y": 153,
+        "w": 180,
+        "h": 85
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 90
+    },
+    {
+      "filename": "Alisa_ring_combo_095.png",
+      "frame": {
+        "x": 1544,
+        "y": 949,
+        "w": 180,
+        "h": 87
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 35,
+        "y": 151,
+        "w": 180,
+        "h": 87
+      },
+      "sourceSize": {
+        "w": 864,
+        "h": 400
+      },
+      "duration": 80
+    }
+  ],
+  "meta": {
+    "image": "Alisa_ring_combo_atlas.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2048,
+      "h": 1219
+    },
+    "scale": "1"
+  }
+}

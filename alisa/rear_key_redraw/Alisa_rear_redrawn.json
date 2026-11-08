@@ -1,0 +1,332 @@
+{
+  "frames": [
+    {
+      "filename": "key_poses_back_00.png",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "duration": 240,
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "trimmed": false,
+      "rotated": false
+    },
+    {
+      "filename": "key_poses_back_01.png",
+      "frame": {
+        "x": 36,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "duration": 240,
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "trimmed": false,
+      "rotated": false
+    },
+    {
+      "filename": "key_poses_back_02.png",
+      "frame": {
+        "x": 72,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "duration": 240,
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "trimmed": false,
+      "rotated": false
+    },
+    {
+      "filename": "key_poses_back_03.png",
+      "frame": {
+        "x": 108,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "duration": 240,
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "trimmed": false,
+      "rotated": false
+    },
+    {
+      "filename": "walk_back_00.png",
+      "frame": {
+        "x": 0,
+        "y": 86,
+        "w": 36,
+        "h": 86
+      },
+      "duration": 120,
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "trimmed": false,
+      "rotated": false
+    },
+    {
+      "filename": "walk_back_01.png",
+      "frame": {
+        "x": 36,
+        "y": 86,
+        "w": 36,
+        "h": 86
+      },
+      "duration": 120,
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "trimmed": false,
+      "rotated": false
+    },
+    {
+      "filename": "walk_back_02.png",
+      "frame": {
+        "x": 72,
+        "y": 86,
+        "w": 36,
+        "h": 86
+      },
+      "duration": 120,
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "trimmed": false,
+      "rotated": false
+    },
+    {
+      "filename": "walk_back_03.png",
+      "frame": {
+        "x": 108,
+        "y": 86,
+        "w": 36,
+        "h": 86
+      },
+      "duration": 120,
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "trimmed": false,
+      "rotated": false
+    },
+    {
+      "filename": "walk_back_04.png",
+      "frame": {
+        "x": 0,
+        "y": 172,
+        "w": 36,
+        "h": 86
+      },
+      "duration": 120,
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "trimmed": false,
+      "rotated": false
+    },
+    {
+      "filename": "walk_back_05.png",
+      "frame": {
+        "x": 36,
+        "y": 172,
+        "w": 36,
+        "h": 86
+      },
+      "duration": 120,
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "trimmed": false,
+      "rotated": false
+    },
+    {
+      "filename": "walk_back_06.png",
+      "frame": {
+        "x": 72,
+        "y": 172,
+        "w": 36,
+        "h": 86
+      },
+      "duration": 120,
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "trimmed": false,
+      "rotated": false
+    },
+    {
+      "filename": "walk_back_07.png",
+      "frame": {
+        "x": 108,
+        "y": 172,
+        "w": 36,
+        "h": 86
+      },
+      "duration": 120,
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "trimmed": false,
+      "rotated": false
+    }
+  ],
+  "meta": {
+    "image": "Alisa_rear_redrawn_atlas.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 144,
+      "h": 258
+    },
+    "scale": "1",
+    "frameTags": [
+      {
+        "name": "key_poses_back",
+        "from": 0,
+        "to": 3,
+        "direction": "forward",
+        "loop": false,
+        "repeat": 1,
+        "pivot": {
+          "x": 18,
+          "y": 85
+        },
+        "rootMotion": "in_place"
+      },
+      {
+        "name": "walk_back",
+        "from": 4,
+        "to": 11,
+        "direction": "forward",
+        "loop": true,
+        "repeat": 0,
+        "pivot": {
+          "x": 18,
+          "y": 85
+        },
+        "rootMotion": "in_place"
+      }
+    ],
+    "layers": [
+      {
+        "name": "правая нога",
+        "opacity": 255,
+        "blendMode": "normal"
+      },
+      {
+        "name": "левая нога",
+        "opacity": 255,
+        "blendMode": "normal"
+      },
+      {
+        "name": "юбка",
+        "opacity": 255,
+        "blendMode": "normal"
+      },
+      {
+        "name": "кофта",
+        "opacity": 255,
+        "blendMode": "normal"
+      },
+      {
+        "name": "голова",
+        "opacity": 255,
+        "blendMode": "normal"
+      }
+    ]
+  }
+}

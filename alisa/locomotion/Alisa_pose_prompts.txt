@@ -1,0 +1,58 @@
+Алиса — idle и ходьба, переработанная версия
+
+Размер кадра: 36×86 пикселей, без сглаживания.
+Атлас: 288×344, 8 столбцов и 4 строки.
+Теги: idle_left, idle_right, walk_left, walk_right.
+Idle: 8 кадров, 2560 мс. Ходьба: 8 кадров по 120 мс, 960 мс на цикл.
+Опорная точка: (18, 85).
+Alisa_preview.gif: idle и ходьба рядом, 7680 мс.
+
+Референс движения:
+SLYNYRD / Raymond Schlitter, Pixelblog 25 — Motion Cycles, Human Walk
+https://www.slynyrd.com/blog/2020/1/23/pixelblog-25-motion-cycles
+Использованы фазы шага contact / down / passing / up.
+Чужие спрайты в итоговый атлас не включены.
+
+Персонаж и одежда взяты из исходной Алисы.
+В ходьбе использован новый правый профиль; левое направление зеркальное.
+Лицо и синий глаз закреплены между кадрами, голова следует вертикальному движению корпуса.
+Основа idle сохранена, обновлены голова и моргание.
+Изображения поз подготовлены встроенным image_gen.
+После генерации выполнены регистрация на родной сетке, очистка пиксельных деталей,
+согласование лица и направлений, сборка кадров и экспорт Aseprite / PNG / MP4.
+
+Промпт модели:
+Use case: identity-preserve.
+Asset type: exact low resolution game character model sheet for Alisa, the SAME character in input 1. Input 1 is the approved character and the only identity/costume reference. Input 2 is the previous idle; preserve its relaxed standing pose but fix its face. Input 3 is ONLY a motion/anatomy reference from SLYNYRD, do not copy its character or colours or text.
+
+Draw four full-body sprites in a single horizontal row, separated into four equal cells, on genuine transparent background. No headings, text, numbers, ground or panels.
+Style: deliberate native pixel art at 36 x 86 logical pixels PER CELL, displayed enlarged with perfectly hard square pixels and no anti-aliasing. Same head-to-body proportions as input 1: white bobbed hair and small curved cowlick, fairly big anime head, narrow waist, long slim legs. Do not make a chibi or realistic human.
+Identity: fair skin, BLUE eyes, white short bob with asymmetrical bangs and single cowlick, black fitted high-neck long-sleeved sweater with the small chest keyhole, white pleated miniskirt, fully charcoal thigh-high stockings and dark shoes. Black outline, charcoal shading so outline remains visible. Preserve the exact costume. No accessories.
+Cell 1: relaxed standing idle, body 3/4 to the LEFT as input 2, arms relaxed, feet apart slightly. CLEAN CUTE ANIME FACE with coherent small blue irises, understated mouth, one clean dark upper eyelid per eye. Correct the messy face in input 2 without changing her identity.
+Cell 2: relaxed standing SIDE PROFILE facing RIGHT, both torso and head facing right, ONE visible blue eye gazing horizontally to the RIGHT, small right-pointing nose, far eye hidden. This will be a side-scrolling game sprite. No eye contact with viewer.
+Cell 3: walk CONTACT pose facing RIGHT, same pure right profile head as cell 2. Near leg extends forward to the right heel touching the ground; far leg extended back left with toe touching; near arm swings BACK left, far arm forward right. Natural moderate step fitting inside the 36-pixel cell.
+Cell 4: walk PASSING pose facing RIGHT, same profile head. Near leg supports weight beneath hips; far knee swings forward with rear foot LIFTED off the ground. Arms passing each other, upright body.
+All four keep the same scale, same 86-pixel character height, same ground baseline, no crop, no extra figures. Profile head must remain recognizably Alisa: same white hairstyle, same cowlick, blue eye, same face proportions. Eye always looks in travel direction in cells 2–4. Each image must look like a readable hand-authored 36 x 86 game sprite, NOT a detailed painting pixelated afterwards.
+
+Промпт ходьбы:
+Use case: identity-preserve.
+Asset type: production pixel-art walk-cycle spritesheet. Create a SINGLE 4-column by 2-row sheet, EXACTLY EIGHT full-body sprites, genuine transparent background. Intended native frame size 36 x 86 pixels; present enlarged with hard square pixels. No captions, numbers, grid lines, floor, watermark or extra figures.
+
+Input 1: Alisa's new character model sheet. Use the RIGHT-FACING SIDE PROFILE character in cells 2–4 as the exact model. Preserve her head, face, hairstyle, clothes, body shape, proportions and palette identically in every frame. White short asymmetric bob and small cowlick, one clear blue eye, fair skin, black turtleneck with a small chest keyhole, long sleeves, white pleated skirt, charcoal thigh-high stockings and dark shoes.
+Input 2: SLYNYRD human walk tutorial. This is ONLY the reference for pose sequence, weight and timing; copy its eight-stage MOVEMENT, not that character or the labels.
+
+All eight frames face RIGHT in strict side view. The single visible eye must look forward to the RIGHT, pupil towards the nose/right edge of the eye, not at the camera. NO second eye. Same profile silhouette every frame. Do not turn the head towards the viewer.
+
+Animation sequence left to right across top row, then left to right across bottom row:
+1. CONTACT A: near/right leg extended forward RIGHT, front heel touches the floor, far/left leg trailing LEFT on its toe. Near arm BACK LEFT, far arm forward RIGHT.
+2. DOWN A: near leg now planted under forward hip, knee flexes and weight lowers the body 1 pixel. The rear far foot peels off the ground and folds back, its heel rises. Arms approaching neutral.
+3. PASS A: near leg is support straight under body, far leg swings forward with knee bent; far FOOT CLEARLY OFF FLOOR below and behind lifted knee. Hands near body. Body returns to middle height.
+4. UP A: near leg supports behind body on toe; far thigh reaches FORWARD right, knee flexed and lower leg unfolding before landing. Body 1 pixel higher. Near arm begins swinging FORWARD.
+5. CONTACT B: FAR/left leg now extended forward right, near/right leg extended backward left. Opposite of frame 1 in physical limb depth. Near arm FORWARD RIGHT, far arm BACK LEFT.
+6. DOWN B: far leg takes weight forward with a slight bent knee, near foot lifts behind. Body 1 pixel lower.
+7. PASS B: far leg supports under hips; NEAR leg bends and swings forward. Near foot CLEARLY LIFTED. Hands passing neutral.
+8. UP B: far leg behind pushing with toe; near thigh extends forward right with bent knee and unfolding lower leg, preparing frame1.
+
+Relaxed natural walking, not marching or jogging. Arms swing loosely from shoulders with slight elbow bend, NOT fists clenched at chest height. Head stays upright with tiny 1 pixel vertical bob. Hair ends and skirt hem move subtly with the step. Keep weight believable and grounded, at least one foot touching the shared baseline every frame.
+The FAR limbs are slightly darker and drawn behind the near limbs. Frame5 is not a copy of frame1: the depth and arm positions exchange. Every pose is a distinct phase, equal character scale, waist in the same horizontal location, same ground baseline in all cells, all sprites fit inside their 36 x 86 pixel frame. Stride about24 native pixels between feet, moderate enough to fit36px.
+Keep pixel clusters bold and exact, black 1px outline, sparse shading, no anti-aliasing, gradients, blurry textures or decorative lighting. Retain the SAME profile head from the reference; never replace it with a frontal head.
