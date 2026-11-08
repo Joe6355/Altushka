@@ -1,0 +1,1150 @@
+fileFormatVersion: 2
+guid: 25fcff4fba0934945ba7a4b73e11749d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2123656568990798600
+    second: Altushka_green_atlas_0
+  - first:
+      213: 6219362121180521250
+    second: Altushka_green_atlas_1
+  - first:
+      213: 4460815560755280173
+    second: Altushka_green_atlas_2
+  - first:
+      213: 7852725229963916350
+    second: Altushka_green_atlas_3
+  - first:
+      213: -3018667097224133669
+    second: Altushka_green_atlas_4
+  - first:
+      213: 5610410207455968172
+    second: Altushka_green_atlas_5
+  - first:
+      213: -2467158855697686699
+    second: Altushka_green_atlas_6
+  - first:
+      213: 7810354760135742393
+    second: Altushka_green_atlas_7
+  - first:
+      213: 2412245932136704236
+    second: Altushka_green_atlas_8
+  - first:
+      213: 2709880196381136850
+    second: Altushka_green_atlas_9
+  - first:
+      213: 394503112266458031
+    second: Altushka_green_atlas_10
+  - first:
+      213: 5055726254640813547
+    second: Altushka_green_atlas_11
+  - first:
+      213: -2241560184961156935
+    second: Altushka_green_atlas_12
+  - first:
+      213: -5553480688879390215
+    second: Altushka_green_atlas_13
+  - first:
+      213: 4084242719458696009
+    second: Altushka_green_atlas_14
+  - first:
+      213: 7952142369123737018
+    second: Altushka_green_atlas_15
+  - first:
+      213: 619129965844335765
+    second: Altushka_green_atlas_16
+  - first:
+      213: -1320502583123519836
+    second: Altushka_green_atlas_17
+  - first:
+      213: 3740200176065426154
+    second: Altushka_green_atlas_18
+  - first:
+      213: 7961972401417179739
+    second: Altushka_green_atlas_19
+  - first:
+      213: 2816942268808450094
+    second: Altushka_green_atlas_20
+  - first:
+      213: -2830326036694341227
+    second: Altushka_green_atlas_21
+  - first:
+      213: -6051647339701870469
+    second: Altushka_green_atlas_22
+  - first:
+      213: -7378842390408802423
+    second: Altushka_green_atlas_23
+  - first:
+      213: 2352103895335375303
+    second: Altushka_green_atlas_24
+  - first:
+      213: -7145548601619193459
+    second: Altushka_green_atlas_25
+  - first:
+      213: -80645932104780481
+    second: Altushka_green_atlas_26
+  - first:
+      213: 9110772305238365862
+    second: Altushka_green_atlas_27
+  - first:
+      213: -7054041989942825103
+    second: Altushka_green_atlas_28
+  - first:
+      213: 3563948766349592986
+    second: Altushka_green_atlas_29
+  - first:
+      213: -5479890151905472656
+    second: Altushka_green_atlas_30
+  - first:
+      213: -3073499026984024821
+    second: Altushka_green_atlas_31
+  - first:
+      213: 5707905441068704057
+    second: Altushka_green_atlas_32
+  - first:
+      213: -3841010318376382372
+    second: Altushka_green_atlas_33
+  - first:
+      213: -4775973019236936888
+    second: Altushka_green_atlas_34
+  - first:
+      213: -7703808427402704500
+    second: Altushka_green_atlas_35
+  - first:
+      213: 2391319343263974668
+    second: Altushka_green_atlas_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DanceGreen_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 258
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f153f46b6a5409a3c83cd48fd5105a
+      internalID: 1597559542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceGreen_001
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 258
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e61c7d8a607175c47fab1b07afee07
+      internalID: -883070426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceGreen_002
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 258
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf901f49ae2ab9cbd80d984fb283930
+      internalID: 818360848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceGreen_003
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 258
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13e09ef83e7d3c0cc951d92ed2530f6
+      internalID: -1937572042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceGreen_004
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 258
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44c575924a633421f1d4766dd3eff84
+      internalID: -1515713578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceGreen_005
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 258
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d800f9e7be151cca1ee19ea01632fd5
+      internalID: -312826296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceGreen_006
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 258
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6cd9972337d6b4ce45e18fd4e5f6a77
+      internalID: 125267682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceGreen_007
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 258
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d020b273448812b29785004d3484e2dd
+      internalID: -1920042765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceGreen_008
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 258
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6269c465cfa70e213ac78c738393d68a
+      internalID: -529121523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceGreen_009
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 258
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a105cc2d4b58499d701206b920ef3df
+      internalID: -722679832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceGreen_010
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229fd36d66b06fd0123f6c9631bef8cd
+      internalID: -1957438662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceGreen_011
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0745b687ea36195baa51ee59fbeaef
+      internalID: -2116437885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceGreen_012
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 007970465f153e2995aaf145f795ffc8
+      internalID: -1990359305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceGreen_013
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9080007c5a8f931aa749b9f4a5198f32
+      internalID: 1321644088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceGreen_014
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a3e28f67945bdd466bf67bc70b8f4f
+      internalID: 170814783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceGreen_015
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b0be2c3bb1c2e1d2b6a414ef92f563
+      internalID: 1385393191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceGreen_016
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fdf47e772537723de01cddb49df7c42
+      internalID: -259194414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceGreen_017
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816f8665499445922ac4a78beee45143
+      internalID: 1704394856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceGreen_018
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dad8bc75b11fe13932c32ff561cc72a
+      internalID: 1633874875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceGreen_019
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441eb81b6f5898a887a6ae14f7572381
+      internalID: 444511493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceGreen_020
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69011e6b18c3d28550f98922ca27216c
+      internalID: -1898474574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceGreen_021
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49580dbb4674acd5030fdf1d55980fc6
+      internalID: 1608047941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceGreen_022
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a58f9a6dc9d1cb57539ca78ce997626
+      internalID: 167064463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceGreen_023
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0df3b17a1460cab6f32869c9d43eaa
+      internalID: 1884648934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceGreen_024
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9101ace8901c7302dc14ea3074b0d01
+      internalID: -587840096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceGreen_025
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df805eaf6e7fe43eb31efce79fa9307f
+      internalID: 1151736977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceGreen_026
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 301c4b841179e2bf7ca50c8054cbcbb9
+      internalID: -2036076448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceGreen_027
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f5500b1f0f42ce005f0102b75367ee
+      internalID: -1441442396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceGreen_028
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a0a1db181798a72effa26d4ca5171b5
+      internalID: 397680662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceGreen_029
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e9f67ab297e4b5f01c01fa5b538b63
+      internalID: -1665748147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceGreen_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd76cb57c570bd188a7bccdabd2f553
+      internalID: 1795714999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceGreen_031
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f5e2c560c3cff88228242cdfdb0b42
+      internalID: -1442064807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceGreen_032
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302844b3d198f634d76a5e47843321ea
+      internalID: 1959400203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceGreen_033
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 0
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a04f62ada1d11762293abd73b9c067
+      internalID: -1124521826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceGreen_034
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c72b01b36a4f6ee6770614e1083f2d58
+      internalID: 1807082641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceGreen_035
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb827d88d3899f3857165f767497543b
+      internalID: -2018460315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceGreen_036
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430303349d6ff8e693efd260f4bf3175
+      internalID: -1690135761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceGreen_037
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 0
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e42d19b898b04280189bf83e6d52af
+      internalID: -1525953538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceGreen_038
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57afc7c2023bc1a7c9955411306585b
+      internalID: -1548297190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceGreen_039
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 0
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3d215eff2b9d35304d21422c0a6fde
+      internalID: -1683534449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c98220fae5580f747b9238ea34955c36
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DanceGreen_000: 1597559542
+      DanceGreen_001: -883070426
+      DanceGreen_002: 818360848
+      DanceGreen_003: -1937572042
+      DanceGreen_004: -1515713578
+      DanceGreen_005: -312826296
+      DanceGreen_006: 125267682
+      DanceGreen_007: -1920042765
+      DanceGreen_008: -529121523
+      DanceGreen_009: -722679832
+      DanceGreen_010: -1957438662
+      DanceGreen_011: -2116437885
+      DanceGreen_012: -1990359305
+      DanceGreen_013: 1321644088
+      DanceGreen_014: 170814783
+      DanceGreen_015: 1385393191
+      DanceGreen_016: -259194414
+      DanceGreen_017: 1704394856
+      DanceGreen_018: 1633874875
+      DanceGreen_019: 444511493
+      DanceGreen_020: -1898474574
+      DanceGreen_021: 1608047941
+      DanceGreen_022: 167064463
+      DanceGreen_023: 1884648934
+      DanceGreen_024: -587840096
+      DanceGreen_025: 1151736977
+      DanceGreen_026: -2036076448
+      DanceGreen_027: -1441442396
+      DanceGreen_028: 397680662
+      DanceGreen_029: -1665748147
+      DanceGreen_030: 1795714999
+      DanceGreen_031: -1442064807
+      DanceGreen_032: 1959400203
+      DanceGreen_033: -1124521826
+      DanceGreen_034: 1807082641
+      DanceGreen_035: -2018460315
+      DanceGreen_036: -1690135761
+      DanceGreen_037: -1525953538
+      DanceGreen_038: -1548297190
+      DanceGreen_039: -1683534449
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

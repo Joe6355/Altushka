@@ -1,0 +1,1946 @@
+fileFormatVersion: 2
+guid: 1f57c63f8b788234193103d8815f1964
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8917595446370539829
+    second: Alisa_back_atlas_0
+  - first:
+      213: 2371169348073278117
+    second: Alisa_back_atlas_1
+  - first:
+      213: 3389463585011620678
+    second: Alisa_back_atlas_2
+  - first:
+      213: -7104116132939588745
+    second: Alisa_back_atlas_3
+  - first:
+      213: 2179004206627970154
+    second: Alisa_back_atlas_4
+  - first:
+      213: -2890772812324774342
+    second: Alisa_back_atlas_5
+  - first:
+      213: 3016063448313979149
+    second: Alisa_back_atlas_6
+  - first:
+      213: 6529245240863438332
+    second: Alisa_back_atlas_7
+  - first:
+      213: 4486064648053541531
+    second: Alisa_back_atlas_8
+  - first:
+      213: -5156897193060584243
+    second: Alisa_back_atlas_9
+  - first:
+      213: -1166871487686089599
+    second: Alisa_back_atlas_10
+  - first:
+      213: -1884096369951407960
+    second: Alisa_back_atlas_11
+  - first:
+      213: -6872072074844750859
+    second: Alisa_back_atlas_12
+  - first:
+      213: 5650553542550628783
+    second: Alisa_back_atlas_13
+  - first:
+      213: 1098747078735052192
+    second: Alisa_back_atlas_14
+  - first:
+      213: -4017845755329657737
+    second: Alisa_back_atlas_15
+  - first:
+      213: 8589250488708755703
+    second: Alisa_back_atlas_16
+  - first:
+      213: -3231315920276459354
+    second: Alisa_back_atlas_17
+  - first:
+      213: -4973522467667510143
+    second: Alisa_back_atlas_18
+  - first:
+      213: 502880691363139441
+    second: Alisa_back_atlas_19
+  - first:
+      213: -651929377696697243
+    second: Alisa_back_atlas_20
+  - first:
+      213: -2405119376706719030
+    second: Alisa_back_atlas_21
+  - first:
+      213: 9034395213219837986
+    second: Alisa_back_atlas_22
+  - first:
+      213: 4947249502403653094
+    second: Alisa_back_atlas_23
+  - first:
+      213: -2410862681779679172
+    second: Alisa_back_atlas_24
+  - first:
+      213: -1618642563594476977
+    second: Alisa_back_atlas_25
+  - first:
+      213: 6796247310174403692
+    second: Alisa_back_atlas_26
+  - first:
+      213: 5182726762737161690
+    second: Alisa_back_atlas_27
+  - first:
+      213: 2100060483370558837
+    second: Alisa_back_atlas_28
+  - first:
+      213: -7635966542768580572
+    second: Alisa_back_atlas_29
+  - first:
+      213: 125053910856886048
+    second: Alisa_back_atlas_30
+  - first:
+      213: -3701756886923657963
+    second: Alisa_back_atlas_31
+  - first:
+      213: -3274323424184470891
+    second: Alisa_back_atlas_32
+  - first:
+      213: 4364203250426706043
+    second: Alisa_back_atlas_33
+  - first:
+      213: -5122678712247155757
+    second: Alisa_back_atlas_34
+  - first:
+      213: -2762990219297406855
+    second: Alisa_back_atlas_35
+  - first:
+      213: -4508328926231432315
+    second: Alisa_back_atlas_36
+  - first:
+      213: -9108277453108697710
+    second: Alisa_back_atlas_37
+  - first:
+      213: -8297199197355815437
+    second: Alisa_back_atlas_38
+  - first:
+      213: -7612795484781301096
+    second: Alisa_back_atlas_39
+  - first:
+      213: -7392394197535846676
+    second: Alisa_back_atlas_40
+  - first:
+      213: -3900878685946647990
+    second: Alisa_back_atlas_41
+  - first:
+      213: -1471111776491507568
+    second: Alisa_back_atlas_42
+  - first:
+      213: 9168412252533002741
+    second: Alisa_back_atlas_43
+  - first:
+      213: -8602686425495175055
+    second: Alisa_back_atlas_44
+  - first:
+      213: 6845977862180168619
+    second: Alisa_back_atlas_45
+  - first:
+      213: -9696914460056725
+    second: Alisa_back_atlas_46
+  - first:
+      213: -2763614342519380523
+    second: Alisa_back_atlas_47
+  - first:
+      213: 1767113885673062299
+    second: Alisa_back_atlas_48
+  - first:
+      213: -1491084140205798103
+    second: Alisa_back_atlas_49
+  - first:
+      213: 3947276882247395275
+    second: Alisa_back_atlas_50
+  - first:
+      213: 5665026365852960124
+    second: Alisa_back_atlas_51
+  - first:
+      213: -7546037603069320200
+    second: Alisa_back_atlas_52
+  - first:
+      213: 7505774729347708489
+    second: Alisa_back_atlas_53
+  - first:
+      213: -2739727582963821200
+    second: Alisa_back_atlas_54
+  - first:
+      213: -4706712381057496448
+    second: Alisa_back_atlas_55
+  - first:
+      213: -6353204810900654121
+    second: Alisa_back_atlas_56
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RearArchive_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 602
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005916dd664fff31c1df5c1768ba21c0
+      internalID: 188943372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_001
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 602
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa13c12e8e3886e497cc442e0ed101ef
+      internalID: 1521791775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_002
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 602
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a616199b3567241746d905b3fde585
+      internalID: 1893957596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_003
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 602
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c696fc46ded642079016fffd03f277
+      internalID: -254854451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_004
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 602
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8de1cd0cfb798d2e6009f541be7287e
+      internalID: -52376825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_005
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 602
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f802a68bcd36074dd9b3eaf63614593e
+      internalID: 365085781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_006
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 602
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5adc6678dc66a922edd0325b6a62023b
+      internalID: -1870737444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_007
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 602
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d41611451275a0da23cebce0acf1069
+      internalID: 753635218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_008
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 602
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 794c169e51b4c23714127bef0288246c
+      internalID: 2045847451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_009
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 602
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4380f61042357ab90248f2fd6cb588ee
+      internalID: 902639334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_010
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 516
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca18bc1fa429d98fe6edbdd12a84f6d3
+      internalID: 948744306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_011
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 516
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1fa68058f67cba4e8efe3cce10ba31
+      internalID: 1457441485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_012
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 516
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cedf1176dcca6d07ce907bb1bcb42b75
+      internalID: 1618421142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_013
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 516
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7794061db32f90156d2ee4c5defc9e43
+      internalID: -1433450493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_014
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 516
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27eb2729c3750beb08256e6001e4a065
+      internalID: 1833062390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_015
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 516
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6511059e0cf04bef495ddbac576dae9d
+      internalID: 1798555423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_016
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 516
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16373110ca167af596f31f7fa7503609
+      internalID: 197413550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_017
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 516
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f7545718cd3ed41a87422c44ff45ce
+      internalID: 619225541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_018
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 516
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b226c725a00e53f67d2e8e511c3e3007
+      internalID: -1735070849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_019
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 516
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675acdc5d4e714d424b0948eb1ad06bc
+      internalID: 283733322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_020
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 430
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2663904a65ea1bdb95b58600faae25a6
+      internalID: -498489458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_021
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 430
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b0444fe2cab282b5b66ac30d81e68c
+      internalID: -1043788298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_022
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 430
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd1de5accf7c28bdb6be812dc825caf
+      internalID: 1472089178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_023
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 430
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1a2474f9377407043f7e08fcf80749
+      internalID: 740819511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_024
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 430
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6d5e67b7ca89c998d36630fefc3dce
+      internalID: 312653223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_025
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 430
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d714fedaf5377bc1f27fa7c5fce1f3b7
+      internalID: -1101647582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_026
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 430
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5edb253f6f5c3c6ee81cb0e996884cfd
+      internalID: 656585288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_027
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 430
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 196a8e08072e93b08200050d309884e7
+      internalID: 1527265134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_028
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 430
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87383c76ef6270b677a67f7b559dbf0
+      internalID: 589051311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_029
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 430
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a24e222ac6c1e5aec03b740ce9db05
+      internalID: -1782640713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 344
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13f268a38e5a11fac4645f95f1d4922
+      internalID: 707659040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_031
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 344
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7728e3099d71a3af831e3e5ed9a602d1
+      internalID: -491986313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_032
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 344
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0329d9add8607cc5bda23126e03f8130
+      internalID: 1527829140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_033
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 344
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d25244a89cd9aece625eb48713570df
+      internalID: 736989064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_034
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 344
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9499fa6fb7c242901e6b451d7b86f04
+      internalID: -1863892552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_035
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 344
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eefab12d74b3a493781312bd60ae92ce
+      internalID: -1096650924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_036
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 344
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488f701a1d56bd62dedff6565c80777a
+      internalID: 2091135257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_037
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 344
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2560c31bfbcc7849e83ff2c616fe4054
+      internalID: -910311694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_038
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 344
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb7f361844e9e3f683fb16c9ba3364b
+      internalID: -1639682685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_039
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 344
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796b8b5d655026eb4b11d27ed3e28c73
+      internalID: 1525622324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_040
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 258
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c7790a371f86513e9a4d1feab513e9
+      internalID: 304263561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_041
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 258
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1f8baf83f0b2ae08de50066c206467
+      internalID: -741758065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_042
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 258
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e0cbc3ce6432718eb855cf3a88edf2
+      internalID: -368574834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_043
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 258
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5961f425781700832420efb28dbb0bf
+      internalID: -703246095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_044
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 258
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02a200a6464704df7dc1719040626ca
+      internalID: 1333621740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_045
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 258
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f30ab6b43f9796586046f23a206ba9e
+      internalID: -1594686052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_046
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 258
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c96890a0fcb9e19d39cdf5f11b38b455
+      internalID: -1434540683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_047
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 258
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1a41282867c4f05462a5f655989ce1
+      internalID: -1506631214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_048
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 258
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98a8839373687c0c83a4b4b245169a7
+      internalID: -311575308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_049
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 258
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd4d3db85172b2f7ec85cce27d0223d
+      internalID: -1534473875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_050
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a27e881ea0b43d65804d913c51097e2
+      internalID: 1120656716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_051
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89481226e4a673f7d39a4df9ad976a80
+      internalID: -1684440259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_052
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e512b843ddac50b1e4fc5d243a9f4431
+      internalID: -910474370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_053
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0aa6c78473c22129852be7153d75dd
+      internalID: -2021798972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_054
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d29e0e86aef65eba6dd21a1eeae483
+      internalID: -1543072637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_055
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de188b9fd6ef754cbd1988effeaecbba
+      internalID: -195545492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_056
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2225fae7f67c611421646da65c3d44
+      internalID: -2125207206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_057
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6357f55f7ecf7a8a998813234e7bc24
+      internalID: 1327130621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_058
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9405cf3e838a111edbe64ef9196c631e
+      internalID: 1650673173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_059
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4402991856f4cc965ff2aba514b1c3
+      internalID: 831654898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74cfcda3fabaafc39b4d3137eb03dab4
+      internalID: 593404871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_061
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6362d84140bba54ce5ce79491ed04cb
+      internalID: 885931783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_062
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 494e2d40d4a30f2f73f752a02e5d57ea
+      internalID: 957539192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_063
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e70eeb41ceebe7cf72c34d41f96ec6
+      internalID: -707142588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_064
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd154fcb34f601fa49697e165f0662bd
+      internalID: -1765944770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_065
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 166319b0904b08361501a3fb72f8a228
+      internalID: -1832102618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_066
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954d299a952a7a2f072303725036a1a1
+      internalID: -1302147543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_067
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d5633ceeac3bc95dbd0d74938652ce5
+      internalID: 1711515472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_068
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51f46666701196a784d8eec6e700315
+      internalID: 1181863927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_069
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2140946bec41fa5a59b82425e31a064c
+      internalID: -1334919949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_070
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 236cc211e9f560ca8f18e07ea7bd2aa8
+      internalID: -197465162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RearArchive_071
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84ce89872ccb103964279318a068b0c
+      internalID: -1071833418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 914c0083e6ffb374b9c06ec3655baf59
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RearArchive_000: 188943372
+      RearArchive_001: 1521791775
+      RearArchive_002: 1893957596
+      RearArchive_003: -254854451
+      RearArchive_004: -52376825
+      RearArchive_005: 365085781
+      RearArchive_006: -1870737444
+      RearArchive_007: 753635218
+      RearArchive_008: 2045847451
+      RearArchive_009: 902639334
+      RearArchive_010: 948744306
+      RearArchive_011: 1457441485
+      RearArchive_012: 1618421142
+      RearArchive_013: -1433450493
+      RearArchive_014: 1833062390
+      RearArchive_015: 1798555423
+      RearArchive_016: 197413550
+      RearArchive_017: 619225541
+      RearArchive_018: -1735070849
+      RearArchive_019: 283733322
+      RearArchive_020: -498489458
+      RearArchive_021: -1043788298
+      RearArchive_022: 1472089178
+      RearArchive_023: 740819511
+      RearArchive_024: 312653223
+      RearArchive_025: -1101647582
+      RearArchive_026: 656585288
+      RearArchive_027: 1527265134
+      RearArchive_028: 589051311
+      RearArchive_029: -1782640713
+      RearArchive_030: 707659040
+      RearArchive_031: -491986313
+      RearArchive_032: 1527829140
+      RearArchive_033: 736989064
+      RearArchive_034: -1863892552
+      RearArchive_035: -1096650924
+      RearArchive_036: 2091135257
+      RearArchive_037: -910311694
+      RearArchive_038: -1639682685
+      RearArchive_039: 1525622324
+      RearArchive_040: 304263561
+      RearArchive_041: -741758065
+      RearArchive_042: -368574834
+      RearArchive_043: -703246095
+      RearArchive_044: 1333621740
+      RearArchive_045: -1594686052
+      RearArchive_046: -1434540683
+      RearArchive_047: -1506631214
+      RearArchive_048: -311575308
+      RearArchive_049: -1534473875
+      RearArchive_050: 1120656716
+      RearArchive_051: -1684440259
+      RearArchive_052: -910474370
+      RearArchive_053: -2021798972
+      RearArchive_054: -1543072637
+      RearArchive_055: -195545492
+      RearArchive_056: -2125207206
+      RearArchive_057: 1327130621
+      RearArchive_058: 1650673173
+      RearArchive_059: 831654898
+      RearArchive_060: 593404871
+      RearArchive_061: 885931783
+      RearArchive_062: 957539192
+      RearArchive_063: -707142588
+      RearArchive_064: -1765944770
+      RearArchive_065: -1832102618
+      RearArchive_066: -1302147543
+      RearArchive_067: 1711515472
+      RearArchive_068: 1181863927
+      RearArchive_069: -1334919949
+      RearArchive_070: -197465162
+      RearArchive_071: -1071833418
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

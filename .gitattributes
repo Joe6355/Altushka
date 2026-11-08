@@ -8,6 +8,7 @@
 *.anim text eol=lf
 *.controller text eol=lf
 *.meta text eol=lf
+*.cmd text eol=crlf
 *.png binary
 *.gif binary
 *.mp4 binary

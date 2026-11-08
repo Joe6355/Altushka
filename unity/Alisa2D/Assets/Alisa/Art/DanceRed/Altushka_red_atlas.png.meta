@@ -1,0 +1,1150 @@
+fileFormatVersion: 2
+guid: 749756445a87b1c41888c8acb5cc54eb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3174352089481277234
+    second: Altushka_red_atlas_0
+  - first:
+      213: 4924031285356240212
+    second: Altushka_red_atlas_1
+  - first:
+      213: 453863764260812266
+    second: Altushka_red_atlas_2
+  - first:
+      213: -3981499209009072911
+    second: Altushka_red_atlas_3
+  - first:
+      213: 6135385482092069457
+    second: Altushka_red_atlas_4
+  - first:
+      213: 1065290522432243416
+    second: Altushka_red_atlas_5
+  - first:
+      213: -8594666099286612241
+    second: Altushka_red_atlas_6
+  - first:
+      213: 5508683855313654713
+    second: Altushka_red_atlas_7
+  - first:
+      213: 8111124947114561915
+    second: Altushka_red_atlas_8
+  - first:
+      213: 5717837084349698501
+    second: Altushka_red_atlas_9
+  - first:
+      213: 8840814095090047422
+    second: Altushka_red_atlas_10
+  - first:
+      213: 66376313433596971
+    second: Altushka_red_atlas_11
+  - first:
+      213: -3534807056096122886
+    second: Altushka_red_atlas_12
+  - first:
+      213: -1325538113333470532
+    second: Altushka_red_atlas_13
+  - first:
+      213: 2980391960773771576
+    second: Altushka_red_atlas_14
+  - first:
+      213: -6822603395618563254
+    second: Altushka_red_atlas_15
+  - first:
+      213: -5571359709169192011
+    second: Altushka_red_atlas_16
+  - first:
+      213: -7719855211840963851
+    second: Altushka_red_atlas_17
+  - first:
+      213: -3231275594146582612
+    second: Altushka_red_atlas_18
+  - first:
+      213: -7145369425329445680
+    second: Altushka_red_atlas_19
+  - first:
+      213: 7759458930446869006
+    second: Altushka_red_atlas_20
+  - first:
+      213: 2027405116465863884
+    second: Altushka_red_atlas_21
+  - first:
+      213: -3345533469445340660
+    second: Altushka_red_atlas_22
+  - first:
+      213: 5121129901550384301
+    second: Altushka_red_atlas_23
+  - first:
+      213: 3948127050383754357
+    second: Altushka_red_atlas_24
+  - first:
+      213: 7114477260875956222
+    second: Altushka_red_atlas_25
+  - first:
+      213: -3473817128429064532
+    second: Altushka_red_atlas_26
+  - first:
+      213: 7254765844363194693
+    second: Altushka_red_atlas_27
+  - first:
+      213: -4949343484176622069
+    second: Altushka_red_atlas_28
+  - first:
+      213: -7017992411370961027
+    second: Altushka_red_atlas_29
+  - first:
+      213: 9175294561026922449
+    second: Altushka_red_atlas_30
+  - first:
+      213: -8340770466758906141
+    second: Altushka_red_atlas_31
+  - first:
+      213: 586512421824841081
+    second: Altushka_red_atlas_32
+  - first:
+      213: 5997433427829388701
+    second: Altushka_red_atlas_33
+  - first:
+      213: 1019465773582065143
+    second: Altushka_red_atlas_34
+  - first:
+      213: -1980751977638217401
+    second: Altushka_red_atlas_35
+  - first:
+      213: 1555716590153164443
+    second: Altushka_red_atlas_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DanceRed_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 258
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf932236e5affe98782b71f7d6f5721
+      internalID: -279878725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceRed_001
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 258
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7334347aa4e7828bcbdd00a1db54a46
+      internalID: -311901629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceRed_002
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 258
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae1654f0ed442f74c87d74e7fd16617c
+      internalID: 1900973151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceRed_003
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 258
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d83fa1f559818f2dba5e526ad071577
+      internalID: 263282860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceRed_004
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 258
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeeec97565fef88d69ea6732007f8191
+      internalID: -1200984310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceRed_005
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 258
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5738ad87e397e8771782a39baf6c1515
+      internalID: 319621296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceRed_006
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 258
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592c30efe4f008174de417f60fe104ee
+      internalID: -2145389909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceRed_007
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 258
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf786b3bf2b538ff66d92de266b6f04
+      internalID: 135002476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceRed_008
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 258
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9558110798501b4b683b472856f3d116
+      internalID: 1839760823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceRed_009
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 258
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c497da384d9ec2c75deac30af50d1a3
+      internalID: 945524762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceRed_010
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618fe8676749b140cf4fe283708ae16f
+      internalID: -1749739997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceRed_011
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b2e5747196de96535f7635291dad72
+      internalID: -1567679874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceRed_012
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca653b0a4baf0f3c7e9699a59b3fc71
+      internalID: -2123465622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceRed_013
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d6ec91df06f4aa83aa710f6bf45de37
+      internalID: 1144911566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceRed_014
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c5dba3a514afb5be0d3a9ed7cfa211
+      internalID: -871499178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceRed_015
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b7e7ac0da388c4ca9fc6ed1de71181
+      internalID: -141160504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceRed_016
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f3a01c5d7e64ed12f6a934fd1d9979
+      internalID: -555695146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceRed_017
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b57b796360261e4fb1ee19321681d4c
+      internalID: 755187666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceRed_018
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7ef754d022256ad95efa40f36a9ea9
+      internalID: 805702816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceRed_019
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfa3dd5cd85a565f89ec7700c99ecebc
+      internalID: -844999859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceRed_020
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: befcb2f9b0564d90f6ffc963f4e2d32c
+      internalID: -1596647696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceRed_021
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5aecf55e0d9e2fb2171833eaeeda45a
+      internalID: -318966801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceRed_022
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd37f0aaa81845dc78cb44f3f2abcfc2
+      internalID: -1135551110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceRed_023
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24b0c0031bc7c1c9b79cc3cf291a898
+      internalID: -588607369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceRed_024
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e30fe7fa5447ee6d9338adb4b3a6473
+      internalID: -1686895630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceRed_025
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4750a707cb7bbf20a9c6be2eb1b3f0e6
+      internalID: 1192476257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceRed_026
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d198b43cc4716d854d12c272a8ce00f
+      internalID: 1662574766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceRed_027
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad18ab72e59d2f688d5aeeb10ac2bdf5
+      internalID: -611805036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceRed_028
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fe45ec10be87d2b272523405bc65b58
+      internalID: -579066710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceRed_029
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f28d5ec7b052957979b0a034c9a35d24
+      internalID: -1296105265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceRed_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c11f28c582775004cfba4650ea561cd
+      internalID: -332420661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceRed_031
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec770dac5683431a3d20ebf9a30593f
+      internalID: 1119408328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceRed_032
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07788531f157c457ae601ea689527e1d
+      internalID: 97112045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceRed_033
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 0
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0799cdbac76c06fcbf30025e3654d03a
+      internalID: -1506653032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceRed_034
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c1691bd05e93b1c6593f4e657ba00b7
+      internalID: 1862998576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceRed_035
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e550493447c557a9d17a1a1265912c
+      internalID: 848069658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceRed_036
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 417f0f0359e2bcd067b365612241d997
+      internalID: -1859127283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceRed_037
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 0
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbb76e7819d6a09babd8d8590ca5141
+      internalID: -1696913264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceRed_038
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a136e91915098b4e9ce585244ade5843
+      internalID: 311956018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceRed_039
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 0
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a053cace5406ae3db912ad1a732eea09
+      internalID: 1883837239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b5fa5bbed539468408c70a8502ba1d2b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DanceRed_000: -279878725
+      DanceRed_001: -311901629
+      DanceRed_002: 1900973151
+      DanceRed_003: 263282860
+      DanceRed_004: -1200984310
+      DanceRed_005: 319621296
+      DanceRed_006: -2145389909
+      DanceRed_007: 135002476
+      DanceRed_008: 1839760823
+      DanceRed_009: 945524762
+      DanceRed_010: -1749739997
+      DanceRed_011: -1567679874
+      DanceRed_012: -2123465622
+      DanceRed_013: 1144911566
+      DanceRed_014: -871499178
+      DanceRed_015: -141160504
+      DanceRed_016: -555695146
+      DanceRed_017: 755187666
+      DanceRed_018: 805702816
+      DanceRed_019: -844999859
+      DanceRed_020: -1596647696
+      DanceRed_021: -318966801
+      DanceRed_022: -1135551110
+      DanceRed_023: -588607369
+      DanceRed_024: -1686895630
+      DanceRed_025: 1192476257
+      DanceRed_026: 1662574766
+      DanceRed_027: -611805036
+      DanceRed_028: -579066710
+      DanceRed_029: -1296105265
+      DanceRed_030: -332420661
+      DanceRed_031: 1119408328
+      DanceRed_032: 97112045
+      DanceRed_033: -1506653032
+      DanceRed_034: 1862998576
+      DanceRed_035: 848069658
+      DanceRed_036: -1859127283
+      DanceRed_037: -1696913264
+      DanceRed_038: 311956018
+      DanceRed_039: 1883837239
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

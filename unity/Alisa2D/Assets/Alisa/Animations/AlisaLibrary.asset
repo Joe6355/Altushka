@@ -1,0 +1,958 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75e3df4e8fd2ff74ca3a5bdba718502e, type: 3}
+  m_Name: AlisaLibrary
+  m_EditorClassIdentifier: Assembly-CSharp::AlisaGame.AlisaAnimationLibrary
+  defaultKey: RearRedraw/walk_back
+  entries:
+  - id: 1
+    key: RearRedraw/key_poses_back
+    label: "\u0421\u043F\u0438\u043D\u0430 \u2014 \u0447\u0435\u0442\u044B\u0440\u0435 \u043E\u043F\u043E\u0440\u043D\u044B\u0435 \u043F\u043E\u0437\u044B"
+    group: "01 \u0421\u043F\u0438\u043D\u0430 \u2014 \u043D\u043E\u0432\u0430\u044F \u043E\u0441\u043D\u043E\u0432\u0430"
+    statePath: Base Layer.Rear.RearRedraw__key_poses_back
+    note: "\u041D\u043E\u0432\u0430\u044F \u0437\u0430\u0434\u043D\u044F\u044F \u043E\u0441\u043D\u043E\u0432\u0430: 36\xD786, \u0432\u043E\u0441\u0435\u043C\u044C \u043A\u0430\u0434\u0440\u043E\u0432 \u043F\u043E 120 \u043C\u0441. \u041F\u0440\u043E\u0432\u0435\u0440\u043A\u0430 \u043D\u0430 \u043C\u0435\u0441\u0442\u0435."
+    loop: 0
+    historical: 0
+    clip: {fileID: 7400000, guid: 654c6a8a4185def4cbfd9e7fd2534f5a, type: 2}
+    frames:
+    - {fileID: -588873678, guid: e62091c36ee268e4bab8b0a56e3e95ea, type: 3}
+    - {fileID: 985920821, guid: e62091c36ee268e4bab8b0a56e3e95ea, type: 3}
+    - {fileID: 336508367, guid: e62091c36ee268e4bab8b0a56e3e95ea, type: 3}
+    - {fileID: -307034220, guid: e62091c36ee268e4bab8b0a56e3e95ea, type: 3}
+    durationsMs: f0000000f0000000f0000000f0000000i
+  - id: 2
+    key: RearRedraw/walk_back
+    label: "\u0421\u043F\u0438\u043D\u0430 \u2014 \u0445\u043E\u0434\u044C\u0431\u0430"
+    group: "01 \u0421\u043F\u0438\u043D\u0430 \u2014 \u043D\u043E\u0432\u0430\u044F \u043E\u0441\u043D\u043E\u0432\u0430"
+    statePath: Base Layer.Rear.RearRedraw__walk_back
+    note: "\u041D\u043E\u0432\u0430\u044F \u0437\u0430\u0434\u043D\u044F\u044F \u043E\u0441\u043D\u043E\u0432\u0430: 36\xD786, \u0432\u043E\u0441\u0435\u043C\u044C \u043A\u0430\u0434\u0440\u043E\u0432 \u043F\u043E 120 \u043C\u0441. \u041F\u0440\u043E\u0432\u0435\u0440\u043A\u0430 \u043D\u0430 \u043C\u0435\u0441\u0442\u0435."
+    loop: 1
+    historical: 0
+    clip: {fileID: 7400000, guid: cddaacb2adfe0214398ecfc16fbc9f97, type: 2}
+    frames:
+    - {fileID: 451590772, guid: e62091c36ee268e4bab8b0a56e3e95ea, type: 3}
+    - {fileID: 488264626, guid: e62091c36ee268e4bab8b0a56e3e95ea, type: 3}
+    - {fileID: 174541845, guid: e62091c36ee268e4bab8b0a56e3e95ea, type: 3}
+    - {fileID: 262452921, guid: e62091c36ee268e4bab8b0a56e3e95ea, type: 3}
+    - {fileID: 732156209, guid: e62091c36ee268e4bab8b0a56e3e95ea, type: 3}
+    - {fileID: -862420218, guid: e62091c36ee268e4bab8b0a56e3e95ea, type: 3}
+    - {fileID: 364408304, guid: e62091c36ee268e4bab8b0a56e3e95ea, type: 3}
+    - {fileID: -45577380, guid: e62091c36ee268e4bab8b0a56e3e95ea, type: 3}
+    durationsMs: 7800000078000000780000007800000078000000780000007800000078000000i
+  - id: 45
+    key: RearStand/idle
+    label: "\u0421\u043F\u0438\u043D\u0430 \u2014 \u0438\u0441\u0445\u043E\u0434\u043D\u0430\u044F \u0441\u0442\u043E\u0439\u043A\u0430 (\u043E\u0434\u0438\u043D \u043A\u0430\u0434\u0440)"
+    group: "01 \u0421\u043F\u0438\u043D\u0430 \u2014 \u043D\u043E\u0432\u0430\u044F \u043E\u0441\u043D\u043E\u0432\u0430"
+    statePath: Base Layer.Rear.RearStand__idle
+    note: "\u0418\u0441\u0445\u043E\u0434\u043D\u0430\u044F \u043D\u0435\u043F\u043E\u0434\u0432\u0438\u0436\u043D\u0430\u044F \u0441\u0442\u043E\u0439\u043A\u0430. \u041E\u0442\u0434\u0435\u043B\u044C\u043D\u044B\u0439 \u043D\u043E\u0432\u044B\u0439 idle \u0441\u043E \u0441\u043F\u0438\u043D\u044B \u0435\u0449\u0451 \u043D\u0435 \u043D\u0430\u0440\u0438\u0441\u043E\u0432\u0430\u043D."
+    loop: 1
+    historical: 0
+    clip: {fileID: 7400000, guid: 35de1231dd709d24fb6c7f556ce24f6b, type: 2}
+    frames:
+    - {fileID: 133847992, guid: 28627cfa8f4fbed4f9ca42ba6b09cc2a, type: 3}
+    durationsMs: e8030000i
+  - id: 3
+    key: Side/idle_side_right
+    label: "\u0411\u043E\u043A \u0432\u043F\u0440\u0430\u0432\u043E \u2014 idle"
+    group: "02 \u0411\u043E\u043A\u043E\u0432\u044B\u0435 \u0440\u0430\u043A\u0443\u0440\u0441\u044B"
+    statePath: Base Layer.Side.Side__idle_side_right
+    note: 
+    loop: 1
+    historical: 0
+    clip: {fileID: 7400000, guid: c6adcf5777331214baa93d2004f2c6d2, type: 2}
+    frames:
+    - {fileID: 1037318365, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: 134247458, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: -657989432, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: -931819354, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    durationsMs: 580200002c0100005802000084030000i
+  - id: 4
+    key: Side/walk_side_right
+    label: "\u0411\u043E\u043A \u0432\u043F\u0440\u0430\u0432\u043E \u2014 \u0445\u043E\u0434\u044C\u0431\u0430"
+    group: "02 \u0411\u043E\u043A\u043E\u0432\u044B\u0435 \u0440\u0430\u043A\u0443\u0440\u0441\u044B"
+    statePath: Base Layer.Side.Side__walk_side_right
+    note: 
+    loop: 1
+    historical: 0
+    clip: {fileID: 7400000, guid: 7a2afb6927263424cba7705651b7ecd8, type: 2}
+    frames:
+    - {fileID: 51961249, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: -875102050, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: -913983980, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: -1481053336, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: 3572517, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: 1931667401, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: 2015070843, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: -864799172, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: -517189495, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: 710556246, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    durationsMs: 64000000640000006400000064000000640000006400000064000000640000006400000064000000i
+  - id: 5
+    key: Side/idle_side_left
+    label: "\u0411\u043E\u043A \u0432\u043B\u0435\u0432\u043E \u2014 idle"
+    group: "02 \u0411\u043E\u043A\u043E\u0432\u044B\u0435 \u0440\u0430\u043A\u0443\u0440\u0441\u044B"
+    statePath: Base Layer.Side.Side__idle_side_left
+    note: 
+    loop: 1
+    historical: 0
+    clip: {fileID: 7400000, guid: 249439d5443dcfa4cb8a6f91a3fd9602, type: 2}
+    frames:
+    - {fileID: 1740208605, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: 584047684, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: 163974630, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: -243611972, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    durationsMs: 580200002c0100005802000084030000i
+  - id: 6
+    key: Side/walk_side_left
+    label: "\u0411\u043E\u043A \u0432\u043B\u0435\u0432\u043E \u2014 \u0445\u043E\u0434\u044C\u0431\u0430"
+    group: "02 \u0411\u043E\u043A\u043E\u0432\u044B\u0435 \u0440\u0430\u043A\u0443\u0440\u0441\u044B"
+    statePath: Base Layer.Side.Side__walk_side_left
+    note: 
+    loop: 1
+    historical: 0
+    clip: {fileID: 7400000, guid: 9b78ae476c03dfe45aa92bff032520b6, type: 2}
+    frames:
+    - {fileID: 1490774204, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: -1320366415, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: 1295222691, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: 959005145, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: -1362142621, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: 1748696995, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: 506626341, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: -597960494, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: -1022086769, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: -42635281, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    durationsMs: 64000000640000006400000064000000640000006400000064000000640000006400000064000000i
+  - id: 7
+    key: Front/idle_left
+    label: "\u041F\u0435\u0440\u0435\u0434\u043D\u044F\u044F \u043B\u0435\u0432\u0430\u044F \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u044C \u2014 idle"
+    group: "03 \u041F\u0435\u0440\u0435\u0434\u043D\u0438\u0435 \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u0438 \u0438 \u0442\u0430\u043D\u0435\u0446"
+    statePath: Base Layer.Front.Front__idle_left
+    note: 
+    loop: 1
+    historical: 0
+    clip: {fileID: 7400000, guid: ab2dd1f3336017e4dbc18672b532ebbf, type: 2}
+    frames:
+    - {fileID: 1651025062, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 904756079, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 2106915003, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -1833213677, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 1498983177, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 140281119, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -1103350367, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -837640839, guid: b46893a1114c74945be012be96372459, type: 3}
+    durationsMs: f4010000c8000000c8000000f4010000c8000000c8000000c800000090010000i
+  - id: 8
+    key: Front/start_left
+    label: "\u041F\u0435\u0440\u0435\u0434\u043D\u044F\u044F \u043B\u0435\u0432\u0430\u044F \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u044C \u2014 \u0441\u0442\u0430\u0440\u0442"
+    group: "03 \u041F\u0435\u0440\u0435\u0434\u043D\u0438\u0435 \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u0438 \u0438 \u0442\u0430\u043D\u0435\u0446"
+    statePath: Base Layer.Front.Front__start_left
+    note: 
+    loop: 0
+    historical: 0
+    clip: {fileID: 7400000, guid: 2f3b5f2f58dd1a84f86284cb8acb2cc3, type: 2}
+    frames:
+    - {fileID: 167701610, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 519399994, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 407252535, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -66511292, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -596854305, guid: b46893a1114c74945be012be96372459, type: 3}
+    durationsMs: 6400000064000000640000006400000064000000i
+  - id: 9
+    key: Front/walk_left
+    label: "\u041F\u0435\u0440\u0435\u0434\u043D\u044F\u044F \u043B\u0435\u0432\u0430\u044F \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u044C \u2014 \u0445\u043E\u0434\u044C\u0431\u0430"
+    group: "03 \u041F\u0435\u0440\u0435\u0434\u043D\u0438\u0435 \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u0438 \u0438 \u0442\u0430\u043D\u0435\u0446"
+    statePath: Base Layer.Front.Front__walk_left
+    note: 
+    loop: 1
+    historical: 0
+    clip: {fileID: 7400000, guid: 477ccc46b786b2b4bbe0d86d744366c4, type: 2}
+    frames:
+    - {fileID: -853542939, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -1492022159, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 1922319939, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 2008694349, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 1238519901, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -1703865666, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 1484853863, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -1938165318, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -910471585, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -168633769, guid: b46893a1114c74945be012be96372459, type: 3}
+    durationsMs: 64000000640000006400000064000000640000006400000064000000640000006400000064000000i
+  - id: 10
+    key: Front/stop_left
+    label: "\u041F\u0435\u0440\u0435\u0434\u043D\u044F\u044F \u043B\u0435\u0432\u0430\u044F \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u044C \u2014 \u043E\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430"
+    group: "03 \u041F\u0435\u0440\u0435\u0434\u043D\u0438\u0435 \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u0438 \u0438 \u0442\u0430\u043D\u0435\u0446"
+    statePath: Base Layer.Front.Front__stop_left
+    note: 
+    loop: 0
+    historical: 0
+    clip: {fileID: 7400000, guid: cdf6a07924288124985251a92ff971b2, type: 2}
+    frames:
+    - {fileID: -1300898715, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -1602283212, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 983629464, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 1524829066, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 1978747584, guid: b46893a1114c74945be012be96372459, type: 3}
+    durationsMs: 6400000064000000640000006400000064000000i
+  - id: 11
+    key: Front/turn_left_right
+    label: "\u041F\u0435\u0440\u0435\u0434\u043D\u0438\u0439 \u0440\u0430\u043A\u0443\u0440\u0441 \u2014 \u0441\u043C\u0435\u043D\u0430 \u0441\u0442\u043E\u0440\u043E\u043D\u044B"
+    group: "03 \u041F\u0435\u0440\u0435\u0434\u043D\u0438\u0435 \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u0438 \u0438 \u0442\u0430\u043D\u0435\u0446"
+    statePath: Base Layer.Front.Front__turn_left_right
+    note: 
+    loop: 0
+    historical: 0
+    clip: {fileID: 7400000, guid: 51759fc644d9d3742af74fe697165af6, type: 2}
+    frames:
+    - {fileID: -1165331084, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 228273676, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -1141922739, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 929154192, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -1206935079, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -2034114706, guid: b46893a1114c74945be012be96372459, type: 3}
+    durationsMs: 640000006400000064000000640000006400000064000000i
+  - id: 12
+    key: Front/idle_right
+    label: "\u041F\u0435\u0440\u0435\u0434\u043D\u044F\u044F \u043F\u0440\u0430\u0432\u0430\u044F \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u044C \u2014 idle"
+    group: "03 \u041F\u0435\u0440\u0435\u0434\u043D\u0438\u0435 \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u0438 \u0438 \u0442\u0430\u043D\u0435\u0446"
+    statePath: Base Layer.Front.Front__idle_right
+    note: 
+    loop: 1
+    historical: 0
+    clip: {fileID: 7400000, guid: ce98e90d862271d4987804793b9e471f, type: 2}
+    frames:
+    - {fileID: 739976803, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -1976347639, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -513607142, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -521969751, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 2022184585, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -64525314, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 209873934, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -1697037918, guid: b46893a1114c74945be012be96372459, type: 3}
+    durationsMs: f4010000c8000000c8000000f4010000c8000000c8000000c800000090010000i
+  - id: 13
+    key: Front/start_right
+    label: "\u041F\u0435\u0440\u0435\u0434\u043D\u044F\u044F \u043F\u0440\u0430\u0432\u0430\u044F \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u044C \u2014 \u0441\u0442\u0430\u0440\u0442"
+    group: "03 \u041F\u0435\u0440\u0435\u0434\u043D\u0438\u0435 \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u0438 \u0438 \u0442\u0430\u043D\u0435\u0446"
+    statePath: Base Layer.Front.Front__start_right
+    note: 
+    loop: 0
+    historical: 0
+    clip: {fileID: 7400000, guid: b87555ab76654c64e8fac99bb7a21d76, type: 2}
+    frames:
+    - {fileID: 1206173997, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -550392971, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -158501018, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 399925796, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -12312930, guid: b46893a1114c74945be012be96372459, type: 3}
+    durationsMs: 6400000064000000640000006400000064000000i
+  - id: 14
+    key: Front/walk_right
+    label: "\u041F\u0435\u0440\u0435\u0434\u043D\u044F\u044F \u043F\u0440\u0430\u0432\u0430\u044F \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u044C \u2014 \u0445\u043E\u0434\u044C\u0431\u0430"
+    group: "03 \u041F\u0435\u0440\u0435\u0434\u043D\u0438\u0435 \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u0438 \u0438 \u0442\u0430\u043D\u0435\u0446"
+    statePath: Base Layer.Front.Front__walk_right
+    note: 
+    loop: 1
+    historical: 0
+    clip: {fileID: 7400000, guid: 677171c21e2ed9c41b30ff4789569a47, type: 2}
+    frames:
+    - {fileID: 157595727, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 1382685978, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 375101874, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 2083232611, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -989191940, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -1251625297, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -1789026894, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 240351289, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -1804805908, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -1978094082, guid: b46893a1114c74945be012be96372459, type: 3}
+    durationsMs: 64000000640000006400000064000000640000006400000064000000640000006400000064000000i
+  - id: 15
+    key: Front/stop_right
+    label: "\u041F\u0435\u0440\u0435\u0434\u043D\u044F\u044F \u043F\u0440\u0430\u0432\u0430\u044F \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u044C \u2014 \u043E\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430"
+    group: "03 \u041F\u0435\u0440\u0435\u0434\u043D\u0438\u0435 \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u0438 \u0438 \u0442\u0430\u043D\u0435\u0446"
+    statePath: Base Layer.Front.Front__stop_right
+    note: 
+    loop: 0
+    historical: 0
+    clip: {fileID: 7400000, guid: 1e4817b29fe51484281889d4cfaac873, type: 2}
+    frames:
+    - {fileID: -2113975335, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -268801716, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 777865087, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 1080135674, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -188501176, guid: b46893a1114c74945be012be96372459, type: 3}
+    durationsMs: 6400000064000000640000006400000064000000i
+  - id: 16
+    key: Front/dance_original
+    label: "\u0418\u0441\u0445\u043E\u0434\u043D\u044B\u0439 \u0442\u0430\u043D\u0435\u0446 \u2014 \u0433\u043E\u043B\u0443\u0431\u044B\u0435 \u0433\u043B\u0430\u0437\u0430"
+    group: "03 \u041F\u0435\u0440\u0435\u0434\u043D\u0438\u0435 \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u0438 \u0438 \u0442\u0430\u043D\u0435\u0446"
+    statePath: Base Layer.Front.Front__dance_original
+    note: 
+    loop: 1
+    historical: 0
+    clip: {fileID: 7400000, guid: 38b63a87860fdf24d8d3d17fcdeb0806, type: 2}
+    frames:
+    - {fileID: 1276082091, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -1822819690, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 202935152, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 1601642639, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -1564790865, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 2062168320, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -139278885, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -870107460, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -881288872, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 580657266, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -1277789303, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -1987258518, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -1824076671, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -1916265424, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -1413857523, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 1106201844, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 129500016, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -253533964, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 504560197, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 1210216958, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -1902207495, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 930892552, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -662506347, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -1293699900, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -505925036, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -1482657908, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 2013947826, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -2037609076, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 1968055838, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 1358341497, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -1740850661, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 825843515, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 1978678143, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -892786606, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -1638687330, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -1713028822, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -1533820906, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -642142135, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 1038781820, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 202445836, guid: b46893a1114c74945be012be96372459, type: 3}
+    durationsMs: 64000000640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000i
+  - id: 46
+    key: DanceGreen/dance
+    label: "\u0418\u0441\u0445\u043E\u0434\u043D\u044B\u0439 \u0442\u0430\u043D\u0435\u0446 \u2014 \u0437\u0435\u043B\u0451\u043D\u044B\u0435 \u0433\u043B\u0430\u0437\u0430"
+    group: "04 \u0412\u0430\u0440\u0438\u0430\u043D\u0442\u044B \u0433\u043B\u0430\u0437"
+    statePath: Base Layer.EyeVariants.DanceGreen__dance
+    note: "\u0421\u043E\u0445\u0440\u0430\u043D\u0451\u043D\u043D\u044B\u0439 \u0432\u0430\u0440\u0438\u0430\u043D\u0442 \u0438\u0441\u0445\u043E\u0434\u043D\u043E\u0433\u043E \u0442\u0430\u043D\u0446\u0430. \u0425\u043E\u0434\u044C\u0431\u0430 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0435\u0442 \u043E\u0441\u043D\u043E\u0432\u043D\u043E\u0439 \u0441\u043A\u0438\u043D \u0441 \u0433\u043E\u043B\u0443\u0431\u044B\u043C\u0438 \u0433\u043B\u0430\u0437\u0430\u043C\u0438."
+    loop: 1
+    historical: 0
+    clip: {fileID: 7400000, guid: 76d344f205377454ca2a489c1c6212fc, type: 2}
+    frames:
+    - {fileID: -312826296, guid: 25fcff4fba0934945ba7a4b73e11749d, type: 3}
+    - {fileID: 125267682, guid: 25fcff4fba0934945ba7a4b73e11749d, type: 3}
+    - {fileID: -1920042765, guid: 25fcff4fba0934945ba7a4b73e11749d, type: 3}
+    - {fileID: -529121523, guid: 25fcff4fba0934945ba7a4b73e11749d, type: 3}
+    - {fileID: -722679832, guid: 25fcff4fba0934945ba7a4b73e11749d, type: 3}
+    - {fileID: -1957438662, guid: 25fcff4fba0934945ba7a4b73e11749d, type: 3}
+    - {fileID: -2116437885, guid: 25fcff4fba0934945ba7a4b73e11749d, type: 3}
+    - {fileID: -1990359305, guid: 25fcff4fba0934945ba7a4b73e11749d, type: 3}
+    - {fileID: 1321644088, guid: 25fcff4fba0934945ba7a4b73e11749d, type: 3}
+    - {fileID: 170814783, guid: 25fcff4fba0934945ba7a4b73e11749d, type: 3}
+    - {fileID: 1385393191, guid: 25fcff4fba0934945ba7a4b73e11749d, type: 3}
+    - {fileID: -259194414, guid: 25fcff4fba0934945ba7a4b73e11749d, type: 3}
+    - {fileID: 1704394856, guid: 25fcff4fba0934945ba7a4b73e11749d, type: 3}
+    - {fileID: 1633874875, guid: 25fcff4fba0934945ba7a4b73e11749d, type: 3}
+    - {fileID: 444511493, guid: 25fcff4fba0934945ba7a4b73e11749d, type: 3}
+    - {fileID: -1898474574, guid: 25fcff4fba0934945ba7a4b73e11749d, type: 3}
+    - {fileID: 1608047941, guid: 25fcff4fba0934945ba7a4b73e11749d, type: 3}
+    - {fileID: 167064463, guid: 25fcff4fba0934945ba7a4b73e11749d, type: 3}
+    - {fileID: 1884648934, guid: 25fcff4fba0934945ba7a4b73e11749d, type: 3}
+    - {fileID: -587840096, guid: 25fcff4fba0934945ba7a4b73e11749d, type: 3}
+    - {fileID: 1151736977, guid: 25fcff4fba0934945ba7a4b73e11749d, type: 3}
+    - {fileID: -2036076448, guid: 25fcff4fba0934945ba7a4b73e11749d, type: 3}
+    - {fileID: -1441442396, guid: 25fcff4fba0934945ba7a4b73e11749d, type: 3}
+    - {fileID: 397680662, guid: 25fcff4fba0934945ba7a4b73e11749d, type: 3}
+    - {fileID: -1665748147, guid: 25fcff4fba0934945ba7a4b73e11749d, type: 3}
+    - {fileID: 1795714999, guid: 25fcff4fba0934945ba7a4b73e11749d, type: 3}
+    - {fileID: -1442064807, guid: 25fcff4fba0934945ba7a4b73e11749d, type: 3}
+    - {fileID: 1959400203, guid: 25fcff4fba0934945ba7a4b73e11749d, type: 3}
+    - {fileID: -1124521826, guid: 25fcff4fba0934945ba7a4b73e11749d, type: 3}
+    - {fileID: 1807082641, guid: 25fcff4fba0934945ba7a4b73e11749d, type: 3}
+    - {fileID: -2018460315, guid: 25fcff4fba0934945ba7a4b73e11749d, type: 3}
+    - {fileID: -1690135761, guid: 25fcff4fba0934945ba7a4b73e11749d, type: 3}
+    - {fileID: -1525953538, guid: 25fcff4fba0934945ba7a4b73e11749d, type: 3}
+    - {fileID: -1548297190, guid: 25fcff4fba0934945ba7a4b73e11749d, type: 3}
+    - {fileID: -1683534449, guid: 25fcff4fba0934945ba7a4b73e11749d, type: 3}
+    - {fileID: 1597559542, guid: 25fcff4fba0934945ba7a4b73e11749d, type: 3}
+    - {fileID: -883070426, guid: 25fcff4fba0934945ba7a4b73e11749d, type: 3}
+    - {fileID: 818360848, guid: 25fcff4fba0934945ba7a4b73e11749d, type: 3}
+    - {fileID: -1937572042, guid: 25fcff4fba0934945ba7a4b73e11749d, type: 3}
+    - {fileID: -1515713578, guid: 25fcff4fba0934945ba7a4b73e11749d, type: 3}
+    durationsMs: 64000000640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000i
+  - id: 47
+    key: DanceRed/dance
+    label: "\u0418\u0441\u0445\u043E\u0434\u043D\u044B\u0439 \u0442\u0430\u043D\u0435\u0446 \u2014 \u043A\u0440\u0430\u0441\u043D\u044B\u0435 \u0433\u043B\u0430\u0437\u0430"
+    group: "04 \u0412\u0430\u0440\u0438\u0430\u043D\u0442\u044B \u0433\u043B\u0430\u0437"
+    statePath: Base Layer.EyeVariants.DanceRed__dance
+    note: "\u0421\u043E\u0445\u0440\u0430\u043D\u0451\u043D\u043D\u044B\u0439 \u0432\u0430\u0440\u0438\u0430\u043D\u0442 \u0438\u0441\u0445\u043E\u0434\u043D\u043E\u0433\u043E \u0442\u0430\u043D\u0446\u0430. \u0425\u043E\u0434\u044C\u0431\u0430 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0435\u0442 \u043E\u0441\u043D\u043E\u0432\u043D\u043E\u0439 \u0441\u043A\u0438\u043D \u0441 \u0433\u043E\u043B\u0443\u0431\u044B\u043C\u0438 \u0433\u043B\u0430\u0437\u0430\u043C\u0438."
+    loop: 1
+    historical: 0
+    clip: {fileID: 7400000, guid: 191c0acf64602f0428ca4acdafe500b1, type: 2}
+    frames:
+    - {fileID: 319621296, guid: 749756445a87b1c41888c8acb5cc54eb, type: 3}
+    - {fileID: -2145389909, guid: 749756445a87b1c41888c8acb5cc54eb, type: 3}
+    - {fileID: 135002476, guid: 749756445a87b1c41888c8acb5cc54eb, type: 3}
+    - {fileID: 1839760823, guid: 749756445a87b1c41888c8acb5cc54eb, type: 3}
+    - {fileID: 945524762, guid: 749756445a87b1c41888c8acb5cc54eb, type: 3}
+    - {fileID: -1749739997, guid: 749756445a87b1c41888c8acb5cc54eb, type: 3}
+    - {fileID: -1567679874, guid: 749756445a87b1c41888c8acb5cc54eb, type: 3}
+    - {fileID: -2123465622, guid: 749756445a87b1c41888c8acb5cc54eb, type: 3}
+    - {fileID: 1144911566, guid: 749756445a87b1c41888c8acb5cc54eb, type: 3}
+    - {fileID: -871499178, guid: 749756445a87b1c41888c8acb5cc54eb, type: 3}
+    - {fileID: -141160504, guid: 749756445a87b1c41888c8acb5cc54eb, type: 3}
+    - {fileID: -555695146, guid: 749756445a87b1c41888c8acb5cc54eb, type: 3}
+    - {fileID: 755187666, guid: 749756445a87b1c41888c8acb5cc54eb, type: 3}
+    - {fileID: 805702816, guid: 749756445a87b1c41888c8acb5cc54eb, type: 3}
+    - {fileID: -844999859, guid: 749756445a87b1c41888c8acb5cc54eb, type: 3}
+    - {fileID: -1596647696, guid: 749756445a87b1c41888c8acb5cc54eb, type: 3}
+    - {fileID: -318966801, guid: 749756445a87b1c41888c8acb5cc54eb, type: 3}
+    - {fileID: -1135551110, guid: 749756445a87b1c41888c8acb5cc54eb, type: 3}
+    - {fileID: -588607369, guid: 749756445a87b1c41888c8acb5cc54eb, type: 3}
+    - {fileID: -1686895630, guid: 749756445a87b1c41888c8acb5cc54eb, type: 3}
+    - {fileID: 1192476257, guid: 749756445a87b1c41888c8acb5cc54eb, type: 3}
+    - {fileID: 1662574766, guid: 749756445a87b1c41888c8acb5cc54eb, type: 3}
+    - {fileID: -611805036, guid: 749756445a87b1c41888c8acb5cc54eb, type: 3}
+    - {fileID: -579066710, guid: 749756445a87b1c41888c8acb5cc54eb, type: 3}
+    - {fileID: -1296105265, guid: 749756445a87b1c41888c8acb5cc54eb, type: 3}
+    - {fileID: -332420661, guid: 749756445a87b1c41888c8acb5cc54eb, type: 3}
+    - {fileID: 1119408328, guid: 749756445a87b1c41888c8acb5cc54eb, type: 3}
+    - {fileID: 97112045, guid: 749756445a87b1c41888c8acb5cc54eb, type: 3}
+    - {fileID: -1506653032, guid: 749756445a87b1c41888c8acb5cc54eb, type: 3}
+    - {fileID: 1862998576, guid: 749756445a87b1c41888c8acb5cc54eb, type: 3}
+    - {fileID: 848069658, guid: 749756445a87b1c41888c8acb5cc54eb, type: 3}
+    - {fileID: -1859127283, guid: 749756445a87b1c41888c8acb5cc54eb, type: 3}
+    - {fileID: -1696913264, guid: 749756445a87b1c41888c8acb5cc54eb, type: 3}
+    - {fileID: 311956018, guid: 749756445a87b1c41888c8acb5cc54eb, type: 3}
+    - {fileID: 1883837239, guid: 749756445a87b1c41888c8acb5cc54eb, type: 3}
+    - {fileID: -279878725, guid: 749756445a87b1c41888c8acb5cc54eb, type: 3}
+    - {fileID: -311901629, guid: 749756445a87b1c41888c8acb5cc54eb, type: 3}
+    - {fileID: 1900973151, guid: 749756445a87b1c41888c8acb5cc54eb, type: 3}
+    - {fileID: 263282860, guid: 749756445a87b1c41888c8acb5cc54eb, type: 3}
+    - {fileID: -1200984310, guid: 749756445a87b1c41888c8acb5cc54eb, type: 3}
+    durationsMs: 64000000640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000i
+  - id: 17
+    key: RearArchive/idle_back
+    label: "\u0421\u043F\u0438\u043D\u0430 \u2014 idle"
+    group: "\u0410\u0440\u0445\u0438\u0432 \u2014 \u0441\u043F\u0438\u043D\u0430, \u043F\u0435\u0440\u0432\u0430\u044F \u0432\u0435\u0440\u0441\u0438\u044F"
+    statePath: Base Layer.RearArchive.RearArchive__idle_back
+    note: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442. \u041A\u043B\u0438\u043F \u043F\u043E\u043A\u0430\u0437\u0430\u043D \u043D\u0430 \u043C\u0435\u0441\u0442\u0435, \u0431\u0435\u0437 \u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043D\u043E\u0433\u043E \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F \u043F\u043E \u0441\u0446\u0435\u043D\u0435."
+    loop: 1
+    historical: 1
+    clip: {fileID: 7400000, guid: 54db3f02dae1a7a46913e3630ec56909, type: 2}
+    frames:
+    - {fileID: 188943372, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: 1521791775, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: 1893957596, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: -254854451, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    durationsMs: 580200002c0100005802000084030000i
+  - id: 18
+    key: RearArchive/start_back
+    label: start_back
+    group: "\u0410\u0440\u0445\u0438\u0432 \u2014 \u0441\u043F\u0438\u043D\u0430, \u043F\u0435\u0440\u0432\u0430\u044F \u0432\u0435\u0440\u0441\u0438\u044F"
+    statePath: Base Layer.RearArchive.RearArchive__start_back
+    note: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442. \u041A\u043B\u0438\u043F \u043F\u043E\u043A\u0430\u0437\u0430\u043D \u043D\u0430 \u043C\u0435\u0441\u0442\u0435, \u0431\u0435\u0437 \u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043D\u043E\u0433\u043E \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F \u043F\u043E \u0441\u0446\u0435\u043D\u0435."
+    loop: 0
+    historical: 1
+    clip: {fileID: 7400000, guid: 7ed28e02e317eea45a66c0ad3d14e942, type: 2}
+    frames:
+    - {fileID: -52376825, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: 365085781, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: -1870737444, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: 753635218, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: 2045847451, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    durationsMs: 6400000064000000640000006400000064000000i
+  - id: 19
+    key: RearArchive/walk_back
+    label: "\u0421\u043F\u0438\u043D\u0430 \u2014 \u0445\u043E\u0434\u044C\u0431\u0430"
+    group: "\u0410\u0440\u0445\u0438\u0432 \u2014 \u0441\u043F\u0438\u043D\u0430, \u043F\u0435\u0440\u0432\u0430\u044F \u0432\u0435\u0440\u0441\u0438\u044F"
+    statePath: Base Layer.RearArchive.RearArchive__walk_back
+    note: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442. \u041A\u043B\u0438\u043F \u043F\u043E\u043A\u0430\u0437\u0430\u043D \u043D\u0430 \u043C\u0435\u0441\u0442\u0435, \u0431\u0435\u0437 \u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043D\u043E\u0433\u043E \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F \u043F\u043E \u0441\u0446\u0435\u043D\u0435."
+    loop: 1
+    historical: 1
+    clip: {fileID: 7400000, guid: afe6e884c878804479c14b84baf92d0a, type: 2}
+    frames:
+    - {fileID: 902639334, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: 948744306, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: 1457441485, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: 1618421142, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: -1433450493, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: 1833062390, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: 1798555423, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: 197413550, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: 619225541, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: -1735070849, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    durationsMs: 64000000640000006400000064000000640000006400000064000000640000006400000064000000i
+  - id: 20
+    key: RearArchive/stop_back
+    label: stop_back
+    group: "\u0410\u0440\u0445\u0438\u0432 \u2014 \u0441\u043F\u0438\u043D\u0430, \u043F\u0435\u0440\u0432\u0430\u044F \u0432\u0435\u0440\u0441\u0438\u044F"
+    statePath: Base Layer.RearArchive.RearArchive__stop_back
+    note: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442. \u041A\u043B\u0438\u043F \u043F\u043E\u043A\u0430\u0437\u0430\u043D \u043D\u0430 \u043C\u0435\u0441\u0442\u0435, \u0431\u0435\u0437 \u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043D\u043E\u0433\u043E \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F \u043F\u043E \u0441\u0446\u0435\u043D\u0435."
+    loop: 0
+    historical: 1
+    clip: {fileID: 7400000, guid: d0f0e5bec8b00e74d9e01bb2f7e48975, type: 2}
+    frames:
+    - {fileID: 283733322, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: -498489458, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: -1043788298, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: 1472089178, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: 740819511, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    durationsMs: 6400000064000000640000006400000064000000i
+  - id: 21
+    key: RearArchive/idle_back_right
+    label: idle_back_right
+    group: "\u0410\u0440\u0445\u0438\u0432 \u2014 \u0441\u043F\u0438\u043D\u0430, \u043F\u0435\u0440\u0432\u0430\u044F \u0432\u0435\u0440\u0441\u0438\u044F"
+    statePath: Base Layer.RearArchive.RearArchive__idle_back_right
+    note: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442. \u041A\u043B\u0438\u043F \u043F\u043E\u043A\u0430\u0437\u0430\u043D \u043D\u0430 \u043C\u0435\u0441\u0442\u0435, \u0431\u0435\u0437 \u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043D\u043E\u0433\u043E \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F \u043F\u043E \u0441\u0446\u0435\u043D\u0435."
+    loop: 1
+    historical: 1
+    clip: {fileID: 7400000, guid: d3cdc1756eceeba4ea5bfbab0a1390a1, type: 2}
+    frames:
+    - {fileID: 312653223, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: -1101647582, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: 656585288, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: 1527265134, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    durationsMs: 580200002c0100005802000084030000i
+  - id: 22
+    key: RearArchive/start_back_right
+    label: start_back_right
+    group: "\u0410\u0440\u0445\u0438\u0432 \u2014 \u0441\u043F\u0438\u043D\u0430, \u043F\u0435\u0440\u0432\u0430\u044F \u0432\u0435\u0440\u0441\u0438\u044F"
+    statePath: Base Layer.RearArchive.RearArchive__start_back_right
+    note: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442. \u041A\u043B\u0438\u043F \u043F\u043E\u043A\u0430\u0437\u0430\u043D \u043D\u0430 \u043C\u0435\u0441\u0442\u0435, \u0431\u0435\u0437 \u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043D\u043E\u0433\u043E \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F \u043F\u043E \u0441\u0446\u0435\u043D\u0435."
+    loop: 0
+    historical: 1
+    clip: {fileID: 7400000, guid: 832e800744593984cb3dd60e7fb9f4e8, type: 2}
+    frames:
+    - {fileID: 589051311, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: -1782640713, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: 707659040, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: -491986313, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: 1527829140, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    durationsMs: 6400000064000000640000006400000064000000i
+  - id: 23
+    key: RearArchive/walk_back_right
+    label: walk_back_right
+    group: "\u0410\u0440\u0445\u0438\u0432 \u2014 \u0441\u043F\u0438\u043D\u0430, \u043F\u0435\u0440\u0432\u0430\u044F \u0432\u0435\u0440\u0441\u0438\u044F"
+    statePath: Base Layer.RearArchive.RearArchive__walk_back_right
+    note: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442. \u041A\u043B\u0438\u043F \u043F\u043E\u043A\u0430\u0437\u0430\u043D \u043D\u0430 \u043C\u0435\u0441\u0442\u0435, \u0431\u0435\u0437 \u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043D\u043E\u0433\u043E \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F \u043F\u043E \u0441\u0446\u0435\u043D\u0435."
+    loop: 1
+    historical: 1
+    clip: {fileID: 7400000, guid: ae8c8dfd5bd850e43ba0ef21fb86ad53, type: 2}
+    frames:
+    - {fileID: 736989064, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: -1863892552, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: -1096650924, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: 2091135257, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: -910311694, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: -1639682685, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: 1525622324, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: 304263561, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: -741758065, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: -368574834, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    durationsMs: 64000000640000006400000064000000640000006400000064000000640000006400000064000000i
+  - id: 24
+    key: RearArchive/stop_back_right
+    label: stop_back_right
+    group: "\u0410\u0440\u0445\u0438\u0432 \u2014 \u0441\u043F\u0438\u043D\u0430, \u043F\u0435\u0440\u0432\u0430\u044F \u0432\u0435\u0440\u0441\u0438\u044F"
+    statePath: Base Layer.RearArchive.RearArchive__stop_back_right
+    note: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442. \u041A\u043B\u0438\u043F \u043F\u043E\u043A\u0430\u0437\u0430\u043D \u043D\u0430 \u043C\u0435\u0441\u0442\u0435, \u0431\u0435\u0437 \u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043D\u043E\u0433\u043E \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F \u043F\u043E \u0441\u0446\u0435\u043D\u0435."
+    loop: 0
+    historical: 1
+    clip: {fileID: 7400000, guid: 6189edfcb95e427439b3cc960ccfe8c8, type: 2}
+    frames:
+    - {fileID: -703246095, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: 1333621740, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: -1594686052, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: -1434540683, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: -1506631214, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    durationsMs: 6400000064000000640000006400000064000000i
+  - id: 25
+    key: RearArchive/idle_back_left
+    label: idle_back_left
+    group: "\u0410\u0440\u0445\u0438\u0432 \u2014 \u0441\u043F\u0438\u043D\u0430, \u043F\u0435\u0440\u0432\u0430\u044F \u0432\u0435\u0440\u0441\u0438\u044F"
+    statePath: Base Layer.RearArchive.RearArchive__idle_back_left
+    note: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442. \u041A\u043B\u0438\u043F \u043F\u043E\u043A\u0430\u0437\u0430\u043D \u043D\u0430 \u043C\u0435\u0441\u0442\u0435, \u0431\u0435\u0437 \u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043D\u043E\u0433\u043E \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F \u043F\u043E \u0441\u0446\u0435\u043D\u0435."
+    loop: 1
+    historical: 1
+    clip: {fileID: 7400000, guid: 901dc2225144a774896454b311665e44, type: 2}
+    frames:
+    - {fileID: -311575308, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: -1534473875, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: 1120656716, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: -1684440259, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    durationsMs: 580200002c0100005802000084030000i
+  - id: 26
+    key: RearArchive/start_back_left
+    label: start_back_left
+    group: "\u0410\u0440\u0445\u0438\u0432 \u2014 \u0441\u043F\u0438\u043D\u0430, \u043F\u0435\u0440\u0432\u0430\u044F \u0432\u0435\u0440\u0441\u0438\u044F"
+    statePath: Base Layer.RearArchive.RearArchive__start_back_left
+    note: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442. \u041A\u043B\u0438\u043F \u043F\u043E\u043A\u0430\u0437\u0430\u043D \u043D\u0430 \u043C\u0435\u0441\u0442\u0435, \u0431\u0435\u0437 \u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043D\u043E\u0433\u043E \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F \u043F\u043E \u0441\u0446\u0435\u043D\u0435."
+    loop: 0
+    historical: 1
+    clip: {fileID: 7400000, guid: b2a60fc4819af9f4b88880032b57cfc6, type: 2}
+    frames:
+    - {fileID: -910474370, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: -2021798972, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: -1543072637, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: -195545492, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: -2125207206, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    durationsMs: 6400000064000000640000006400000064000000i
+  - id: 27
+    key: RearArchive/walk_back_left
+    label: walk_back_left
+    group: "\u0410\u0440\u0445\u0438\u0432 \u2014 \u0441\u043F\u0438\u043D\u0430, \u043F\u0435\u0440\u0432\u0430\u044F \u0432\u0435\u0440\u0441\u0438\u044F"
+    statePath: Base Layer.RearArchive.RearArchive__walk_back_left
+    note: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442. \u041A\u043B\u0438\u043F \u043F\u043E\u043A\u0430\u0437\u0430\u043D \u043D\u0430 \u043C\u0435\u0441\u0442\u0435, \u0431\u0435\u0437 \u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043D\u043E\u0433\u043E \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F \u043F\u043E \u0441\u0446\u0435\u043D\u0435."
+    loop: 1
+    historical: 1
+    clip: {fileID: 7400000, guid: f27cadc77c4589f47bed6fd8bf7457d5, type: 2}
+    frames:
+    - {fileID: 1327130621, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: 1650673173, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: 831654898, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: 593404871, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: 885931783, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: 957539192, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: -707142588, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: -1765944770, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: -1832102618, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: -1302147543, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    durationsMs: 64000000640000006400000064000000640000006400000064000000640000006400000064000000i
+  - id: 28
+    key: RearArchive/stop_back_left
+    label: stop_back_left
+    group: "\u0410\u0440\u0445\u0438\u0432 \u2014 \u0441\u043F\u0438\u043D\u0430, \u043F\u0435\u0440\u0432\u0430\u044F \u0432\u0435\u0440\u0441\u0438\u044F"
+    statePath: Base Layer.RearArchive.RearArchive__stop_back_left
+    note: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442. \u041A\u043B\u0438\u043F \u043F\u043E\u043A\u0430\u0437\u0430\u043D \u043D\u0430 \u043C\u0435\u0441\u0442\u0435, \u0431\u0435\u0437 \u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043D\u043E\u0433\u043E \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F \u043F\u043E \u0441\u0446\u0435\u043D\u0435."
+    loop: 0
+    historical: 1
+    clip: {fileID: 7400000, guid: 4cc9a412e7be3e14b80719a422c035c8, type: 2}
+    frames:
+    - {fileID: 1711515472, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: 1181863927, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: -1334919949, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: -197465162, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    - {fileID: -1071833418, guid: 1f57c63f8b788234193103d8815f1964, type: 3}
+    durationsMs: 6400000064000000640000006400000064000000i
+  - id: 29
+    key: RearPolishedArchive/idle_back
+    label: "\u0421\u043F\u0438\u043D\u0430 \u2014 idle"
+    group: "\u0410\u0440\u0445\u0438\u0432 \u2014 \u0441\u043F\u0438\u043D\u0430, \u043F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0430\u044F \u0432\u0435\u0440\u0441\u0438\u044F"
+    statePath: Base Layer.RearPolishedArchive.RearPolishedArchive__idle_back
+    note: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442. \u041A\u043B\u0438\u043F \u043F\u043E\u043A\u0430\u0437\u0430\u043D \u043D\u0430 \u043C\u0435\u0441\u0442\u0435, \u0431\u0435\u0437 \u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043D\u043E\u0433\u043E \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F \u043F\u043E \u0441\u0446\u0435\u043D\u0435."
+    loop: 1
+    historical: 1
+    clip: {fileID: 7400000, guid: 67f7f2b7351efbf479fd6cfc21a7d1c4, type: 2}
+    frames:
+    - {fileID: 1220130350, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 1802567360, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 1464174223, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 1031769667, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    durationsMs: 580200002c0100005802000084030000i
+  - id: 30
+    key: RearPolishedArchive/start_back
+    label: start_back
+    group: "\u0410\u0440\u0445\u0438\u0432 \u2014 \u0441\u043F\u0438\u043D\u0430, \u043F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0430\u044F \u0432\u0435\u0440\u0441\u0438\u044F"
+    statePath: Base Layer.RearPolishedArchive.RearPolishedArchive__start_back
+    note: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442. \u041A\u043B\u0438\u043F \u043F\u043E\u043A\u0430\u0437\u0430\u043D \u043D\u0430 \u043C\u0435\u0441\u0442\u0435, \u0431\u0435\u0437 \u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043D\u043E\u0433\u043E \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F \u043F\u043E \u0441\u0446\u0435\u043D\u0435."
+    loop: 0
+    historical: 1
+    clip: {fileID: 7400000, guid: e258b63eb95538e4e822e300813a4107, type: 2}
+    frames:
+    - {fileID: 768774324, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 1594634142, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -454733655, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -499098160, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 885278652, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -1429558382, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -974632949, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -1719292612, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -265120281, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    durationsMs: 6400000050000000500000003c0000003c0000003c0000003c0000003c0000003c000000i
+  - id: 31
+    key: RearPolishedArchive/walk_back
+    label: "\u0421\u043F\u0438\u043D\u0430 \u2014 \u0445\u043E\u0434\u044C\u0431\u0430"
+    group: "\u0410\u0440\u0445\u0438\u0432 \u2014 \u0441\u043F\u0438\u043D\u0430, \u043F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0430\u044F \u0432\u0435\u0440\u0441\u0438\u044F"
+    statePath: Base Layer.RearPolishedArchive.RearPolishedArchive__walk_back
+    note: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442. \u041A\u043B\u0438\u043F \u043F\u043E\u043A\u0430\u0437\u0430\u043D \u043D\u0430 \u043C\u0435\u0441\u0442\u0435, \u0431\u0435\u0437 \u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043D\u043E\u0433\u043E \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F \u043F\u043E \u0441\u0446\u0435\u043D\u0435."
+    loop: 1
+    historical: 1
+    clip: {fileID: 7400000, guid: 2f3f4cc4ef9e4554d80b70bd12e2b439, type: 2}
+    frames:
+    - {fileID: 1343425698, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -1723763778, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 821833912, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -1472561699, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 659167076, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 510801245, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 1068287232, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 2031171688, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -1655216973, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 392248360, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -1456288782, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -68794314, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -2115682662, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -587054251, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -786354082, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 1113967267, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    durationsMs: 3c0000003c0000003c0000003c0000003c0000003c0000003c0000003c0000003c0000003c0000003c0000003c0000003c0000003c0000003c0000003c000000i
+  - id: 32
+    key: RearPolishedArchive/stop_back
+    label: stop_back
+    group: "\u0410\u0440\u0445\u0438\u0432 \u2014 \u0441\u043F\u0438\u043D\u0430, \u043F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0430\u044F \u0432\u0435\u0440\u0441\u0438\u044F"
+    statePath: Base Layer.RearPolishedArchive.RearPolishedArchive__stop_back
+    note: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442. \u041A\u043B\u0438\u043F \u043F\u043E\u043A\u0430\u0437\u0430\u043D \u043D\u0430 \u043C\u0435\u0441\u0442\u0435, \u0431\u0435\u0437 \u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043D\u043E\u0433\u043E \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F \u043F\u043E \u0441\u0446\u0435\u043D\u0435."
+    loop: 0
+    historical: 1
+    clip: {fileID: 7400000, guid: 15ada918794d24645917029d534c1e78, type: 2}
+    frames:
+    - {fileID: -2111649098, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -663853754, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -1281192089, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -1741020572, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 1735751365, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -460085666, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 585537313, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -845440089, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -2130121783, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    durationsMs: 3c0000003c0000003c0000005000000050000000640000006400000078000000a0000000i
+  - id: 33
+    key: RearPolishedArchive/idle_back_right
+    label: idle_back_right
+    group: "\u0410\u0440\u0445\u0438\u0432 \u2014 \u0441\u043F\u0438\u043D\u0430, \u043F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0430\u044F \u0432\u0435\u0440\u0441\u0438\u044F"
+    statePath: Base Layer.RearPolishedArchive.RearPolishedArchive__idle_back_right
+    note: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442. \u041A\u043B\u0438\u043F \u043F\u043E\u043A\u0430\u0437\u0430\u043D \u043D\u0430 \u043C\u0435\u0441\u0442\u0435, \u0431\u0435\u0437 \u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043D\u043E\u0433\u043E \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F \u043F\u043E \u0441\u0446\u0435\u043D\u0435."
+    loop: 1
+    historical: 1
+    clip: {fileID: 7400000, guid: 7250fc7422fff9546bb1aaea131ccc9d, type: 2}
+    frames:
+    - {fileID: 1645921345, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -1097877936, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 181136418, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 828482860, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    durationsMs: 580200002c0100005802000084030000i
+  - id: 34
+    key: RearPolishedArchive/start_back_right
+    label: start_back_right
+    group: "\u0410\u0440\u0445\u0438\u0432 \u2014 \u0441\u043F\u0438\u043D\u0430, \u043F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0430\u044F \u0432\u0435\u0440\u0441\u0438\u044F"
+    statePath: Base Layer.RearPolishedArchive.RearPolishedArchive__start_back_right
+    note: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442. \u041A\u043B\u0438\u043F \u043F\u043E\u043A\u0430\u0437\u0430\u043D \u043D\u0430 \u043C\u0435\u0441\u0442\u0435, \u0431\u0435\u0437 \u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043D\u043E\u0433\u043E \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F \u043F\u043E \u0441\u0446\u0435\u043D\u0435."
+    loop: 0
+    historical: 1
+    clip: {fileID: 7400000, guid: 482f43138ef90614ba8e31cac7955e8d, type: 2}
+    frames:
+    - {fileID: 485700055, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -1093544570, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -1233862960, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 2126168491, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 977204042, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -1005937044, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -2065254847, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -615170134, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -1753501432, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    durationsMs: 6400000050000000500000003c0000003c0000003c0000003c0000003c0000003c000000i
+  - id: 35
+    key: RearPolishedArchive/walk_back_right
+    label: walk_back_right
+    group: "\u0410\u0440\u0445\u0438\u0432 \u2014 \u0441\u043F\u0438\u043D\u0430, \u043F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0430\u044F \u0432\u0435\u0440\u0441\u0438\u044F"
+    statePath: Base Layer.RearPolishedArchive.RearPolishedArchive__walk_back_right
+    note: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442. \u041A\u043B\u0438\u043F \u043F\u043E\u043A\u0430\u0437\u0430\u043D \u043D\u0430 \u043C\u0435\u0441\u0442\u0435, \u0431\u0435\u0437 \u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043D\u043E\u0433\u043E \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F \u043F\u043E \u0441\u0446\u0435\u043D\u0435."
+    loop: 1
+    historical: 1
+    clip: {fileID: 7400000, guid: 09fea1a9ef8f9744aa84d065c6a7f71c, type: 2}
+    frames:
+    - {fileID: 524032769, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 930689333, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -7996530, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 1557491446, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -276765255, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 451018645, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -328249266, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -298860723, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -1773145837, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -599214411, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 978413175, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 1991073024, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 994763493, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 1214615470, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -835704961, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -1829472533, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    durationsMs: 3c0000003c0000003c0000003c0000003c0000003c0000003c0000003c0000003c0000003c0000003c0000003c0000003c0000003c0000003c0000003c000000i
+  - id: 36
+    key: RearPolishedArchive/stop_back_right
+    label: stop_back_right
+    group: "\u0410\u0440\u0445\u0438\u0432 \u2014 \u0441\u043F\u0438\u043D\u0430, \u043F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0430\u044F \u0432\u0435\u0440\u0441\u0438\u044F"
+    statePath: Base Layer.RearPolishedArchive.RearPolishedArchive__stop_back_right
+    note: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442. \u041A\u043B\u0438\u043F \u043F\u043E\u043A\u0430\u0437\u0430\u043D \u043D\u0430 \u043C\u0435\u0441\u0442\u0435, \u0431\u0435\u0437 \u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043D\u043E\u0433\u043E \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F \u043F\u043E \u0441\u0446\u0435\u043D\u0435."
+    loop: 0
+    historical: 1
+    clip: {fileID: 7400000, guid: 93de305029b8fe548aefaf4f14b5501e, type: 2}
+    frames:
+    - {fileID: -592471864, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -780057524, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 1309669956, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 1409932841, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 1868832265, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -1029378569, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -1154785301, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -460952883, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -1134585383, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    durationsMs: 3c0000003c0000003c0000005000000050000000640000006400000078000000a0000000i
+  - id: 37
+    key: RearPolishedArchive/idle_back_left
+    label: idle_back_left
+    group: "\u0410\u0440\u0445\u0438\u0432 \u2014 \u0441\u043F\u0438\u043D\u0430, \u043F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0430\u044F \u0432\u0435\u0440\u0441\u0438\u044F"
+    statePath: Base Layer.RearPolishedArchive.RearPolishedArchive__idle_back_left
+    note: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442. \u041A\u043B\u0438\u043F \u043F\u043E\u043A\u0430\u0437\u0430\u043D \u043D\u0430 \u043C\u0435\u0441\u0442\u0435, \u0431\u0435\u0437 \u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043D\u043E\u0433\u043E \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F \u043F\u043E \u0441\u0446\u0435\u043D\u0435."
+    loop: 1
+    historical: 1
+    clip: {fileID: 7400000, guid: 076d73ed652f67544bffdf83f2f4b62d, type: 2}
+    frames:
+    - {fileID: 1195971712, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 1504578167, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 1824223206, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 622143074, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    durationsMs: 580200002c0100005802000084030000i
+  - id: 38
+    key: RearPolishedArchive/start_back_left
+    label: start_back_left
+    group: "\u0410\u0440\u0445\u0438\u0432 \u2014 \u0441\u043F\u0438\u043D\u0430, \u043F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0430\u044F \u0432\u0435\u0440\u0441\u0438\u044F"
+    statePath: Base Layer.RearPolishedArchive.RearPolishedArchive__start_back_left
+    note: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442. \u041A\u043B\u0438\u043F \u043F\u043E\u043A\u0430\u0437\u0430\u043D \u043D\u0430 \u043C\u0435\u0441\u0442\u0435, \u0431\u0435\u0437 \u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043D\u043E\u0433\u043E \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F \u043F\u043E \u0441\u0446\u0435\u043D\u0435."
+    loop: 0
+    historical: 1
+    clip: {fileID: 7400000, guid: 02b9815fc78c3714598dd073067204b5, type: 2}
+    frames:
+    - {fileID: 29816, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 1658657460, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -740073245, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -1746938051, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -618588427, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -1211661786, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 575368088, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 612285774, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -1263053026, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    durationsMs: 6400000050000000500000003c0000003c0000003c0000003c0000003c0000003c000000i
+  - id: 39
+    key: RearPolishedArchive/walk_back_left
+    label: walk_back_left
+    group: "\u0410\u0440\u0445\u0438\u0432 \u2014 \u0441\u043F\u0438\u043D\u0430, \u043F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0430\u044F \u0432\u0435\u0440\u0441\u0438\u044F"
+    statePath: Base Layer.RearPolishedArchive.RearPolishedArchive__walk_back_left
+    note: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442. \u041A\u043B\u0438\u043F \u043F\u043E\u043A\u0430\u0437\u0430\u043D \u043D\u0430 \u043C\u0435\u0441\u0442\u0435, \u0431\u0435\u0437 \u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043D\u043E\u0433\u043E \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F \u043F\u043E \u0441\u0446\u0435\u043D\u0435."
+    loop: 1
+    historical: 1
+    clip: {fileID: 7400000, guid: 5ab4b5c4d56eff44287fdf6ce5cd42a9, type: 2}
+    frames:
+    - {fileID: -530334746, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -871880006, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -2055157957, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -1450450348, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -1355325519, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -1909220281, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -1931110377, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -789694468, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -1455554075, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -553313814, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 1530238675, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 989786145, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -1529742606, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -1269841758, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -232648494, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 57005583, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    durationsMs: 3c0000003c0000003c0000003c0000003c0000003c0000003c0000003c0000003c0000003c0000003c0000003c0000003c0000003c0000003c0000003c000000i
+  - id: 40
+    key: RearPolishedArchive/stop_back_left
+    label: stop_back_left
+    group: "\u0410\u0440\u0445\u0438\u0432 \u2014 \u0441\u043F\u0438\u043D\u0430, \u043F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0430\u044F \u0432\u0435\u0440\u0441\u0438\u044F"
+    statePath: Base Layer.RearPolishedArchive.RearPolishedArchive__stop_back_left
+    note: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442. \u041A\u043B\u0438\u043F \u043F\u043E\u043A\u0430\u0437\u0430\u043D \u043D\u0430 \u043C\u0435\u0441\u0442\u0435, \u0431\u0435\u0437 \u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043D\u043E\u0433\u043E \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F \u043F\u043E \u0441\u0446\u0435\u043D\u0435."
+    loop: 0
+    historical: 1
+    clip: {fileID: 7400000, guid: d4be5fbc063c3264ea72b7280d3edeb0, type: 2}
+    frames:
+    - {fileID: 1809708052, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 1748071782, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -509982921, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -273354942, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -1647971435, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 2058690288, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 1146791572, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -416696823, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 543145009, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    durationsMs: 3c0000003c0000003c0000005000000050000000640000006400000078000000a0000000i
+  - id: 41
+    key: RearPolishedArchive/turn_back_right
+    label: turn_back_right
+    group: "\u0410\u0440\u0445\u0438\u0432 \u2014 \u0441\u043F\u0438\u043D\u0430, \u043F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0430\u044F \u0432\u0435\u0440\u0441\u0438\u044F"
+    statePath: Base Layer.RearPolishedArchive.RearPolishedArchive__turn_back_right
+    note: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442. \u041A\u043B\u0438\u043F \u043F\u043E\u043A\u0430\u0437\u0430\u043D \u043D\u0430 \u043C\u0435\u0441\u0442\u0435, \u0431\u0435\u0437 \u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043D\u043E\u0433\u043E \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F \u043F\u043E \u0441\u0446\u0435\u043D\u0435."
+    loop: 0
+    historical: 1
+    clip: {fileID: 7400000, guid: abf41b46ed5ae93439aa89a1b754ebef, type: 2}
+    frames:
+    - {fileID: 1154606191, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -540509829, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 1388967750, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -349561724, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    durationsMs: 50000000500000005000000078000000i
+  - id: 42
+    key: RearPolishedArchive/turn_right_back
+    label: turn_right_back
+    group: "\u0410\u0440\u0445\u0438\u0432 \u2014 \u0441\u043F\u0438\u043D\u0430, \u043F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0430\u044F \u0432\u0435\u0440\u0441\u0438\u044F"
+    statePath: Base Layer.RearPolishedArchive.RearPolishedArchive__turn_right_back
+    note: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442. \u041A\u043B\u0438\u043F \u043F\u043E\u043A\u0430\u0437\u0430\u043D \u043D\u0430 \u043C\u0435\u0441\u0442\u0435, \u0431\u0435\u0437 \u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043D\u043E\u0433\u043E \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F \u043F\u043E \u0441\u0446\u0435\u043D\u0435."
+    loop: 0
+    historical: 1
+    clip: {fileID: 7400000, guid: 9202a7c3c9519e94297ce2b9568b7b83, type: 2}
+    frames:
+    - {fileID: -2067952781, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 1196237542, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -595240501, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -2132086179, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    durationsMs: 50000000500000005000000078000000i
+  - id: 43
+    key: RearPolishedArchive/turn_back_left
+    label: turn_back_left
+    group: "\u0410\u0440\u0445\u0438\u0432 \u2014 \u0441\u043F\u0438\u043D\u0430, \u043F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0430\u044F \u0432\u0435\u0440\u0441\u0438\u044F"
+    statePath: Base Layer.RearPolishedArchive.RearPolishedArchive__turn_back_left
+    note: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442. \u041A\u043B\u0438\u043F \u043F\u043E\u043A\u0430\u0437\u0430\u043D \u043D\u0430 \u043C\u0435\u0441\u0442\u0435, \u0431\u0435\u0437 \u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043D\u043E\u0433\u043E \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F \u043F\u043E \u0441\u0446\u0435\u043D\u0435."
+    loop: 0
+    historical: 1
+    clip: {fileID: 7400000, guid: 6fd1dcc38be7aef498d88c4d2774917d, type: 2}
+    frames:
+    - {fileID: -629348964, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -1264383749, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: -2021108645, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 1933815342, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    durationsMs: 50000000500000005000000078000000i
+  - id: 44
+    key: RearPolishedArchive/turn_left_back
+    label: turn_left_back
+    group: "\u0410\u0440\u0445\u0438\u0432 \u2014 \u0441\u043F\u0438\u043D\u0430, \u043F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0430\u044F \u0432\u0435\u0440\u0441\u0438\u044F"
+    statePath: Base Layer.RearPolishedArchive.RearPolishedArchive__turn_left_back
+    note: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442. \u041A\u043B\u0438\u043F \u043F\u043E\u043A\u0430\u0437\u0430\u043D \u043D\u0430 \u043C\u0435\u0441\u0442\u0435, \u0431\u0435\u0437 \u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043D\u043E\u0433\u043E \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F \u043F\u043E \u0441\u0446\u0435\u043D\u0435."
+    loop: 0
+    historical: 1
+    clip: {fileID: 7400000, guid: c18b9e5bead2aea4e90f8dbfff7eca0a, type: 2}
+    frames:
+    - {fileID: -578845357, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 1094849951, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 1727869684, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    - {fileID: 625253480, guid: 592dcd76169e5af44b645c85b4463b14, type: 3}
+    durationsMs: 50000000500000005000000078000000i
