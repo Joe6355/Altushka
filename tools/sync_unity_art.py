@@ -83,9 +83,10 @@ def main() -> None:
                             width=width, height=height, frames=frames))
 
     packs = [
-        ("RearRedraw", "alisa/rear_key_redraw/Alisa_rear_redrawn.json", "01 Спина — новая основа", False),
-        ("Side", "alisa/side_walk/Alisa_side.json", "02 Боковые ракурсы", False),
-        ("Front", "alisa/motion_next/Alisa_motion_next.json", "03 Передние диагонали и танец", False),
+        ("Polished", "alisa/motion_polish/Alisa_motion_polished.json", "01 Новые анимации — 8 направлений", False),
+        ("RearRedraw", "alisa/rear_key_redraw/Alisa_rear_redrawn.json", "Архив — задняя основа", True),
+        ("Side", "alisa/side_walk/Alisa_side.json", "Архив — боковые ракурсы", True),
+        ("Front", "alisa/motion_next/Alisa_motion_next.json", "Архив — передние диагонали", True),
         ("RearArchive", "alisa/back_walk/Alisa_back.json", "Архив — спина, первая версия", True),
         ("RearPolishedArchive", "alisa/back_walk_polished/Alisa_back_polished.json", "Архив — спина, предыдущая версия", True),
     ]
@@ -103,23 +104,29 @@ def main() -> None:
             for index in indices:
                 frames[index].update(pivotX=pivot["x"], pivotY=pivot["y"])
             note = ""
-            if historical:
+            clip_historical = historical
+            clip_group = group
+            if key == "Front" and tag['name'] == "dance_original":
+                clip_historical = False
+                clip_group = "02 Исходный танец"
+                note = "Исходный танец сохранён без изменения кадров и задержек."
+            elif key == "Polished":
+                note = "Новые позы 36×86. Восемь направлений; фаза шага сохраняется при повороте."
+            elif historical:
                 note = "Предыдущий эксперимент. Клип показан на месте, без записанного перемещения по сцене."
-            elif key == "RearRedraw":
-                note = "Новая задняя основа: 36×86, восемь кадров по 120 мс. Проверка на месте."
-            add_clip(f"{key}/{tag['name']}", LABELS.get(tag["name"], tag["name"]), group,
+            add_clip(f"{key}/{tag['name']}", tag.get("label", LABELS.get(tag["name"], tag["name"])), clip_group,
                      key, indices, [data["frames"][i]["duration"] for i in indices],
-                     tag.get("loop", tag.get("repeat", 0) == 0), historical, note)
+                     tag.get("loop", tag.get("repeat", 0) == 0), clip_historical, note)
         add_atlas(key, (path.parent / data["meta"]["image"]).relative_to(ROOT), frames)
         if key == "Front":
             front_data = data
 
-    # The rear redraw has no new idle yet. Keep its source stand explicitly labelled.
+    # Preserve the previous stand for comparison with the new four-cel rear idle.
     add_atlas("RearStand", "alisa/back_walk/source/Back_native.png",
               [dict(x=0, y=0, w=36, h=86, pivotX=18, pivotY=85)])
-    add_clip("RearStand/idle", "Спина — исходная стойка (один кадр)", "01 Спина — новая основа",
-             "RearStand", [0], [1000], True,
-             note="Исходная неподвижная стойка. Отдельный новый idle со спины ещё не нарисован.")
+    add_clip("RearStand/idle", "Спина — исходная стойка (один кадр)", "Архив — задняя основа",
+             "RearStand", [0], [1000], True, historical=True,
+             note="Предыдущая неподвижная стойка для сравнения.")
 
     dance_tag = next(t for t in front_data["meta"]["frameTags"] if t["name"] == "dance_original")
     dance_durations = [front_data["frames"][i]["duration"]
@@ -129,7 +136,7 @@ def main() -> None:
         frames = [dict(x=(i % 10) * 36, y=(i // 10) * 86, w=36, h=86, pivotX=15, pivotY=85)
                   for i in range(40)]
         add_atlas(key, f"recolor/{colour}_eyes/Altushka_{colour}_atlas.png", frames)
-        add_clip(f"{key}/dance", f"Исходный танец — {label} глаза", "04 Варианты глаз",
+        add_clip(f"{key}/dance", f"Исходный танец — {label} глаза", "03 Варианты глаз",
                  key, list(range(5, 40)) + list(range(5)), dance_durations, True,
                  note="Сохранённый вариант исходного танца. Ходьба использует основной скин с голубыми глазами.")
 
@@ -137,7 +144,7 @@ def main() -> None:
     copy_if_changed(background, DEST / "Environment/Alisa_scene_background.png")
     clips.sort(key=lambda clip: (clip["historical"], clip["group"]))
     result = dict(nativeWidth=36, nativeHeight=86, pixelsPerUnit=16,
-                  defaultKey="RearRedraw/walk_back", atlases=atlases, clips=clips)
+                  defaultKey="Polished/idle_s", atlases=atlases, clips=clips)
     encoded = json.dumps(result, ensure_ascii=False, indent=2) + "\n"
     if not MANIFEST.exists() or MANIFEST.read_text("utf-8") != encoded:
         MANIFEST.write_text(encoded, encoding="utf-8", newline="\n")

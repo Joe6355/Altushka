@@ -32,14 +32,16 @@ namespace AlisaGame
             if (Current == null && library != null) Select(library.defaultKey);
         }
 
-        public void Select(string key)
+        public void Select(string key, bool preservePhase = false)
         {
             var entry = library != null ? library.Find(key) : null;
             if (entry == null) return;
             if (Animator == null) Animator = GetComponent<Animator>();
+            float phase = preservePhase && Current != null && Current.loop && entry.loop && Current.Duration > 0f
+                ? TimeInClip / Current.Duration : 0f;
             Current = entry;
             Animator.SetInteger(AnimationIndex, entry.id);
-            Animator.Play(entry.StateHash, 0, 0f);
+            Animator.Play(entry.StateHash, 0, phase);
             Animator.Update(0f);
             ApplySpeed();
         }

@@ -12,293 +12,286 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75e3df4e8fd2ff74ca3a5bdba718502e, type: 3}
   m_Name: AlisaLibrary
   m_EditorClassIdentifier: Assembly-CSharp::AlisaGame.AlisaAnimationLibrary
-  defaultKey: RearRedraw/walk_back
+  defaultKey: Polished/idle_s
   entries:
-  - id: 1
-    key: RearRedraw/key_poses_back
-    label: "\u0421\u043F\u0438\u043D\u0430 \u2014 \u0447\u0435\u0442\u044B\u0440\u0435 \u043E\u043F\u043E\u0440\u043D\u044B\u0435 \u043F\u043E\u0437\u044B"
-    group: "01 \u0421\u043F\u0438\u043D\u0430 \u2014 \u043D\u043E\u0432\u0430\u044F \u043E\u0441\u043D\u043E\u0432\u0430"
-    statePath: Base Layer.Rear.RearRedraw__key_poses_back
-    note: "\u041D\u043E\u0432\u0430\u044F \u0437\u0430\u0434\u043D\u044F\u044F \u043E\u0441\u043D\u043E\u0432\u0430: 36\xD786, \u0432\u043E\u0441\u0435\u043C\u044C \u043A\u0430\u0434\u0440\u043E\u0432 \u043F\u043E 120 \u043C\u0441. \u041F\u0440\u043E\u0432\u0435\u0440\u043A\u0430 \u043D\u0430 \u043C\u0435\u0441\u0442\u0435."
-    loop: 0
-    historical: 0
-    clip: {fileID: 7400000, guid: 654c6a8a4185def4cbfd9e7fd2534f5a, type: 2}
-    frames:
-    - {fileID: -588873678, guid: e62091c36ee268e4bab8b0a56e3e95ea, type: 3}
-    - {fileID: 985920821, guid: e62091c36ee268e4bab8b0a56e3e95ea, type: 3}
-    - {fileID: 336508367, guid: e62091c36ee268e4bab8b0a56e3e95ea, type: 3}
-    - {fileID: -307034220, guid: e62091c36ee268e4bab8b0a56e3e95ea, type: 3}
-    durationsMs: f0000000f0000000f0000000f0000000i
-  - id: 2
-    key: RearRedraw/walk_back
-    label: "\u0421\u043F\u0438\u043D\u0430 \u2014 \u0445\u043E\u0434\u044C\u0431\u0430"
-    group: "01 \u0421\u043F\u0438\u043D\u0430 \u2014 \u043D\u043E\u0432\u0430\u044F \u043E\u0441\u043D\u043E\u0432\u0430"
-    statePath: Base Layer.Rear.RearRedraw__walk_back
-    note: "\u041D\u043E\u0432\u0430\u044F \u0437\u0430\u0434\u043D\u044F\u044F \u043E\u0441\u043D\u043E\u0432\u0430: 36\xD786, \u0432\u043E\u0441\u0435\u043C\u044C \u043A\u0430\u0434\u0440\u043E\u0432 \u043F\u043E 120 \u043C\u0441. \u041F\u0440\u043E\u0432\u0435\u0440\u043A\u0430 \u043D\u0430 \u043C\u0435\u0441\u0442\u0435."
+  - id: 48
+    key: Polished/idle_s
+    label: "\u0412\u043D\u0438\u0437 \u2014 idle"
+    group: "01 \u041D\u043E\u0432\u044B\u0435 \u0430\u043D\u0438\u043C\u0430\u0446\u0438\u0438 \u2014 8 \u043D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0439"
+    statePath: Base Layer.Polished.Polished__idle_s
+    note: "\u041D\u043E\u0432\u044B\u0435 \u043F\u043E\u0437\u044B 36\xD786. \u0412\u043E\u0441\u0435\u043C\u044C \u043D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0439; \u0444\u0430\u0437\u0430 \u0448\u0430\u0433\u0430 \u0441\u043E\u0445\u0440\u0430\u043D\u044F\u0435\u0442\u0441\u044F \u043F\u0440\u0438 \u043F\u043E\u0432\u043E\u0440\u043E\u0442\u0435."
     loop: 1
     historical: 0
-    clip: {fileID: 7400000, guid: cddaacb2adfe0214398ecfc16fbc9f97, type: 2}
+    clip: {fileID: 7400000, guid: 896150ea614a7834f85a5addacb1a9e3, type: 2}
     frames:
-    - {fileID: 451590772, guid: e62091c36ee268e4bab8b0a56e3e95ea, type: 3}
-    - {fileID: 488264626, guid: e62091c36ee268e4bab8b0a56e3e95ea, type: 3}
-    - {fileID: 174541845, guid: e62091c36ee268e4bab8b0a56e3e95ea, type: 3}
-    - {fileID: 262452921, guid: e62091c36ee268e4bab8b0a56e3e95ea, type: 3}
-    - {fileID: 732156209, guid: e62091c36ee268e4bab8b0a56e3e95ea, type: 3}
-    - {fileID: -862420218, guid: e62091c36ee268e4bab8b0a56e3e95ea, type: 3}
-    - {fileID: 364408304, guid: e62091c36ee268e4bab8b0a56e3e95ea, type: 3}
-    - {fileID: -45577380, guid: e62091c36ee268e4bab8b0a56e3e95ea, type: 3}
-    durationsMs: 7800000078000000780000007800000078000000780000007800000078000000i
-  - id: 45
-    key: RearStand/idle
-    label: "\u0421\u043F\u0438\u043D\u0430 \u2014 \u0438\u0441\u0445\u043E\u0434\u043D\u0430\u044F \u0441\u0442\u043E\u0439\u043A\u0430 (\u043E\u0434\u0438\u043D \u043A\u0430\u0434\u0440)"
-    group: "01 \u0421\u043F\u0438\u043D\u0430 \u2014 \u043D\u043E\u0432\u0430\u044F \u043E\u0441\u043D\u043E\u0432\u0430"
-    statePath: Base Layer.Rear.RearStand__idle
-    note: "\u0418\u0441\u0445\u043E\u0434\u043D\u0430\u044F \u043D\u0435\u043F\u043E\u0434\u0432\u0438\u0436\u043D\u0430\u044F \u0441\u0442\u043E\u0439\u043A\u0430. \u041E\u0442\u0434\u0435\u043B\u044C\u043D\u044B\u0439 \u043D\u043E\u0432\u044B\u0439 idle \u0441\u043E \u0441\u043F\u0438\u043D\u044B \u0435\u0449\u0451 \u043D\u0435 \u043D\u0430\u0440\u0438\u0441\u043E\u0432\u0430\u043D."
+    - {fileID: -1085110500, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: 548639659, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: -1703069960, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: -1722851011, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    durationsMs: 840300009001000064000000e8030000i
+  - id: 49
+    key: Polished/walk_s
+    label: "\u0412\u043D\u0438\u0437 \u2014 \u0445\u043E\u0434\u044C\u0431\u0430"
+    group: "01 \u041D\u043E\u0432\u044B\u0435 \u0430\u043D\u0438\u043C\u0430\u0446\u0438\u0438 \u2014 8 \u043D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0439"
+    statePath: Base Layer.Polished.Polished__walk_s
+    note: "\u041D\u043E\u0432\u044B\u0435 \u043F\u043E\u0437\u044B 36\xD786. \u0412\u043E\u0441\u0435\u043C\u044C \u043D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0439; \u0444\u0430\u0437\u0430 \u0448\u0430\u0433\u0430 \u0441\u043E\u0445\u0440\u0430\u043D\u044F\u0435\u0442\u0441\u044F \u043F\u0440\u0438 \u043F\u043E\u0432\u043E\u0440\u043E\u0442\u0435."
     loop: 1
     historical: 0
-    clip: {fileID: 7400000, guid: 35de1231dd709d24fb6c7f556ce24f6b, type: 2}
+    clip: {fileID: 7400000, guid: 8d65fe5e28d771049b9326c64fadb0fb, type: 2}
     frames:
-    - {fileID: 133847992, guid: 28627cfa8f4fbed4f9ca42ba6b09cc2a, type: 3}
-    durationsMs: e8030000i
-  - id: 3
-    key: Side/idle_side_right
-    label: "\u0411\u043E\u043A \u0432\u043F\u0440\u0430\u0432\u043E \u2014 idle"
-    group: "02 \u0411\u043E\u043A\u043E\u0432\u044B\u0435 \u0440\u0430\u043A\u0443\u0440\u0441\u044B"
-    statePath: Base Layer.Side.Side__idle_side_right
-    note: 
+    - {fileID: -1143089937, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: -775403826, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: 939935902, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: 2145656331, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: 427083174, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: 629525799, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: -1189304908, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: -167000241, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    durationsMs: 6400000064000000640000006400000064000000640000006400000064000000i
+  - id: 50
+    key: Polished/idle_se
+    label: "\u0412\u043D\u0438\u0437-\u0432\u043F\u0440\u0430\u0432\u043E \u2014 idle"
+    group: "01 \u041D\u043E\u0432\u044B\u0435 \u0430\u043D\u0438\u043C\u0430\u0446\u0438\u0438 \u2014 8 \u043D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0439"
+    statePath: Base Layer.Polished.Polished__idle_se
+    note: "\u041D\u043E\u0432\u044B\u0435 \u043F\u043E\u0437\u044B 36\xD786. \u0412\u043E\u0441\u0435\u043C\u044C \u043D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0439; \u0444\u0430\u0437\u0430 \u0448\u0430\u0433\u0430 \u0441\u043E\u0445\u0440\u0430\u043D\u044F\u0435\u0442\u0441\u044F \u043F\u0440\u0438 \u043F\u043E\u0432\u043E\u0440\u043E\u0442\u0435."
     loop: 1
     historical: 0
-    clip: {fileID: 7400000, guid: c6adcf5777331214baa93d2004f2c6d2, type: 2}
+    clip: {fileID: 7400000, guid: c2f2c0bb2d2a49947ad4b5a7b8342689, type: 2}
     frames:
-    - {fileID: 1037318365, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
-    - {fileID: 134247458, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
-    - {fileID: -657989432, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
-    - {fileID: -931819354, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
-    durationsMs: 580200002c0100005802000084030000i
-  - id: 4
-    key: Side/walk_side_right
-    label: "\u0411\u043E\u043A \u0432\u043F\u0440\u0430\u0432\u043E \u2014 \u0445\u043E\u0434\u044C\u0431\u0430"
-    group: "02 \u0411\u043E\u043A\u043E\u0432\u044B\u0435 \u0440\u0430\u043A\u0443\u0440\u0441\u044B"
-    statePath: Base Layer.Side.Side__walk_side_right
-    note: 
+    - {fileID: 757219627, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: 1825187033, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: 577405917, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: 1599901291, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    durationsMs: 840300009001000064000000e8030000i
+  - id: 51
+    key: Polished/walk_se
+    label: "\u0412\u043D\u0438\u0437-\u0432\u043F\u0440\u0430\u0432\u043E \u2014 \u0445\u043E\u0434\u044C\u0431\u0430"
+    group: "01 \u041D\u043E\u0432\u044B\u0435 \u0430\u043D\u0438\u043C\u0430\u0446\u0438\u0438 \u2014 8 \u043D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0439"
+    statePath: Base Layer.Polished.Polished__walk_se
+    note: "\u041D\u043E\u0432\u044B\u0435 \u043F\u043E\u0437\u044B 36\xD786. \u0412\u043E\u0441\u0435\u043C\u044C \u043D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0439; \u0444\u0430\u0437\u0430 \u0448\u0430\u0433\u0430 \u0441\u043E\u0445\u0440\u0430\u043D\u044F\u0435\u0442\u0441\u044F \u043F\u0440\u0438 \u043F\u043E\u0432\u043E\u0440\u043E\u0442\u0435."
     loop: 1
     historical: 0
-    clip: {fileID: 7400000, guid: 7a2afb6927263424cba7705651b7ecd8, type: 2}
+    clip: {fileID: 7400000, guid: 937bec457c151d64aba54d884f46b843, type: 2}
     frames:
-    - {fileID: 51961249, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
-    - {fileID: -875102050, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
-    - {fileID: -913983980, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
-    - {fileID: -1481053336, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
-    - {fileID: 3572517, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
-    - {fileID: 1931667401, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
-    - {fileID: 2015070843, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
-    - {fileID: -864799172, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
-    - {fileID: -517189495, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
-    - {fileID: 710556246, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
-    durationsMs: 64000000640000006400000064000000640000006400000064000000640000006400000064000000i
-  - id: 5
-    key: Side/idle_side_left
-    label: "\u0411\u043E\u043A \u0432\u043B\u0435\u0432\u043E \u2014 idle"
-    group: "02 \u0411\u043E\u043A\u043E\u0432\u044B\u0435 \u0440\u0430\u043A\u0443\u0440\u0441\u044B"
-    statePath: Base Layer.Side.Side__idle_side_left
-    note: 
+    - {fileID: 1249127845, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: -1519112916, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: -1565503364, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: -201620970, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: -1412956789, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: -796597788, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: 1145771652, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: -2039701654, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    durationsMs: 6400000064000000640000006400000064000000640000006400000064000000i
+  - id: 52
+    key: Polished/idle_e
+    label: "\u0412\u043F\u0440\u0430\u0432\u043E \u2014 idle"
+    group: "01 \u041D\u043E\u0432\u044B\u0435 \u0430\u043D\u0438\u043C\u0430\u0446\u0438\u0438 \u2014 8 \u043D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0439"
+    statePath: Base Layer.Polished.Polished__idle_e
+    note: "\u041D\u043E\u0432\u044B\u0435 \u043F\u043E\u0437\u044B 36\xD786. \u0412\u043E\u0441\u0435\u043C\u044C \u043D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0439; \u0444\u0430\u0437\u0430 \u0448\u0430\u0433\u0430 \u0441\u043E\u0445\u0440\u0430\u043D\u044F\u0435\u0442\u0441\u044F \u043F\u0440\u0438 \u043F\u043E\u0432\u043E\u0440\u043E\u0442\u0435."
     loop: 1
     historical: 0
-    clip: {fileID: 7400000, guid: 249439d5443dcfa4cb8a6f91a3fd9602, type: 2}
+    clip: {fileID: 7400000, guid: 9385d98f2f441fb4e965e2c2fb254fe7, type: 2}
     frames:
-    - {fileID: 1740208605, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
-    - {fileID: 584047684, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
-    - {fileID: 163974630, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
-    - {fileID: -243611972, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
-    durationsMs: 580200002c0100005802000084030000i
-  - id: 6
-    key: Side/walk_side_left
-    label: "\u0411\u043E\u043A \u0432\u043B\u0435\u0432\u043E \u2014 \u0445\u043E\u0434\u044C\u0431\u0430"
-    group: "02 \u0411\u043E\u043A\u043E\u0432\u044B\u0435 \u0440\u0430\u043A\u0443\u0440\u0441\u044B"
-    statePath: Base Layer.Side.Side__walk_side_left
-    note: 
+    - {fileID: 790255100, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: 685399407, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: -924325027, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: -559357590, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    durationsMs: 840300009001000064000000e8030000i
+  - id: 53
+    key: Polished/walk_e
+    label: "\u0412\u043F\u0440\u0430\u0432\u043E \u2014 \u0445\u043E\u0434\u044C\u0431\u0430"
+    group: "01 \u041D\u043E\u0432\u044B\u0435 \u0430\u043D\u0438\u043C\u0430\u0446\u0438\u0438 \u2014 8 \u043D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0439"
+    statePath: Base Layer.Polished.Polished__walk_e
+    note: "\u041D\u043E\u0432\u044B\u0435 \u043F\u043E\u0437\u044B 36\xD786. \u0412\u043E\u0441\u0435\u043C\u044C \u043D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0439; \u0444\u0430\u0437\u0430 \u0448\u0430\u0433\u0430 \u0441\u043E\u0445\u0440\u0430\u043D\u044F\u0435\u0442\u0441\u044F \u043F\u0440\u0438 \u043F\u043E\u0432\u043E\u0440\u043E\u0442\u0435."
     loop: 1
     historical: 0
-    clip: {fileID: 7400000, guid: 9b78ae476c03dfe45aa92bff032520b6, type: 2}
+    clip: {fileID: 7400000, guid: 6ce06c596d42a2b44bd443beaf8cede3, type: 2}
     frames:
-    - {fileID: 1490774204, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
-    - {fileID: -1320366415, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
-    - {fileID: 1295222691, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
-    - {fileID: 959005145, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
-    - {fileID: -1362142621, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
-    - {fileID: 1748696995, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
-    - {fileID: 506626341, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
-    - {fileID: -597960494, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
-    - {fileID: -1022086769, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
-    - {fileID: -42635281, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
-    durationsMs: 64000000640000006400000064000000640000006400000064000000640000006400000064000000i
-  - id: 7
-    key: Front/idle_left
-    label: "\u041F\u0435\u0440\u0435\u0434\u043D\u044F\u044F \u043B\u0435\u0432\u0430\u044F \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u044C \u2014 idle"
-    group: "03 \u041F\u0435\u0440\u0435\u0434\u043D\u0438\u0435 \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u0438 \u0438 \u0442\u0430\u043D\u0435\u0446"
-    statePath: Base Layer.Front.Front__idle_left
-    note: 
+    - {fileID: -883231496, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: -378189411, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: 788873177, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: -756210497, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: 1751534887, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: -323813566, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: -1625034259, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: 490633474, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    durationsMs: 6400000064000000640000006400000064000000640000006400000064000000i
+  - id: 54
+    key: Polished/idle_ne
+    label: "\u0412\u0432\u0435\u0440\u0445-\u0432\u043F\u0440\u0430\u0432\u043E \u2014 idle"
+    group: "01 \u041D\u043E\u0432\u044B\u0435 \u0430\u043D\u0438\u043C\u0430\u0446\u0438\u0438 \u2014 8 \u043D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0439"
+    statePath: Base Layer.Polished.Polished__idle_ne
+    note: "\u041D\u043E\u0432\u044B\u0435 \u043F\u043E\u0437\u044B 36\xD786. \u0412\u043E\u0441\u0435\u043C\u044C \u043D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0439; \u0444\u0430\u0437\u0430 \u0448\u0430\u0433\u0430 \u0441\u043E\u0445\u0440\u0430\u043D\u044F\u0435\u0442\u0441\u044F \u043F\u0440\u0438 \u043F\u043E\u0432\u043E\u0440\u043E\u0442\u0435."
     loop: 1
     historical: 0
-    clip: {fileID: 7400000, guid: ab2dd1f3336017e4dbc18672b532ebbf, type: 2}
+    clip: {fileID: 7400000, guid: c0cdaa10c6e0fec468bc9b3f327b2cd2, type: 2}
     frames:
-    - {fileID: 1651025062, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: 904756079, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: 2106915003, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: -1833213677, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: 1498983177, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: 140281119, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: -1103350367, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: -837640839, guid: b46893a1114c74945be012be96372459, type: 3}
-    durationsMs: f4010000c8000000c8000000f4010000c8000000c8000000c800000090010000i
-  - id: 8
-    key: Front/start_left
-    label: "\u041F\u0435\u0440\u0435\u0434\u043D\u044F\u044F \u043B\u0435\u0432\u0430\u044F \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u044C \u2014 \u0441\u0442\u0430\u0440\u0442"
-    group: "03 \u041F\u0435\u0440\u0435\u0434\u043D\u0438\u0435 \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u0438 \u0438 \u0442\u0430\u043D\u0435\u0446"
-    statePath: Base Layer.Front.Front__start_left
-    note: 
-    loop: 0
-    historical: 0
-    clip: {fileID: 7400000, guid: 2f3b5f2f58dd1a84f86284cb8acb2cc3, type: 2}
-    frames:
-    - {fileID: 167701610, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: 519399994, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: 407252535, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: -66511292, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: -596854305, guid: b46893a1114c74945be012be96372459, type: 3}
-    durationsMs: 6400000064000000640000006400000064000000i
-  - id: 9
-    key: Front/walk_left
-    label: "\u041F\u0435\u0440\u0435\u0434\u043D\u044F\u044F \u043B\u0435\u0432\u0430\u044F \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u044C \u2014 \u0445\u043E\u0434\u044C\u0431\u0430"
-    group: "03 \u041F\u0435\u0440\u0435\u0434\u043D\u0438\u0435 \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u0438 \u0438 \u0442\u0430\u043D\u0435\u0446"
-    statePath: Base Layer.Front.Front__walk_left
-    note: 
+    - {fileID: -998373761, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: -2142624951, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: 2060990637, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: -1083426492, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    durationsMs: 840300009001000064000000e8030000i
+  - id: 55
+    key: Polished/walk_ne
+    label: "\u0412\u0432\u0435\u0440\u0445-\u0432\u043F\u0440\u0430\u0432\u043E \u2014 \u0445\u043E\u0434\u044C\u0431\u0430"
+    group: "01 \u041D\u043E\u0432\u044B\u0435 \u0430\u043D\u0438\u043C\u0430\u0446\u0438\u0438 \u2014 8 \u043D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0439"
+    statePath: Base Layer.Polished.Polished__walk_ne
+    note: "\u041D\u043E\u0432\u044B\u0435 \u043F\u043E\u0437\u044B 36\xD786. \u0412\u043E\u0441\u0435\u043C\u044C \u043D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0439; \u0444\u0430\u0437\u0430 \u0448\u0430\u0433\u0430 \u0441\u043E\u0445\u0440\u0430\u043D\u044F\u0435\u0442\u0441\u044F \u043F\u0440\u0438 \u043F\u043E\u0432\u043E\u0440\u043E\u0442\u0435."
     loop: 1
     historical: 0
-    clip: {fileID: 7400000, guid: 477ccc46b786b2b4bbe0d86d744366c4, type: 2}
+    clip: {fileID: 7400000, guid: 953889fdd303b12479cc5269a0dd07db, type: 2}
     frames:
-    - {fileID: -853542939, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: -1492022159, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: 1922319939, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: 2008694349, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: 1238519901, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: -1703865666, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: 1484853863, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: -1938165318, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: -910471585, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: -168633769, guid: b46893a1114c74945be012be96372459, type: 3}
-    durationsMs: 64000000640000006400000064000000640000006400000064000000640000006400000064000000i
-  - id: 10
-    key: Front/stop_left
-    label: "\u041F\u0435\u0440\u0435\u0434\u043D\u044F\u044F \u043B\u0435\u0432\u0430\u044F \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u044C \u2014 \u043E\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430"
-    group: "03 \u041F\u0435\u0440\u0435\u0434\u043D\u0438\u0435 \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u0438 \u0438 \u0442\u0430\u043D\u0435\u0446"
-    statePath: Base Layer.Front.Front__stop_left
-    note: 
-    loop: 0
-    historical: 0
-    clip: {fileID: 7400000, guid: cdf6a07924288124985251a92ff971b2, type: 2}
-    frames:
-    - {fileID: -1300898715, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: -1602283212, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: 983629464, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: 1524829066, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: 1978747584, guid: b46893a1114c74945be012be96372459, type: 3}
-    durationsMs: 6400000064000000640000006400000064000000i
-  - id: 11
-    key: Front/turn_left_right
-    label: "\u041F\u0435\u0440\u0435\u0434\u043D\u0438\u0439 \u0440\u0430\u043A\u0443\u0440\u0441 \u2014 \u0441\u043C\u0435\u043D\u0430 \u0441\u0442\u043E\u0440\u043E\u043D\u044B"
-    group: "03 \u041F\u0435\u0440\u0435\u0434\u043D\u0438\u0435 \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u0438 \u0438 \u0442\u0430\u043D\u0435\u0446"
-    statePath: Base Layer.Front.Front__turn_left_right
-    note: 
-    loop: 0
-    historical: 0
-    clip: {fileID: 7400000, guid: 51759fc644d9d3742af74fe697165af6, type: 2}
-    frames:
-    - {fileID: -1165331084, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: 228273676, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: -1141922739, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: 929154192, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: -1206935079, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: -2034114706, guid: b46893a1114c74945be012be96372459, type: 3}
-    durationsMs: 640000006400000064000000640000006400000064000000i
-  - id: 12
-    key: Front/idle_right
-    label: "\u041F\u0435\u0440\u0435\u0434\u043D\u044F\u044F \u043F\u0440\u0430\u0432\u0430\u044F \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u044C \u2014 idle"
-    group: "03 \u041F\u0435\u0440\u0435\u0434\u043D\u0438\u0435 \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u0438 \u0438 \u0442\u0430\u043D\u0435\u0446"
-    statePath: Base Layer.Front.Front__idle_right
-    note: 
+    - {fileID: -696949508, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: -1156942960, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: 1421596501, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: -2078218673, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: 1744402003, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: -833253452, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: 1640430167, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: -2147079699, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    durationsMs: 6400000064000000640000006400000064000000640000006400000064000000i
+  - id: 56
+    key: Polished/idle_n
+    label: "\u0412\u0432\u0435\u0440\u0445 \u2014 idle"
+    group: "01 \u041D\u043E\u0432\u044B\u0435 \u0430\u043D\u0438\u043C\u0430\u0446\u0438\u0438 \u2014 8 \u043D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0439"
+    statePath: Base Layer.Polished.Polished__idle_n
+    note: "\u041D\u043E\u0432\u044B\u0435 \u043F\u043E\u0437\u044B 36\xD786. \u0412\u043E\u0441\u0435\u043C\u044C \u043D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0439; \u0444\u0430\u0437\u0430 \u0448\u0430\u0433\u0430 \u0441\u043E\u0445\u0440\u0430\u043D\u044F\u0435\u0442\u0441\u044F \u043F\u0440\u0438 \u043F\u043E\u0432\u043E\u0440\u043E\u0442\u0435."
     loop: 1
     historical: 0
-    clip: {fileID: 7400000, guid: ce98e90d862271d4987804793b9e471f, type: 2}
+    clip: {fileID: 7400000, guid: 9bb1f969e39360d4cb369d62489e898a, type: 2}
     frames:
-    - {fileID: 739976803, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: -1976347639, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: -513607142, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: -521969751, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: 2022184585, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: -64525314, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: 209873934, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: -1697037918, guid: b46893a1114c74945be012be96372459, type: 3}
-    durationsMs: f4010000c8000000c8000000f4010000c8000000c8000000c800000090010000i
-  - id: 13
-    key: Front/start_right
-    label: "\u041F\u0435\u0440\u0435\u0434\u043D\u044F\u044F \u043F\u0440\u0430\u0432\u0430\u044F \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u044C \u2014 \u0441\u0442\u0430\u0440\u0442"
-    group: "03 \u041F\u0435\u0440\u0435\u0434\u043D\u0438\u0435 \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u0438 \u0438 \u0442\u0430\u043D\u0435\u0446"
-    statePath: Base Layer.Front.Front__start_right
-    note: 
-    loop: 0
-    historical: 0
-    clip: {fileID: 7400000, guid: b87555ab76654c64e8fac99bb7a21d76, type: 2}
-    frames:
-    - {fileID: 1206173997, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: -550392971, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: -158501018, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: 399925796, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: -12312930, guid: b46893a1114c74945be012be96372459, type: 3}
-    durationsMs: 6400000064000000640000006400000064000000i
-  - id: 14
-    key: Front/walk_right
-    label: "\u041F\u0435\u0440\u0435\u0434\u043D\u044F\u044F \u043F\u0440\u0430\u0432\u0430\u044F \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u044C \u2014 \u0445\u043E\u0434\u044C\u0431\u0430"
-    group: "03 \u041F\u0435\u0440\u0435\u0434\u043D\u0438\u0435 \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u0438 \u0438 \u0442\u0430\u043D\u0435\u0446"
-    statePath: Base Layer.Front.Front__walk_right
-    note: 
+    - {fileID: 370559601, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: -2077849668, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: 1080683418, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: -1217944558, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    durationsMs: 840300009001000064000000e8030000i
+  - id: 57
+    key: Polished/walk_n
+    label: "\u0412\u0432\u0435\u0440\u0445 \u2014 \u0445\u043E\u0434\u044C\u0431\u0430"
+    group: "01 \u041D\u043E\u0432\u044B\u0435 \u0430\u043D\u0438\u043C\u0430\u0446\u0438\u0438 \u2014 8 \u043D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0439"
+    statePath: Base Layer.Polished.Polished__walk_n
+    note: "\u041D\u043E\u0432\u044B\u0435 \u043F\u043E\u0437\u044B 36\xD786. \u0412\u043E\u0441\u0435\u043C\u044C \u043D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0439; \u0444\u0430\u0437\u0430 \u0448\u0430\u0433\u0430 \u0441\u043E\u0445\u0440\u0430\u043D\u044F\u0435\u0442\u0441\u044F \u043F\u0440\u0438 \u043F\u043E\u0432\u043E\u0440\u043E\u0442\u0435."
     loop: 1
     historical: 0
-    clip: {fileID: 7400000, guid: 677171c21e2ed9c41b30ff4789569a47, type: 2}
+    clip: {fileID: 7400000, guid: b72630f429d87fd4e8b7ad7c4a6670d9, type: 2}
     frames:
-    - {fileID: 157595727, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: 1382685978, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: 375101874, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: 2083232611, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: -989191940, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: -1251625297, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: -1789026894, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: 240351289, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: -1804805908, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: -1978094082, guid: b46893a1114c74945be012be96372459, type: 3}
-    durationsMs: 64000000640000006400000064000000640000006400000064000000640000006400000064000000i
-  - id: 15
-    key: Front/stop_right
-    label: "\u041F\u0435\u0440\u0435\u0434\u043D\u044F\u044F \u043F\u0440\u0430\u0432\u0430\u044F \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u044C \u2014 \u043E\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430"
-    group: "03 \u041F\u0435\u0440\u0435\u0434\u043D\u0438\u0435 \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u0438 \u0438 \u0442\u0430\u043D\u0435\u0446"
-    statePath: Base Layer.Front.Front__stop_right
-    note: 
-    loop: 0
+    - {fileID: 826103186, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: -1812361781, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: 1836357965, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: -1874361267, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: 1308055854, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: -366245424, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: -641677708, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: 1802859898, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    durationsMs: 6400000064000000640000006400000064000000640000006400000064000000i
+  - id: 58
+    key: Polished/idle_nw
+    label: "\u0412\u0432\u0435\u0440\u0445-\u0432\u043B\u0435\u0432\u043E \u2014 idle"
+    group: "01 \u041D\u043E\u0432\u044B\u0435 \u0430\u043D\u0438\u043C\u0430\u0446\u0438\u0438 \u2014 8 \u043D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0439"
+    statePath: Base Layer.Polished.Polished__idle_nw
+    note: "\u041D\u043E\u0432\u044B\u0435 \u043F\u043E\u0437\u044B 36\xD786. \u0412\u043E\u0441\u0435\u043C\u044C \u043D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0439; \u0444\u0430\u0437\u0430 \u0448\u0430\u0433\u0430 \u0441\u043E\u0445\u0440\u0430\u043D\u044F\u0435\u0442\u0441\u044F \u043F\u0440\u0438 \u043F\u043E\u0432\u043E\u0440\u043E\u0442\u0435."
+    loop: 1
     historical: 0
-    clip: {fileID: 7400000, guid: 1e4817b29fe51484281889d4cfaac873, type: 2}
+    clip: {fileID: 7400000, guid: f5921d0f292d6c845a1df0587f3f350c, type: 2}
     frames:
-    - {fileID: -2113975335, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: -268801716, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: 777865087, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: 1080135674, guid: b46893a1114c74945be012be96372459, type: 3}
-    - {fileID: -188501176, guid: b46893a1114c74945be012be96372459, type: 3}
-    durationsMs: 6400000064000000640000006400000064000000i
+    - {fileID: -883201628, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: -626290481, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: -915962778, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: -486229958, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    durationsMs: 840300009001000064000000e8030000i
+  - id: 59
+    key: Polished/walk_nw
+    label: "\u0412\u0432\u0435\u0440\u0445-\u0432\u043B\u0435\u0432\u043E \u2014 \u0445\u043E\u0434\u044C\u0431\u0430"
+    group: "01 \u041D\u043E\u0432\u044B\u0435 \u0430\u043D\u0438\u043C\u0430\u0446\u0438\u0438 \u2014 8 \u043D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0439"
+    statePath: Base Layer.Polished.Polished__walk_nw
+    note: "\u041D\u043E\u0432\u044B\u0435 \u043F\u043E\u0437\u044B 36\xD786. \u0412\u043E\u0441\u0435\u043C\u044C \u043D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0439; \u0444\u0430\u0437\u0430 \u0448\u0430\u0433\u0430 \u0441\u043E\u0445\u0440\u0430\u043D\u044F\u0435\u0442\u0441\u044F \u043F\u0440\u0438 \u043F\u043E\u0432\u043E\u0440\u043E\u0442\u0435."
+    loop: 1
+    historical: 0
+    clip: {fileID: 7400000, guid: c7723526299dbf94bb60f9341e51dee0, type: 2}
+    frames:
+    - {fileID: 1805434059, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: 1635073678, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: 29239474, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: -2021642460, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: 2137017192, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: -283011208, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: 182364276, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: 693252496, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    durationsMs: 6400000064000000640000006400000064000000640000006400000064000000i
+  - id: 60
+    key: Polished/idle_w
+    label: "\u0412\u043B\u0435\u0432\u043E \u2014 idle"
+    group: "01 \u041D\u043E\u0432\u044B\u0435 \u0430\u043D\u0438\u043C\u0430\u0446\u0438\u0438 \u2014 8 \u043D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0439"
+    statePath: Base Layer.Polished.Polished__idle_w
+    note: "\u041D\u043E\u0432\u044B\u0435 \u043F\u043E\u0437\u044B 36\xD786. \u0412\u043E\u0441\u0435\u043C\u044C \u043D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0439; \u0444\u0430\u0437\u0430 \u0448\u0430\u0433\u0430 \u0441\u043E\u0445\u0440\u0430\u043D\u044F\u0435\u0442\u0441\u044F \u043F\u0440\u0438 \u043F\u043E\u0432\u043E\u0440\u043E\u0442\u0435."
+    loop: 1
+    historical: 0
+    clip: {fileID: 7400000, guid: 1470a06609a76714085486fb21e2e9d6, type: 2}
+    frames:
+    - {fileID: -190394696, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: 769788302, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: -604178323, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: 2010028755, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    durationsMs: 840300009001000064000000e8030000i
+  - id: 61
+    key: Polished/walk_w
+    label: "\u0412\u043B\u0435\u0432\u043E \u2014 \u0445\u043E\u0434\u044C\u0431\u0430"
+    group: "01 \u041D\u043E\u0432\u044B\u0435 \u0430\u043D\u0438\u043C\u0430\u0446\u0438\u0438 \u2014 8 \u043D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0439"
+    statePath: Base Layer.Polished.Polished__walk_w
+    note: "\u041D\u043E\u0432\u044B\u0435 \u043F\u043E\u0437\u044B 36\xD786. \u0412\u043E\u0441\u0435\u043C\u044C \u043D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0439; \u0444\u0430\u0437\u0430 \u0448\u0430\u0433\u0430 \u0441\u043E\u0445\u0440\u0430\u043D\u044F\u0435\u0442\u0441\u044F \u043F\u0440\u0438 \u043F\u043E\u0432\u043E\u0440\u043E\u0442\u0435."
+    loop: 1
+    historical: 0
+    clip: {fileID: 7400000, guid: fb7f16be2a9925d4e96a92c2d894d4b3, type: 2}
+    frames:
+    - {fileID: 1548534844, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: -1797214006, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: 1576653275, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: 1179308756, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: -613492774, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: 1717444823, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: -195581642, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: -316309525, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    durationsMs: 6400000064000000640000006400000064000000640000006400000064000000i
+  - id: 62
+    key: Polished/idle_sw
+    label: "\u0412\u043D\u0438\u0437-\u0432\u043B\u0435\u0432\u043E \u2014 idle"
+    group: "01 \u041D\u043E\u0432\u044B\u0435 \u0430\u043D\u0438\u043C\u0430\u0446\u0438\u0438 \u2014 8 \u043D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0439"
+    statePath: Base Layer.Polished.Polished__idle_sw
+    note: "\u041D\u043E\u0432\u044B\u0435 \u043F\u043E\u0437\u044B 36\xD786. \u0412\u043E\u0441\u0435\u043C\u044C \u043D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0439; \u0444\u0430\u0437\u0430 \u0448\u0430\u0433\u0430 \u0441\u043E\u0445\u0440\u0430\u043D\u044F\u0435\u0442\u0441\u044F \u043F\u0440\u0438 \u043F\u043E\u0432\u043E\u0440\u043E\u0442\u0435."
+    loop: 1
+    historical: 0
+    clip: {fileID: 7400000, guid: 7661becdd23c4c94190a7905cecdc5b0, type: 2}
+    frames:
+    - {fileID: -1404393776, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: 767734357, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: -1685993560, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: -356964217, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    durationsMs: 840300009001000064000000e8030000i
+  - id: 63
+    key: Polished/walk_sw
+    label: "\u0412\u043D\u0438\u0437-\u0432\u043B\u0435\u0432\u043E \u2014 \u0445\u043E\u0434\u044C\u0431\u0430"
+    group: "01 \u041D\u043E\u0432\u044B\u0435 \u0430\u043D\u0438\u043C\u0430\u0446\u0438\u0438 \u2014 8 \u043D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0439"
+    statePath: Base Layer.Polished.Polished__walk_sw
+    note: "\u041D\u043E\u0432\u044B\u0435 \u043F\u043E\u0437\u044B 36\xD786. \u0412\u043E\u0441\u0435\u043C\u044C \u043D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0439; \u0444\u0430\u0437\u0430 \u0448\u0430\u0433\u0430 \u0441\u043E\u0445\u0440\u0430\u043D\u044F\u0435\u0442\u0441\u044F \u043F\u0440\u0438 \u043F\u043E\u0432\u043E\u0440\u043E\u0442\u0435."
+    loop: 1
+    historical: 0
+    clip: {fileID: 7400000, guid: 2c5f18c116a1d3e43978505759a41c1f, type: 2}
+    frames:
+    - {fileID: 897292616, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: -1015142100, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: 1681545876, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: 751812955, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: 114171149, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: -2139768534, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: -1734840767, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    - {fileID: -70625933, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+    durationsMs: 6400000064000000640000006400000064000000640000006400000064000000i
   - id: 16
     key: Front/dance_original
     label: "\u0418\u0441\u0445\u043E\u0434\u043D\u044B\u0439 \u0442\u0430\u043D\u0435\u0446 \u2014 \u0433\u043E\u043B\u0443\u0431\u044B\u0435 \u0433\u043B\u0430\u0437\u0430"
-    group: "03 \u041F\u0435\u0440\u0435\u0434\u043D\u0438\u0435 \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u0438 \u0438 \u0442\u0430\u043D\u0435\u0446"
+    group: "02 \u0418\u0441\u0445\u043E\u0434\u043D\u044B\u0439 \u0442\u0430\u043D\u0435\u0446"
     statePath: Base Layer.Front.Front__dance_original
-    note: 
+    note: "\u0418\u0441\u0445\u043E\u0434\u043D\u044B\u0439 \u0442\u0430\u043D\u0435\u0446 \u0441\u043E\u0445\u0440\u0430\u043D\u0451\u043D \u0431\u0435\u0437 \u0438\u0437\u043C\u0435\u043D\u0435\u043D\u0438\u044F \u043A\u0430\u0434\u0440\u043E\u0432 \u0438 \u0437\u0430\u0434\u0435\u0440\u0436\u0435\u043A."
     loop: 1
     historical: 0
     clip: {fileID: 7400000, guid: 38b63a87860fdf24d8d3d17fcdeb0806, type: 2}
@@ -347,7 +340,7 @@ MonoBehaviour:
   - id: 46
     key: DanceGreen/dance
     label: "\u0418\u0441\u0445\u043E\u0434\u043D\u044B\u0439 \u0442\u0430\u043D\u0435\u0446 \u2014 \u0437\u0435\u043B\u0451\u043D\u044B\u0435 \u0433\u043B\u0430\u0437\u0430"
-    group: "04 \u0412\u0430\u0440\u0438\u0430\u043D\u0442\u044B \u0433\u043B\u0430\u0437"
+    group: "03 \u0412\u0430\u0440\u0438\u0430\u043D\u0442\u044B \u0433\u043B\u0430\u0437"
     statePath: Base Layer.EyeVariants.DanceGreen__dance
     note: "\u0421\u043E\u0445\u0440\u0430\u043D\u0451\u043D\u043D\u044B\u0439 \u0432\u0430\u0440\u0438\u0430\u043D\u0442 \u0438\u0441\u0445\u043E\u0434\u043D\u043E\u0433\u043E \u0442\u0430\u043D\u0446\u0430. \u0425\u043E\u0434\u044C\u0431\u0430 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0435\u0442 \u043E\u0441\u043D\u043E\u0432\u043D\u043E\u0439 \u0441\u043A\u0438\u043D \u0441 \u0433\u043E\u043B\u0443\u0431\u044B\u043C\u0438 \u0433\u043B\u0430\u0437\u0430\u043C\u0438."
     loop: 1
@@ -398,7 +391,7 @@ MonoBehaviour:
   - id: 47
     key: DanceRed/dance
     label: "\u0418\u0441\u0445\u043E\u0434\u043D\u044B\u0439 \u0442\u0430\u043D\u0435\u0446 \u2014 \u043A\u0440\u0430\u0441\u043D\u044B\u0435 \u0433\u043B\u0430\u0437\u0430"
-    group: "04 \u0412\u0430\u0440\u0438\u0430\u043D\u0442\u044B \u0433\u043B\u0430\u0437"
+    group: "03 \u0412\u0430\u0440\u0438\u0430\u043D\u0442\u044B \u0433\u043B\u0430\u0437"
     statePath: Base Layer.EyeVariants.DanceRed__dance
     note: "\u0421\u043E\u0445\u0440\u0430\u043D\u0451\u043D\u043D\u044B\u0439 \u0432\u0430\u0440\u0438\u0430\u043D\u0442 \u0438\u0441\u0445\u043E\u0434\u043D\u043E\u0433\u043E \u0442\u0430\u043D\u0446\u0430. \u0425\u043E\u0434\u044C\u0431\u0430 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0435\u0442 \u043E\u0441\u043D\u043E\u0432\u043D\u043E\u0439 \u0441\u043A\u0438\u043D \u0441 \u0433\u043E\u043B\u0443\u0431\u044B\u043C\u0438 \u0433\u043B\u0430\u0437\u0430\u043C\u0438."
     loop: 1
@@ -446,6 +439,285 @@ MonoBehaviour:
     - {fileID: 263282860, guid: 749756445a87b1c41888c8acb5cc54eb, type: 3}
     - {fileID: -1200984310, guid: 749756445a87b1c41888c8acb5cc54eb, type: 3}
     durationsMs: 64000000640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000i
+  - id: 3
+    key: Side/idle_side_right
+    label: "\u0411\u043E\u043A \u0432\u043F\u0440\u0430\u0432\u043E \u2014 idle"
+    group: "\u0410\u0440\u0445\u0438\u0432 \u2014 \u0431\u043E\u043A\u043E\u0432\u044B\u0435 \u0440\u0430\u043A\u0443\u0440\u0441\u044B"
+    statePath: Base Layer.Side.Side__idle_side_right
+    note: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442. \u041A\u043B\u0438\u043F \u043F\u043E\u043A\u0430\u0437\u0430\u043D \u043D\u0430 \u043C\u0435\u0441\u0442\u0435, \u0431\u0435\u0437 \u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043D\u043E\u0433\u043E \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F \u043F\u043E \u0441\u0446\u0435\u043D\u0435."
+    loop: 1
+    historical: 1
+    clip: {fileID: 7400000, guid: c6adcf5777331214baa93d2004f2c6d2, type: 2}
+    frames:
+    - {fileID: 1037318365, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: 134247458, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: -657989432, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: -931819354, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    durationsMs: 580200002c0100005802000084030000i
+  - id: 4
+    key: Side/walk_side_right
+    label: "\u0411\u043E\u043A \u0432\u043F\u0440\u0430\u0432\u043E \u2014 \u0445\u043E\u0434\u044C\u0431\u0430"
+    group: "\u0410\u0440\u0445\u0438\u0432 \u2014 \u0431\u043E\u043A\u043E\u0432\u044B\u0435 \u0440\u0430\u043A\u0443\u0440\u0441\u044B"
+    statePath: Base Layer.Side.Side__walk_side_right
+    note: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442. \u041A\u043B\u0438\u043F \u043F\u043E\u043A\u0430\u0437\u0430\u043D \u043D\u0430 \u043C\u0435\u0441\u0442\u0435, \u0431\u0435\u0437 \u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043D\u043E\u0433\u043E \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F \u043F\u043E \u0441\u0446\u0435\u043D\u0435."
+    loop: 1
+    historical: 1
+    clip: {fileID: 7400000, guid: 7a2afb6927263424cba7705651b7ecd8, type: 2}
+    frames:
+    - {fileID: 51961249, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: -875102050, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: -913983980, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: -1481053336, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: 3572517, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: 1931667401, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: 2015070843, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: -864799172, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: -517189495, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: 710556246, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    durationsMs: 64000000640000006400000064000000640000006400000064000000640000006400000064000000i
+  - id: 5
+    key: Side/idle_side_left
+    label: "\u0411\u043E\u043A \u0432\u043B\u0435\u0432\u043E \u2014 idle"
+    group: "\u0410\u0440\u0445\u0438\u0432 \u2014 \u0431\u043E\u043A\u043E\u0432\u044B\u0435 \u0440\u0430\u043A\u0443\u0440\u0441\u044B"
+    statePath: Base Layer.Side.Side__idle_side_left
+    note: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442. \u041A\u043B\u0438\u043F \u043F\u043E\u043A\u0430\u0437\u0430\u043D \u043D\u0430 \u043C\u0435\u0441\u0442\u0435, \u0431\u0435\u0437 \u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043D\u043E\u0433\u043E \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F \u043F\u043E \u0441\u0446\u0435\u043D\u0435."
+    loop: 1
+    historical: 1
+    clip: {fileID: 7400000, guid: 249439d5443dcfa4cb8a6f91a3fd9602, type: 2}
+    frames:
+    - {fileID: 1740208605, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: 584047684, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: 163974630, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: -243611972, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    durationsMs: 580200002c0100005802000084030000i
+  - id: 6
+    key: Side/walk_side_left
+    label: "\u0411\u043E\u043A \u0432\u043B\u0435\u0432\u043E \u2014 \u0445\u043E\u0434\u044C\u0431\u0430"
+    group: "\u0410\u0440\u0445\u0438\u0432 \u2014 \u0431\u043E\u043A\u043E\u0432\u044B\u0435 \u0440\u0430\u043A\u0443\u0440\u0441\u044B"
+    statePath: Base Layer.Side.Side__walk_side_left
+    note: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442. \u041A\u043B\u0438\u043F \u043F\u043E\u043A\u0430\u0437\u0430\u043D \u043D\u0430 \u043C\u0435\u0441\u0442\u0435, \u0431\u0435\u0437 \u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043D\u043E\u0433\u043E \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F \u043F\u043E \u0441\u0446\u0435\u043D\u0435."
+    loop: 1
+    historical: 1
+    clip: {fileID: 7400000, guid: 9b78ae476c03dfe45aa92bff032520b6, type: 2}
+    frames:
+    - {fileID: 1490774204, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: -1320366415, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: 1295222691, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: 959005145, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: -1362142621, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: 1748696995, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: 506626341, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: -597960494, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: -1022086769, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    - {fileID: -42635281, guid: 4bda5906d9857974b85842056f9cd6eb, type: 3}
+    durationsMs: 64000000640000006400000064000000640000006400000064000000640000006400000064000000i
+  - id: 1
+    key: RearRedraw/key_poses_back
+    label: "\u0421\u043F\u0438\u043D\u0430 \u2014 \u0447\u0435\u0442\u044B\u0440\u0435 \u043E\u043F\u043E\u0440\u043D\u044B\u0435 \u043F\u043E\u0437\u044B"
+    group: "\u0410\u0440\u0445\u0438\u0432 \u2014 \u0437\u0430\u0434\u043D\u044F\u044F \u043E\u0441\u043D\u043E\u0432\u0430"
+    statePath: Base Layer.Rear.RearRedraw__key_poses_back
+    note: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442. \u041A\u043B\u0438\u043F \u043F\u043E\u043A\u0430\u0437\u0430\u043D \u043D\u0430 \u043C\u0435\u0441\u0442\u0435, \u0431\u0435\u0437 \u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043D\u043E\u0433\u043E \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F \u043F\u043E \u0441\u0446\u0435\u043D\u0435."
+    loop: 0
+    historical: 1
+    clip: {fileID: 7400000, guid: 654c6a8a4185def4cbfd9e7fd2534f5a, type: 2}
+    frames:
+    - {fileID: -588873678, guid: e62091c36ee268e4bab8b0a56e3e95ea, type: 3}
+    - {fileID: 985920821, guid: e62091c36ee268e4bab8b0a56e3e95ea, type: 3}
+    - {fileID: 336508367, guid: e62091c36ee268e4bab8b0a56e3e95ea, type: 3}
+    - {fileID: -307034220, guid: e62091c36ee268e4bab8b0a56e3e95ea, type: 3}
+    durationsMs: f0000000f0000000f0000000f0000000i
+  - id: 2
+    key: RearRedraw/walk_back
+    label: "\u0421\u043F\u0438\u043D\u0430 \u2014 \u0445\u043E\u0434\u044C\u0431\u0430"
+    group: "\u0410\u0440\u0445\u0438\u0432 \u2014 \u0437\u0430\u0434\u043D\u044F\u044F \u043E\u0441\u043D\u043E\u0432\u0430"
+    statePath: Base Layer.Rear.RearRedraw__walk_back
+    note: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442. \u041A\u043B\u0438\u043F \u043F\u043E\u043A\u0430\u0437\u0430\u043D \u043D\u0430 \u043C\u0435\u0441\u0442\u0435, \u0431\u0435\u0437 \u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043D\u043E\u0433\u043E \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F \u043F\u043E \u0441\u0446\u0435\u043D\u0435."
+    loop: 1
+    historical: 1
+    clip: {fileID: 7400000, guid: cddaacb2adfe0214398ecfc16fbc9f97, type: 2}
+    frames:
+    - {fileID: 451590772, guid: e62091c36ee268e4bab8b0a56e3e95ea, type: 3}
+    - {fileID: 488264626, guid: e62091c36ee268e4bab8b0a56e3e95ea, type: 3}
+    - {fileID: 174541845, guid: e62091c36ee268e4bab8b0a56e3e95ea, type: 3}
+    - {fileID: 262452921, guid: e62091c36ee268e4bab8b0a56e3e95ea, type: 3}
+    - {fileID: 732156209, guid: e62091c36ee268e4bab8b0a56e3e95ea, type: 3}
+    - {fileID: -862420218, guid: e62091c36ee268e4bab8b0a56e3e95ea, type: 3}
+    - {fileID: 364408304, guid: e62091c36ee268e4bab8b0a56e3e95ea, type: 3}
+    - {fileID: -45577380, guid: e62091c36ee268e4bab8b0a56e3e95ea, type: 3}
+    durationsMs: 7800000078000000780000007800000078000000780000007800000078000000i
+  - id: 45
+    key: RearStand/idle
+    label: "\u0421\u043F\u0438\u043D\u0430 \u2014 \u0438\u0441\u0445\u043E\u0434\u043D\u0430\u044F \u0441\u0442\u043E\u0439\u043A\u0430 (\u043E\u0434\u0438\u043D \u043A\u0430\u0434\u0440)"
+    group: "\u0410\u0440\u0445\u0438\u0432 \u2014 \u0437\u0430\u0434\u043D\u044F\u044F \u043E\u0441\u043D\u043E\u0432\u0430"
+    statePath: Base Layer.Rear.RearStand__idle
+    note: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0430\u044F \u043D\u0435\u043F\u043E\u0434\u0432\u0438\u0436\u043D\u0430\u044F \u0441\u0442\u043E\u0439\u043A\u0430 \u0434\u043B\u044F \u0441\u0440\u0430\u0432\u043D\u0435\u043D\u0438\u044F."
+    loop: 1
+    historical: 1
+    clip: {fileID: 7400000, guid: 35de1231dd709d24fb6c7f556ce24f6b, type: 2}
+    frames:
+    - {fileID: 133847992, guid: 28627cfa8f4fbed4f9ca42ba6b09cc2a, type: 3}
+    durationsMs: e8030000i
+  - id: 7
+    key: Front/idle_left
+    label: "\u041F\u0435\u0440\u0435\u0434\u043D\u044F\u044F \u043B\u0435\u0432\u0430\u044F \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u044C \u2014 idle"
+    group: "\u0410\u0440\u0445\u0438\u0432 \u2014 \u043F\u0435\u0440\u0435\u0434\u043D\u0438\u0435 \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u0438"
+    statePath: Base Layer.Front.Front__idle_left
+    note: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442. \u041A\u043B\u0438\u043F \u043F\u043E\u043A\u0430\u0437\u0430\u043D \u043D\u0430 \u043C\u0435\u0441\u0442\u0435, \u0431\u0435\u0437 \u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043D\u043E\u0433\u043E \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F \u043F\u043E \u0441\u0446\u0435\u043D\u0435."
+    loop: 1
+    historical: 1
+    clip: {fileID: 7400000, guid: ab2dd1f3336017e4dbc18672b532ebbf, type: 2}
+    frames:
+    - {fileID: 1651025062, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 904756079, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 2106915003, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -1833213677, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 1498983177, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 140281119, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -1103350367, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -837640839, guid: b46893a1114c74945be012be96372459, type: 3}
+    durationsMs: f4010000c8000000c8000000f4010000c8000000c8000000c800000090010000i
+  - id: 8
+    key: Front/start_left
+    label: "\u041F\u0435\u0440\u0435\u0434\u043D\u044F\u044F \u043B\u0435\u0432\u0430\u044F \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u044C \u2014 \u0441\u0442\u0430\u0440\u0442"
+    group: "\u0410\u0440\u0445\u0438\u0432 \u2014 \u043F\u0435\u0440\u0435\u0434\u043D\u0438\u0435 \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u0438"
+    statePath: Base Layer.Front.Front__start_left
+    note: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442. \u041A\u043B\u0438\u043F \u043F\u043E\u043A\u0430\u0437\u0430\u043D \u043D\u0430 \u043C\u0435\u0441\u0442\u0435, \u0431\u0435\u0437 \u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043D\u043E\u0433\u043E \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F \u043F\u043E \u0441\u0446\u0435\u043D\u0435."
+    loop: 0
+    historical: 1
+    clip: {fileID: 7400000, guid: 2f3b5f2f58dd1a84f86284cb8acb2cc3, type: 2}
+    frames:
+    - {fileID: 167701610, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 519399994, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 407252535, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -66511292, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -596854305, guid: b46893a1114c74945be012be96372459, type: 3}
+    durationsMs: 6400000064000000640000006400000064000000i
+  - id: 9
+    key: Front/walk_left
+    label: "\u041F\u0435\u0440\u0435\u0434\u043D\u044F\u044F \u043B\u0435\u0432\u0430\u044F \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u044C \u2014 \u0445\u043E\u0434\u044C\u0431\u0430"
+    group: "\u0410\u0440\u0445\u0438\u0432 \u2014 \u043F\u0435\u0440\u0435\u0434\u043D\u0438\u0435 \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u0438"
+    statePath: Base Layer.Front.Front__walk_left
+    note: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442. \u041A\u043B\u0438\u043F \u043F\u043E\u043A\u0430\u0437\u0430\u043D \u043D\u0430 \u043C\u0435\u0441\u0442\u0435, \u0431\u0435\u0437 \u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043D\u043E\u0433\u043E \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F \u043F\u043E \u0441\u0446\u0435\u043D\u0435."
+    loop: 1
+    historical: 1
+    clip: {fileID: 7400000, guid: 477ccc46b786b2b4bbe0d86d744366c4, type: 2}
+    frames:
+    - {fileID: -853542939, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -1492022159, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 1922319939, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 2008694349, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 1238519901, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -1703865666, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 1484853863, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -1938165318, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -910471585, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -168633769, guid: b46893a1114c74945be012be96372459, type: 3}
+    durationsMs: 64000000640000006400000064000000640000006400000064000000640000006400000064000000i
+  - id: 10
+    key: Front/stop_left
+    label: "\u041F\u0435\u0440\u0435\u0434\u043D\u044F\u044F \u043B\u0435\u0432\u0430\u044F \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u044C \u2014 \u043E\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430"
+    group: "\u0410\u0440\u0445\u0438\u0432 \u2014 \u043F\u0435\u0440\u0435\u0434\u043D\u0438\u0435 \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u0438"
+    statePath: Base Layer.Front.Front__stop_left
+    note: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442. \u041A\u043B\u0438\u043F \u043F\u043E\u043A\u0430\u0437\u0430\u043D \u043D\u0430 \u043C\u0435\u0441\u0442\u0435, \u0431\u0435\u0437 \u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043D\u043E\u0433\u043E \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F \u043F\u043E \u0441\u0446\u0435\u043D\u0435."
+    loop: 0
+    historical: 1
+    clip: {fileID: 7400000, guid: cdf6a07924288124985251a92ff971b2, type: 2}
+    frames:
+    - {fileID: -1300898715, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -1602283212, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 983629464, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 1524829066, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 1978747584, guid: b46893a1114c74945be012be96372459, type: 3}
+    durationsMs: 6400000064000000640000006400000064000000i
+  - id: 11
+    key: Front/turn_left_right
+    label: "\u041F\u0435\u0440\u0435\u0434\u043D\u0438\u0439 \u0440\u0430\u043A\u0443\u0440\u0441 \u2014 \u0441\u043C\u0435\u043D\u0430 \u0441\u0442\u043E\u0440\u043E\u043D\u044B"
+    group: "\u0410\u0440\u0445\u0438\u0432 \u2014 \u043F\u0435\u0440\u0435\u0434\u043D\u0438\u0435 \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u0438"
+    statePath: Base Layer.Front.Front__turn_left_right
+    note: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442. \u041A\u043B\u0438\u043F \u043F\u043E\u043A\u0430\u0437\u0430\u043D \u043D\u0430 \u043C\u0435\u0441\u0442\u0435, \u0431\u0435\u0437 \u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043D\u043E\u0433\u043E \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F \u043F\u043E \u0441\u0446\u0435\u043D\u0435."
+    loop: 0
+    historical: 1
+    clip: {fileID: 7400000, guid: 51759fc644d9d3742af74fe697165af6, type: 2}
+    frames:
+    - {fileID: -1165331084, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 228273676, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -1141922739, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 929154192, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -1206935079, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -2034114706, guid: b46893a1114c74945be012be96372459, type: 3}
+    durationsMs: 640000006400000064000000640000006400000064000000i
+  - id: 12
+    key: Front/idle_right
+    label: "\u041F\u0435\u0440\u0435\u0434\u043D\u044F\u044F \u043F\u0440\u0430\u0432\u0430\u044F \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u044C \u2014 idle"
+    group: "\u0410\u0440\u0445\u0438\u0432 \u2014 \u043F\u0435\u0440\u0435\u0434\u043D\u0438\u0435 \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u0438"
+    statePath: Base Layer.Front.Front__idle_right
+    note: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442. \u041A\u043B\u0438\u043F \u043F\u043E\u043A\u0430\u0437\u0430\u043D \u043D\u0430 \u043C\u0435\u0441\u0442\u0435, \u0431\u0435\u0437 \u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043D\u043E\u0433\u043E \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F \u043F\u043E \u0441\u0446\u0435\u043D\u0435."
+    loop: 1
+    historical: 1
+    clip: {fileID: 7400000, guid: ce98e90d862271d4987804793b9e471f, type: 2}
+    frames:
+    - {fileID: 739976803, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -1976347639, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -513607142, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -521969751, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 2022184585, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -64525314, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 209873934, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -1697037918, guid: b46893a1114c74945be012be96372459, type: 3}
+    durationsMs: f4010000c8000000c8000000f4010000c8000000c8000000c800000090010000i
+  - id: 13
+    key: Front/start_right
+    label: "\u041F\u0435\u0440\u0435\u0434\u043D\u044F\u044F \u043F\u0440\u0430\u0432\u0430\u044F \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u044C \u2014 \u0441\u0442\u0430\u0440\u0442"
+    group: "\u0410\u0440\u0445\u0438\u0432 \u2014 \u043F\u0435\u0440\u0435\u0434\u043D\u0438\u0435 \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u0438"
+    statePath: Base Layer.Front.Front__start_right
+    note: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442. \u041A\u043B\u0438\u043F \u043F\u043E\u043A\u0430\u0437\u0430\u043D \u043D\u0430 \u043C\u0435\u0441\u0442\u0435, \u0431\u0435\u0437 \u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043D\u043E\u0433\u043E \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F \u043F\u043E \u0441\u0446\u0435\u043D\u0435."
+    loop: 0
+    historical: 1
+    clip: {fileID: 7400000, guid: b87555ab76654c64e8fac99bb7a21d76, type: 2}
+    frames:
+    - {fileID: 1206173997, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -550392971, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -158501018, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 399925796, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -12312930, guid: b46893a1114c74945be012be96372459, type: 3}
+    durationsMs: 6400000064000000640000006400000064000000i
+  - id: 14
+    key: Front/walk_right
+    label: "\u041F\u0435\u0440\u0435\u0434\u043D\u044F\u044F \u043F\u0440\u0430\u0432\u0430\u044F \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u044C \u2014 \u0445\u043E\u0434\u044C\u0431\u0430"
+    group: "\u0410\u0440\u0445\u0438\u0432 \u2014 \u043F\u0435\u0440\u0435\u0434\u043D\u0438\u0435 \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u0438"
+    statePath: Base Layer.Front.Front__walk_right
+    note: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442. \u041A\u043B\u0438\u043F \u043F\u043E\u043A\u0430\u0437\u0430\u043D \u043D\u0430 \u043C\u0435\u0441\u0442\u0435, \u0431\u0435\u0437 \u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043D\u043E\u0433\u043E \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F \u043F\u043E \u0441\u0446\u0435\u043D\u0435."
+    loop: 1
+    historical: 1
+    clip: {fileID: 7400000, guid: 677171c21e2ed9c41b30ff4789569a47, type: 2}
+    frames:
+    - {fileID: 157595727, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 1382685978, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 375101874, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 2083232611, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -989191940, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -1251625297, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -1789026894, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 240351289, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -1804805908, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -1978094082, guid: b46893a1114c74945be012be96372459, type: 3}
+    durationsMs: 64000000640000006400000064000000640000006400000064000000640000006400000064000000i
+  - id: 15
+    key: Front/stop_right
+    label: "\u041F\u0435\u0440\u0435\u0434\u043D\u044F\u044F \u043F\u0440\u0430\u0432\u0430\u044F \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u044C \u2014 \u043E\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430"
+    group: "\u0410\u0440\u0445\u0438\u0432 \u2014 \u043F\u0435\u0440\u0435\u0434\u043D\u0438\u0435 \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u0438"
+    statePath: Base Layer.Front.Front__stop_right
+    note: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442. \u041A\u043B\u0438\u043F \u043F\u043E\u043A\u0430\u0437\u0430\u043D \u043D\u0430 \u043C\u0435\u0441\u0442\u0435, \u0431\u0435\u0437 \u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043D\u043E\u0433\u043E \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F \u043F\u043E \u0441\u0446\u0435\u043D\u0435."
+    loop: 0
+    historical: 1
+    clip: {fileID: 7400000, guid: 1e4817b29fe51484281889d4cfaac873, type: 2}
+    frames:
+    - {fileID: -2113975335, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -268801716, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 777865087, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: 1080135674, guid: b46893a1114c74945be012be96372459, type: 3}
+    - {fileID: -188501176, guid: b46893a1114c74945be012be96372459, type: 3}
+    durationsMs: 6400000064000000640000006400000064000000i
   - id: 17
     key: RearArchive/idle_back
     label: "\u0421\u043F\u0438\u043D\u0430 \u2014 idle"

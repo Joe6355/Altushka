@@ -21,7 +21,8 @@ namespace AlisaGame
         bool wasMoving;
         Vector2 pendingMovementTap;
         bool showFloor = true;
-        Vector2 facing = Vector2.right;
+        Vector2 facing = Vector2.down;
+        static readonly string[] DirectionNames = { "e", "ne", "n", "nw", "w", "sw", "s", "se" };
         Vector3 home;
         GUIStyle heading, body, selected, button, small;
         Texture2D panelTexture;
@@ -81,6 +82,8 @@ namespace AlisaGame
         public void ApplyMovementInput(Vector2 input, float deltaTime)
         {
             bool moving = input.sqrMagnitude > 0;
+            bool continuingStep = moving && wasMoving && actor.Current != null
+                && actor.Current.key.StartsWith("Polished/walk_");
             if (moving && (!movementMode || !wasMoving))
             {
                 // Direction keys always leave clip inspection and resume normal control.
@@ -92,7 +95,7 @@ namespace AlisaGame
             if (!movementMode) return;
             if (moving) facing = input.normalized;
             string key = MovementKey(facing, moving);
-            if (actor.Current == null || actor.Current.key != key) actor.Select(key);
+            if (actor.Current == null || actor.Current.key != key) actor.Select(key, continuingStep);
             if (moving && !actor.Paused)
             {
                 Vector3 position = actor.transform.position + (Vector3)(input.normalized * (40f / 16f) * deltaTime * actor.PlaybackSpeed);
@@ -136,12 +139,8 @@ namespace AlisaGame
 
         static string MovementKey(Vector2 direction, bool moving)
         {
-            if (direction.y > 0.4f)
-                return moving ? "RearRedraw/walk_back" : "RearStand/idle";
-            bool left = direction.x < -0.1f;
-            if (direction.y < -0.4f)
-                return "Front/" + (moving ? "walk_" : "idle_") + (left ? "left" : "right");
-            return "Side/" + (moving ? "walk_side_" : "idle_side_") + (left ? "left" : "right");
+            int octant = (Mathf.RoundToInt(Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg / 45f) + 8) % 8;
+            return "Polished/" + (moving ? "walk_" : "idle_") + DirectionNames[octant];
         }
 
         void ResetPosition() => actor.transform.position = home;
@@ -243,7 +242,7 @@ namespace AlisaGame
             GUILayout.Label("WASD / стрелки — идти; без клавиш — idle", small);
             GUILayout.Label(movementMode ? "Управление с клавиатуры" : "Просмотр клипа — WASD включит ходьбу", small);
             if (movementMode)
-                GUILayout.Label("Вверх: новая спина; вбок: профиль; вниз: передние диагонали. Новых задних диагоналей и прямого вида на камеру пока нет.", small);
+                GUILayout.Label("Новые idle и ходьба в 8 направлениях. Поворот сохраняет фазу шага. Space — исходный танец.", small);
             GUILayout.Label("Space — танец · P — пауза · , / . — кадры\nR — вернуть в центр · F1 — скрыть панель", small);
             GUILayout.Space(6);
             showArchive = GUILayout.Toggle(showArchive, "Показать предыдущие эксперименты");

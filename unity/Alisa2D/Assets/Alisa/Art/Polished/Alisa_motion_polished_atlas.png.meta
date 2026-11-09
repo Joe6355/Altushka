@@ -1,0 +1,2582 @@
+fileFormatVersion: 2
+guid: fa2110239d1ff5a47ae74fab92b96ca3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6757746850677857541
+    second: Alisa_motion_polished_atlas_0
+  - first:
+      213: 8824210671203825680
+    second: Alisa_motion_polished_atlas_1
+  - first:
+      213: -8886547811310835368
+    second: Alisa_motion_polished_atlas_2
+  - first:
+      213: 6263520472574496438
+    second: Alisa_motion_polished_atlas_3
+  - first:
+      213: -1239935896785359898
+    second: Alisa_motion_polished_atlas_4
+  - first:
+      213: -1629502361181741060
+    second: Alisa_motion_polished_atlas_5
+  - first:
+      213: 1220394413592050672
+    second: Alisa_motion_polished_atlas_6
+  - first:
+      213: 6610289424179737360
+    second: Alisa_motion_polished_atlas_7
+  - first:
+      213: -3237523973361833045
+    second: Alisa_motion_polished_atlas_8
+  - first:
+      213: 65173181523141576
+    second: Alisa_motion_polished_atlas_9
+  - first:
+      213: 4859950329409264845
+    second: Alisa_motion_polished_atlas_10
+  - first:
+      213: -4028445991295026482
+    second: Alisa_motion_polished_atlas_11
+  - first:
+      213: 1112828194688352641
+    second: Alisa_motion_polished_atlas_12
+  - first:
+      213: 217764642679429165
+    second: Alisa_motion_polished_atlas_13
+  - first:
+      213: -8452971490122646375
+    second: Alisa_motion_polished_atlas_14
+  - first:
+      213: 2447692570016102190
+    second: Alisa_motion_polished_atlas_15
+  - first:
+      213: 5262584319231233858
+    second: Alisa_motion_polished_atlas_16
+  - first:
+      213: 4835526650762301451
+    second: Alisa_motion_polished_atlas_17
+  - first:
+      213: -5638707095892521757
+    second: Alisa_motion_polished_atlas_18
+  - first:
+      213: 1876776618109237230
+    second: Alisa_motion_polished_atlas_19
+  - first:
+      213: -2940951302544025848
+    second: Alisa_motion_polished_atlas_20
+  - first:
+      213: 7754449984828857547
+    second: Alisa_motion_polished_atlas_21
+  - first:
+      213: 5418362319827784529
+    second: Alisa_motion_polished_atlas_22
+  - first:
+      213: 2840765734358114156
+    second: Alisa_motion_polished_atlas_23
+  - first:
+      213: -7715106957100035291
+    second: Alisa_motion_polished_atlas_24
+  - first:
+      213: 6902643378766308697
+    second: Alisa_motion_polished_atlas_25
+  - first:
+      213: -9016813611608773138
+    second: Alisa_motion_polished_atlas_26
+  - first:
+      213: 561979261859186838
+    second: Alisa_motion_polished_atlas_27
+  - first:
+      213: -2079495015959830413
+    second: Alisa_motion_polished_atlas_28
+  - first:
+      213: 850815373845038741
+    second: Alisa_motion_polished_atlas_29
+  - first:
+      213: 110225290741728280
+    second: Alisa_motion_polished_atlas_30
+  - first:
+      213: 3272006176491972619
+    second: Alisa_motion_polished_atlas_31
+  - first:
+      213: 3611967604129451508
+    second: Alisa_motion_polished_atlas_32
+  - first:
+      213: 401927718911381345
+    second: Alisa_motion_polished_atlas_33
+  - first:
+      213: -2462210928698226370
+    second: Alisa_motion_polished_atlas_34
+  - first:
+      213: -4426010292990212113
+    second: Alisa_motion_polished_atlas_35
+  - first:
+      213: 1169827977367000582
+    second: Alisa_motion_polished_atlas_36
+  - first:
+      213: 8514151845341023444
+    second: Alisa_motion_polished_atlas_37
+  - first:
+      213: -5285791972639612406
+    second: Alisa_motion_polished_atlas_38
+  - first:
+      213: -2876472639248030036
+    second: Alisa_motion_polished_atlas_39
+  - first:
+      213: -4421504069806265262
+    second: Alisa_motion_polished_atlas_40
+  - first:
+      213: 8159445076836989480
+    second: Alisa_motion_polished_atlas_41
+  - first:
+      213: 222449085952916950
+    second: Alisa_motion_polished_atlas_42
+  - first:
+      213: 7171667039685934554
+    second: Alisa_motion_polished_atlas_43
+  - first:
+      213: 6997933991640437009
+    second: Alisa_motion_polished_atlas_44
+  - first:
+      213: -2306422764273839528
+    second: Alisa_motion_polished_atlas_45
+  - first:
+      213: -277561327954462802
+    second: Alisa_motion_polished_atlas_46
+  - first:
+      213: -6239381128032723018
+    second: Alisa_motion_polished_atlas_47
+  - first:
+      213: 7746904279090827858
+    second: Alisa_motion_polished_atlas_48
+  - first:
+      213: 7139815831189712918
+    second: Alisa_motion_polished_atlas_49
+  - first:
+      213: 8006695753011033972
+    second: Alisa_motion_polished_atlas_50
+  - first:
+      213: -5856054173726684678
+    second: Alisa_motion_polished_atlas_51
+  - first:
+      213: -8101760271256206873
+    second: Alisa_motion_polished_atlas_52
+  - first:
+      213: 4904797624387627834
+    second: Alisa_motion_polished_atlas_53
+  - first:
+      213: -2263923099024799591
+    second: Alisa_motion_polished_atlas_54
+  - first:
+      213: 4396498041681005191
+    second: Alisa_motion_polished_atlas_55
+  - first:
+      213: -2324179218464759849
+    second: Alisa_motion_polished_atlas_56
+  - first:
+      213: 1471619768736702388
+    second: Alisa_motion_polished_atlas_57
+  - first:
+      213: -8297109522367105908
+    second: Alisa_motion_polished_atlas_58
+  - first:
+      213: 3903778276889930332
+    second: Alisa_motion_polished_atlas_59
+  - first:
+      213: -2960801704256497920
+    second: Alisa_motion_polished_atlas_60
+  - first:
+      213: 3950157122675524634
+    second: Alisa_motion_polished_atlas_61
+  - first:
+      213: 1634560461289226248
+    second: Alisa_motion_polished_atlas_62
+  - first:
+      213: 5988597452109646001
+    second: Alisa_motion_polished_atlas_63
+  - first:
+      213: -7199500928822985772
+    second: Alisa_motion_polished_atlas_64
+  - first:
+      213: -8797297897810924608
+    second: Alisa_motion_polished_atlas_65
+  - first:
+      213: -725645813642444172
+    second: Alisa_motion_polished_atlas_66
+  - first:
+      213: -7167526563817038796
+    second: Alisa_motion_polished_atlas_67
+  - first:
+      213: -9081795042123163189
+    second: Alisa_motion_polished_atlas_68
+  - first:
+      213: 83917107235961080
+    second: Alisa_motion_polished_atlas_69
+  - first:
+      213: -7470717844182684026
+    second: Alisa_motion_polished_atlas_70
+  - first:
+      213: 2803318004983773037
+    second: Alisa_motion_polished_atlas_71
+  - first:
+      213: 4122769158597853488
+    second: Alisa_motion_polished_atlas_72
+  - first:
+      213: 7173545053328260415
+    second: Alisa_motion_polished_atlas_73
+  - first:
+      213: 6229278158054580632
+    second: Alisa_motion_polished_atlas_74
+  - first:
+      213: 1966041685953450557
+    second: Alisa_motion_polished_atlas_75
+  - first:
+      213: -1862660004543295824
+    second: Alisa_motion_polished_atlas_76
+  - first:
+      213: -1529070264263682268
+    second: Alisa_motion_polished_atlas_77
+  - first:
+      213: -7838657210830629429
+    second: Alisa_motion_polished_atlas_78
+  - first:
+      213: 1567375839489004811
+    second: Alisa_motion_polished_atlas_79
+  - first:
+      213: -5292296880571455719
+    second: Alisa_motion_polished_atlas_80
+  - first:
+      213: 4616147935363033434
+    second: Alisa_motion_polished_atlas_81
+  - first:
+      213: 6918672725225675399
+    second: Alisa_motion_polished_atlas_82
+  - first:
+      213: -4766493580505702224
+    second: Alisa_motion_polished_atlas_83
+  - first:
+      213: -1642987006017236525
+    second: Alisa_motion_polished_atlas_84
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Polished_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 946
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0684f2c5b57479731cf6e543a34a5392
+      internalID: -1085110500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_001
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 946
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78558a1f753b5682eef61d32163259b7
+      internalID: 548639659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_002
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 946
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426f11662c6054cd1ee57c28b80f7f53
+      internalID: -1703069960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_003
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 946
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9ad413aef75f848c007a7b05525807
+      internalID: -1722851011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_004
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 946
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1629632e0144da0a9ffc2105f473a5ef
+      internalID: -1143089937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_005
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 946
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8882f0a224656b730a18d2869bc218
+      internalID: -775403826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_006
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 946
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5106a5a0dc2d9811722965be1113cc01
+      internalID: 939935902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_007
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 946
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e5a83669907d1f9b153de5ca0c4864
+      internalID: 2145656331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_008
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 860
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ba6c842b27f00847c1546d342efd68
+      internalID: 427083174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_009
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 860
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d461e18d49fd57e940b78ba89413c97
+      internalID: 629525799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_010
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 860
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 227a9747c11e0fa22fa843bb85fe9b3f
+      internalID: -1189304908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_011
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 860
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d223a545ae092b3639cabe03b8e6ecf7
+      internalID: -167000241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_012
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 860
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a0e2c8fec4e736376cc2bfca959558a
+      internalID: 757219627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_013
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 860
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0617765e8a532e49cffed16b6f8a59
+      internalID: 1825187033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_014
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 860
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b9532c0fc7751179ba66c6f50c16eb6
+      internalID: 577405917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_015
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 860
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e65f69bd2cfcc696797e72a873379d9
+      internalID: 1599901291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_016
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 774
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6a72df5e84b8d9f564339f1db1f08a
+      internalID: 1249127845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_017
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 774
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d1f225591d0c14e9a17fbcca97dcba
+      internalID: -1519112916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_018
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 774
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4044d2167e709da0150db6c19ee2cb5
+      internalID: -1565503364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_019
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 774
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc04f3f230dc7c516d6a8f53ffbf1b1
+      internalID: -201620970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_020
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 774
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2edc4f2e08d51a5f3d93c30d4f58c8
+      internalID: -1412956789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_021
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 774
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699c8ffe3feafedb69b6dbfd774c9b19
+      internalID: -796597788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_022
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 774
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6221e090e06d2ac382468962c2aa0552
+      internalID: 1145771652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_023
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 774
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b3c845c7fcadeaf1722e83e601c774
+      internalID: -2039701654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_024
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 688
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3e9c09dcff00a0505da2b151874ce9
+      internalID: 790255100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_025
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 688
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8a960b55d45a9b4679babb0e7f99ed
+      internalID: 685399407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_026
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 688
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7b5a29293851652451fa902b6b2362
+      internalID: -924325027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_027
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 688
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6675d8ad482a4fcd250fb226a53e2707
+      internalID: -559357590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_028
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 688
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69a0be265f7679acd7db755495a7274
+      internalID: -883231496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_029
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 688
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7433aa24536cf3b424fd604199598182
+      internalID: -378189411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_030
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 688
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d55b24382322d5390db4aab1b2c155
+      internalID: 788873177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_031
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 688
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54b54293e392cbd7b7fd038b1449cad
+      internalID: -756210497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_032
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 602
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b595991c4dd9e6270b052c8dbd570c
+      internalID: 1751534887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_033
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 602
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae4494c9b38f65706619925554c3ab0d
+      internalID: -323813566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_034
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 602
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152d953143fd86fa79b9942977b763d2
+      internalID: -1625034259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_035
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 602
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42ce34d09702a1b3b536248b7cf97b1
+      internalID: 490633474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_036
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 602
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5739f6dddb0f1b2bfb05df5b0081df
+      internalID: -998373761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_037
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 602
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a8c7f66657c88f73d2fb5c0c259deb
+      internalID: -2142624951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_038
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 602
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12babe0a211a36fee83d8e48435039a6
+      internalID: 2060990637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_039
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 602
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84391ee56347badce04bc2e4c22c3fea
+      internalID: -1083426492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_040
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 516
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9b43a4e315e861f1bdbc321c179cc2
+      internalID: -696949508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_041
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 516
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2a8fb999fc6d68e0ad99c7f3bcfa73
+      internalID: -1156942960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_042
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 516
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80a888d1dfe19e06435fa60630ababa
+      internalID: 1421596501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_043
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 516
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c34acf6f746044650e45ff8bd3bacd1
+      internalID: -2078218673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_044
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 516
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990e68d5777d5d6fe76ff412739bacb8
+      internalID: 1744402003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_045
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 516
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76308c930fbcd7e1ca444c193baeb3b4
+      internalID: -833253452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_046
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 516
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07460825ba8d93550ee8c48d4ebb79a7
+      internalID: 1640430167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_047
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 516
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0a6d916a8990b44cf0f4168cb88ed1
+      internalID: -2147079699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_048
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 430
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf81bd184f95cafbd36bcb820549e823
+      internalID: 370559601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_049
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 430
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f52b92a6d41dab6169e2d8ba8df6b7f
+      internalID: -2077849668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_050
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 430
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704ae1a6b38a04e8ee312d1cca5f33a7
+      internalID: 1080683418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_051
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 430
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac367a6a78ff79788bfc8ad18e9eb78
+      internalID: -1217944558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_052
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 430
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52081deb087633eb9de9282f63901762
+      internalID: 826103186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_053
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 430
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 036b3c6ee0dd616185723c8edea7866d
+      internalID: -1812361781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_054
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 430
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3536947f99d7582f4374eef0cc974d1
+      internalID: 1836357965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_055
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 430
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b0dd4c92216311e5a154f6f945752e
+      internalID: -1874361267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_056
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 344
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3234517ad246bfafd9d2d6bad56cc6c0
+      internalID: 1308055854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_057
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 344
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9021416b038ae96081c3359425ca0b
+      internalID: -366245424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_058
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 344
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9c54ee4ffd1bf89a413b7ec82c1af8
+      internalID: -641677708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_059
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 344
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87d193567c7d68d76ef2c1610ddfa1d
+      internalID: 1802859898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_060
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 344
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb953e3c4715eeb497b7d633cd3392a
+      internalID: -883201628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_061
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 344
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604937736a2a0d7543c556db30431c68
+      internalID: -626290481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_062
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 344
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c5cb7afefb4cae2f475111e3b074eb5
+      internalID: -915962778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_063
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 344
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eaabca6ee6924e4e5fa971f533d7b57
+      internalID: -486229958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_064
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 258
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a28d28df3de82b2f8a059c13355ece
+      internalID: 1805434059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_065
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 258
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814f495d164820f3c2a358acb1a80001
+      internalID: 1635073678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_066
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 258
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5107067cb107cd7c9e9156fda6aa886
+      internalID: 29239474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_067
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 258
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05fe97081021536bdc911eed47e58185
+      internalID: -2021642460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_068
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 258
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239fc1edce6a69d9d7b10abafde69626
+      internalID: 2137017192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_069
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 258
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46637e90450b86a1e9237391e3dcfe24
+      internalID: -283011208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_070
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 258
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46bd679db7373cffee2b3d91c8c44fe
+      internalID: 182364276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_071
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 258
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915e2cafe9d2cb54dac2fe45a9a47a2c
+      internalID: 693252496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_072
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2ec034d7eec9964d67ad56611c5a26
+      internalID: -190394696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_073
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26896491d20f279bb441e3f732af309
+      internalID: 769788302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_074
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb82084462689689a0bea716a2e5206
+      internalID: -604178323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_075
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe88c13ac91d14c2c018ce260eff659e
+      internalID: 2010028755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_076
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08b8d31ac65063a77bc9d47c8632366
+      internalID: 1548534844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_077
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866531a5937b38a667bd6ece5802af5e
+      internalID: -1797214006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_078
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23f599ccca687fc7e4ced43ae1ab3f1
+      internalID: 1576653275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_079
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc92f625d37c3fa8b5fa49b089154fc
+      internalID: 1179308756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_080
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d39bc6b9bb7fbbc3a4ce7042569be2
+      internalID: -613492774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_081
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a44c801eb9d0ac899e30e7a6b2fbac3e
+      internalID: 1717444823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_082
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ea0379fcba05fdbe70ca1c47684b79
+      internalID: -195581642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_083
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d80268bdf96d96ae4273ec20939b8881
+      internalID: -316309525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_084
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21426680b42f58a2306a6159607f8a6a
+      internalID: -1404393776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_085
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e0f1b8a4b143ecbc02b62e96138bad
+      internalID: 767734357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_086
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de1e42e890f23c045e9cf934a84794c
+      internalID: -1685993560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_087
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6cd4d48aae6e8818a4c2d97706dc1cc
+      internalID: -356964217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_088
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73795059029be4ae904842996e308dc6
+      internalID: 897292616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_089
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a0e5a7d21d9289c334d89cde06362f
+      internalID: -1015142100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_090
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f155e4c281231e13013c03c167f4ac
+      internalID: 1681545876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_091
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 0
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30eed6365608f60e2d2ae2e93397ba20
+      internalID: 751812955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_092
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c11fcfdc700bf6f2f90f9101e9f459c
+      internalID: 114171149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_093
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6481e93b780591e64fd2cf277a413500
+      internalID: -2139768534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_094
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37798816b48c42e903971008de16d564
+      internalID: -1734840767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polished_095
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 0
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.011627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4cb02251a6cc64213a5af42f4e19d1
+      internalID: -70625933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2c8d03fc1f43ead4dbf75e3bba5c2ee0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Polished_000: -1085110500
+      Polished_001: 548639659
+      Polished_002: -1703069960
+      Polished_003: -1722851011
+      Polished_004: -1143089937
+      Polished_005: -775403826
+      Polished_006: 939935902
+      Polished_007: 2145656331
+      Polished_008: 427083174
+      Polished_009: 629525799
+      Polished_010: -1189304908
+      Polished_011: -167000241
+      Polished_012: 757219627
+      Polished_013: 1825187033
+      Polished_014: 577405917
+      Polished_015: 1599901291
+      Polished_016: 1249127845
+      Polished_017: -1519112916
+      Polished_018: -1565503364
+      Polished_019: -201620970
+      Polished_020: -1412956789
+      Polished_021: -796597788
+      Polished_022: 1145771652
+      Polished_023: -2039701654
+      Polished_024: 790255100
+      Polished_025: 685399407
+      Polished_026: -924325027
+      Polished_027: -559357590
+      Polished_028: -883231496
+      Polished_029: -378189411
+      Polished_030: 788873177
+      Polished_031: -756210497
+      Polished_032: 1751534887
+      Polished_033: -323813566
+      Polished_034: -1625034259
+      Polished_035: 490633474
+      Polished_036: -998373761
+      Polished_037: -2142624951
+      Polished_038: 2060990637
+      Polished_039: -1083426492
+      Polished_040: -696949508
+      Polished_041: -1156942960
+      Polished_042: 1421596501
+      Polished_043: -2078218673
+      Polished_044: 1744402003
+      Polished_045: -833253452
+      Polished_046: 1640430167
+      Polished_047: -2147079699
+      Polished_048: 370559601
+      Polished_049: -2077849668
+      Polished_050: 1080683418
+      Polished_051: -1217944558
+      Polished_052: 826103186
+      Polished_053: -1812361781
+      Polished_054: 1836357965
+      Polished_055: -1874361267
+      Polished_056: 1308055854
+      Polished_057: -366245424
+      Polished_058: -641677708
+      Polished_059: 1802859898
+      Polished_060: -883201628
+      Polished_061: -626290481
+      Polished_062: -915962778
+      Polished_063: -486229958
+      Polished_064: 1805434059
+      Polished_065: 1635073678
+      Polished_066: 29239474
+      Polished_067: -2021642460
+      Polished_068: 2137017192
+      Polished_069: -283011208
+      Polished_070: 182364276
+      Polished_071: 693252496
+      Polished_072: -190394696
+      Polished_073: 769788302
+      Polished_074: -604178323
+      Polished_075: 2010028755
+      Polished_076: 1548534844
+      Polished_077: -1797214006
+      Polished_078: 1576653275
+      Polished_079: 1179308756
+      Polished_080: -613492774
+      Polished_081: 1717444823
+      Polished_082: -195581642
+      Polished_083: -316309525
+      Polished_084: -1404393776
+      Polished_085: 767734357
+      Polished_086: -1685993560
+      Polished_087: -356964217
+      Polished_088: 897292616
+      Polished_089: -1015142100
+      Polished_090: 1681545876
+      Polished_091: 751812955
+      Polished_092: 114171149
+      Polished_093: -2139768534
+      Polished_094: -1734840767
+      Polished_095: -70625933
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

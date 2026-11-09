@@ -1,0 +1,282 @@
+{
+  "e": {
+    "source": "alisa\\motion_polish\\source\\Side_generated.png",
+    "columns": [
+      [
+        89,
+        261
+      ],
+      [
+        415,
+        530
+      ],
+      [
+        728,
+        847
+      ],
+      [
+        1034,
+        1205
+      ]
+    ],
+    "rows": [
+      [
+        7,
+        401
+      ],
+      [
+        421,
+        819
+      ],
+      [
+        841,
+        1238
+      ]
+    ],
+    "landmarks": {
+      "top": 0.0,
+      "crown": 44.5,
+      "neck": 132.0,
+      "waist": 191.0,
+      "hem": 253.0,
+      "stocking": 263.0,
+      "ground": 393.0
+    },
+    "targetLandmarks": [
+      2,
+      8,
+      30,
+      44,
+      56,
+      60,
+      85
+    ],
+    "xScale": 5.212121212121212,
+    "pivotX": 15,
+    "pivotY": 85
+  },
+  "n": {
+    "source": "alisa\\motion_polish\\source\\North_generated.png",
+    "columns": [
+      [
+        130,
+        250
+      ],
+      [
+        388,
+        510
+      ],
+      [
+        647,
+        767
+      ],
+      [
+        905,
+        1024
+      ]
+    ],
+    "rows": [
+      [
+        2,
+        386
+      ],
+      [
+        418,
+        823
+      ],
+      [
+        859,
+        1267
+      ]
+    ],
+    "landmarks": {
+      "top": 4.5,
+      "crown": 44.0,
+      "neck": 124.0,
+      "waist": 180.0,
+      "hem": 258.5,
+      "stocking": 273.68,
+      "ground": 383.0
+    },
+    "targetLandmarks": [
+      2,
+      8,
+      30,
+      44,
+      56,
+      60,
+      85
+    ],
+    "xScale": 4.5602409638554215,
+    "pivotX": 18,
+    "pivotY": 85
+  },
+  "s": {
+    "source": "alisa\\motion_polish\\source\\South_generated.png",
+    "columns": [
+      [
+        105,
+        249
+      ],
+      [
+        362,
+        513
+      ],
+      [
+        613,
+        759
+      ],
+      [
+        868,
+        1012
+      ]
+    ],
+    "rows": [
+      [
+        6,
+        446
+      ],
+      [
+        473,
+        908
+      ],
+      [
+        937,
+        1377
+      ]
+    ],
+    "landmarks": {
+      "top": 1.0,
+      "crown": 46.0,
+      "neck": 140.0,
+      "waist": 204.0,
+      "hem": 278.0,
+      "stocking": 291.0,
+      "ground": 439.0
+    },
+    "targetLandmarks": [
+      2,
+      8,
+      30,
+      44,
+      56,
+      60,
+      85
+    ],
+    "xScale": 5.575757575757576,
+    "pivotX": 18,
+    "pivotY": 85
+  },
+  "ne": {
+    "source": "alisa\\motion_polish\\source\\NorthEast_generated.png",
+    "columns": [
+      [
+        135,
+        248
+      ],
+      [
+        396,
+        512
+      ],
+      [
+        660,
+        773
+      ],
+      [
+        925,
+        1037
+      ]
+    ],
+    "rows": [
+      [
+        4,
+        391
+      ],
+      [
+        419,
+        827
+      ],
+      [
+        861,
+        1269
+      ]
+    ],
+    "landmarks": {
+      "top": 2.5,
+      "crown": 44.0,
+      "neck": 125.0,
+      "waist": 180.0,
+      "hem": 262.5,
+      "stocking": 277.82,
+      "ground": 386.0
+    },
+    "targetLandmarks": [
+      2,
+      8,
+      30,
+      44,
+      56,
+      60,
+      85
+    ],
+    "xScale": 4.620481927710843,
+    "pivotX": 18,
+    "pivotY": 85
+  },
+  "se": {
+    "source": "alisa\\motion_polish\\source\\SouthEast_generated.png",
+    "columns": [
+      [
+        117,
+        289
+      ],
+      [
+        431,
+        543
+      ],
+      [
+        719,
+        835
+      ],
+      [
+        992,
+        1166
+      ]
+    ],
+    "rows": [
+      [
+        5,
+        394
+      ],
+      [
+        422,
+        815
+      ],
+      [
+        841,
+        1236
+      ]
+    ],
+    "landmarks": {
+      "top": 3.5,
+      "crown": 44.0,
+      "neck": 131.0,
+      "waist": 188.5,
+      "hem": 263.0,
+      "stocking": 278.41999999999996,
+      "ground": 388.0
+    },
+    "targetLandmarks": [
+      2,
+      8,
+      30,
+      44,
+      56,
+      60,
+      85
+    ],
+    "xScale": 5.696969696969696,
+    "pivotX": 15,
+    "pivotY": 85
+  }
+}

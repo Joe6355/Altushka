@@ -488,22 +488,35 @@ namespace AlisaGame.Editor
                 preview.closeView = true;
                 preview.ApplyMovementInput(Vector2.right, 0.5f);
                 Require(!actor.Paused && !preview.closeView, "Direction input did not resume movement with a fixed map camera.");
-                Require(actor.Current.key == "Side/walk_side_right" && Mathf.Abs(instance.transform.position.x - 1.25f) < 0.0001f,
+                Require(actor.Current.key == "Polished/walk_e" && Mathf.Abs(instance.transform.position.x - 1.25f) < 0.0001f,
                     "Direction input failed to leave the dance and move the real character transform.");
                 Vector3 stopped = instance.transform.position;
                 preview.ApplyMovementInput(Vector2.zero, 0.5f);
-                Require(instance.transform.position == stopped && actor.Current.key == "Side/idle_side_right", "Key release did not stop in idle.");
+                Require(instance.transform.position == stopped && actor.Current.key == "Polished/idle_e", "Key release did not stop in idle.");
 
                 var directions = new[] { Vector2.right, Vector2.left, Vector2.up, Vector2.down,
                     new Vector2(1, 1), new Vector2(-1, 1), new Vector2(1, -1), new Vector2(-1, -1) };
-                foreach (var direction in directions)
+                var names = new[] { "e", "w", "n", "s", "ne", "nw", "se", "sw" };
+                for (int directionIndex = 0; directionIndex < directions.Length; directionIndex++)
                 {
+                    var direction = directions[directionIndex];
                     instance.transform.position = Vector3.zero;
                     preview.PlayClip("Front/dance_original");
                     preview.ApplyMovementInput(direction, 0.2f);
                     Require(Vector3.Distance(instance.transform.position, (Vector3)direction.normalized * 0.5f) < 0.0001f,
                         "Cardinal or diagonal movement has the wrong speed.");
+                    Require(actor.Current.key == "Polished/walk_" + names[directionIndex], "Wrong directional walk drawing.");
+                    actor.Seek(0.31f);
+                    float phase = actor.TimeInClip / actor.Current.Duration;
+                    var nextDirection = directions[(directionIndex + 1) % directions.Length];
+                    preview.ApplyMovementInput(nextDirection, 0f);
+                    Require(Mathf.Abs(actor.TimeInClip / actor.Current.Duration - phase) < 0.0001f,
+                        "Turning restarted the step instead of preserving its phase.");
+                    preview.ApplyMovementInput(direction, 0f);
+                    preview.ApplyMovementInput(Vector2.zero, 0f);
+                    Require(actor.Current.key == "Polished/idle_" + names[directionIndex], "Wrong directional idle drawing.");
                 }
+                preview.ApplyMovementInput(new Vector2(-1, -1), 0f);
                 actor.SetPaused(true);
                 stopped = instance.transform.position;
                 preview.ApplyMovementInput(new Vector2(-1, -1), 0.2f);
@@ -524,7 +537,7 @@ namespace AlisaGame.Editor
                     InputSystem.QueueStateEvent(keyboard, new KeyboardState(Key.RightArrow));
                     InputSystem.Update();
                     preview.SendMessage("Update");
-                    Require(actor.Current.key == "Side/walk_side_right", "Keyboard input did not start walking.");
+                    Require(actor.Current.key == "Polished/walk_e", "Keyboard input did not start walking.");
                     InputSystem.QueueStateEvent(keyboard, new KeyboardState());
                     InputSystem.Update();
                     preview.PlayClip("Front/dance_original");
@@ -532,7 +545,7 @@ namespace AlisaGame.Editor
                     InputSystem.Update();
                     preview.BufferMovementKey(KeyCode.LeftArrow);
                     preview.SendMessage("Update");
-                    Require(actor.Current.key == "Side/walk_side_left", "A short keyboard tap was lost between frames.");
+                    Require(actor.Current.key == "Polished/walk_w", "A short keyboard tap was lost between frames.");
                 }
                 finally
                 {
@@ -542,7 +555,7 @@ namespace AlisaGame.Editor
 #endif
             }
             finally { EditorSceneManager.ClosePreviewScene(testScene); }
-            Debug.Log("ALISA_MOVEMENT_OK: keyboard presses and buffered GUI taps, dance-to-walk, release-to-idle, 8 movement directions, diagonal speed, pause/resume and map bounds checked.");
+            Debug.Log("ALISA_MOVEMENT_OK: keyboard and GUI taps, dance-to-walk, 8 directional walk/idle drawings, phase-preserving turns, diagonal speed, pause/resume and map bounds checked.");
         }
 
         static T GetOrAdd<T>(GameObject gameObject) where T : Component
