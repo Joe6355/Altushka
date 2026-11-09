@@ -1,0 +1,6 @@
+Aseprite 1.3.18.6
+Native 36x86, 12 cels, 80 ms/cel, 960 ms/loop; 5 layers.
+Head/face is byte-identical to the accepted side-view head in all 12 cels.
+Toe is raised for heel contact, planted during phases 1..5, then lifted for recovery.
+Stance toe world X (phases 1..5): 33, 33, 33, 33, 33. Root advance: 3px/cel.
+Every leg contour fits inside 36x86. All native alpha values are 0 or 255.

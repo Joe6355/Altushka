@@ -10,7 +10,7 @@ namespace AlisaGame
         public const int NativeHeight = 86;
         public const int PixelsPerUnit = 16;
 
-        public string defaultKey = "RearRedraw/walk_back";
+        public string defaultKey = "Polished/idle_s";
         public Entry[] entries = Array.Empty<Entry>();
 
         [Serializable]
@@ -20,7 +20,6 @@ namespace AlisaGame
             public string key;
             public string label;
             public string group;
-            public string statePath;
             [TextArea] public string note;
             public bool loop;
             public bool historical;
@@ -29,7 +28,6 @@ namespace AlisaGame
             public int[] durationsMs;
 
             public float Duration => clip != null ? clip.length : 0f;
-            public int StateHash => Animator.StringToHash(statePath);
 
             public float FrameTime(int index)
             {

@@ -8,4 +8,4 @@ if not exist "%alisaEditor%" (
   pause
   exit /b 1
 )
-start "" "%alisaEditor%" -projectPath "%alisaProject%" -executeMethod AlisaGame.Editor.AlisaProjectBuilder.OpenPreview
+start "" "%alisaEditor%" -projectPath "%alisaProject%" -executeMethod AlisaGame.Editor.AlisaProjectBuilder.OpenGame

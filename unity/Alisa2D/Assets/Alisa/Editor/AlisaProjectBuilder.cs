@@ -9,10 +9,6 @@ using UnityEditor.SceneManagement;
 using UnityEditor.U2D.Sprites;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-#if ENABLE_INPUT_SYSTEM
-using UnityEngine.InputSystem;
-using UnityEngine.InputSystem.LowLevel;
-#endif
 
 namespace AlisaGame.Editor
 {
@@ -25,7 +21,7 @@ namespace AlisaGame.Editor
         const string LibraryPath = BasePath + "/Animations/AlisaLibrary.asset";
         const string ControllerPath = BasePath + "/Animations/Alisa.controller";
         const string PrefabPath = BasePath + "/Prefabs/Alisa.prefab";
-        public const string ScenePath = "Assets/Scenes/AlisaPreview.unity";
+        public const string ScenePath = AlisaGameSetup.ScenePath;
 
         // These DTOs are populated by JsonUtility, rather than C# assignments.
 #pragma warning disable CS0649
@@ -55,14 +51,6 @@ namespace AlisaGame.Editor
         }
 #pragma warning restore CS0649
 
-        [InitializeOnLoadMethod]
-        static void CreateMissingPreview()
-        {
-            // Generated assets are committed. Opening a finished project never rebuilds a user's scene.
-            if (Application.isBatchMode || !File.Exists(ManifestPath) || File.Exists(ScenePath)) return;
-            EditorApplication.delayCall += Build;
-        }
-
         [MenuItem("Alisa/Обновить клипы из атласов")]
         public static void Build()
         {
@@ -88,21 +76,21 @@ namespace AlisaGame.Editor
             library.defaultKey = manifest.defaultKey;
             library.entries = manifest.clips.Select(source => BuildClip(source, sprites[source.atlasKey])).ToArray();
             EditorUtility.SetDirty(library);
-            var controller = BuildController(library);
             var material = BuildMaterial();
-            var prefab = BuildPrefab(library, controller, material);
-            if (!File.Exists(ScenePath)) BuildScene(prefab, material);
-            EditorSettings.defaultBehaviorMode = EditorBehaviorMode.Mode2D;
-            EditorSettings.serializationMode = SerializationMode.ForceText;
-            PlayerSettings.companyName = "DudinSergey";
-            PlayerSettings.productName = "Alisa 2D";
-            PlayerSettings.runInBackground = true;
-            PlayerSettings.defaultScreenWidth = 1440;
-            PlayerSettings.defaultScreenHeight = 900;
-            PlayerSettings.resizableWindow = true;
-            QualitySettings.antiAliasing = 0;
-            QualitySettings.vSyncCount = 1;
-            QualitySettings.pixelLightCount = 0;
+            if (AlisaGameSetup.Build(library, material, CreateShadow()))
+            {
+                EditorSettings.defaultBehaviorMode = EditorBehaviorMode.Mode2D;
+                EditorSettings.serializationMode = SerializationMode.ForceText;
+                PlayerSettings.companyName = "DudinSergey";
+                PlayerSettings.productName = "Alisa 2D";
+                PlayerSettings.runInBackground = true;
+                PlayerSettings.defaultScreenWidth = 1440;
+                PlayerSettings.defaultScreenHeight = 900;
+                PlayerSettings.resizableWindow = true;
+                QualitySettings.antiAliasing = 0;
+                QualitySettings.vSyncCount = 1;
+                QualitySettings.pixelLightCount = 0;
+            }
             AssetDatabase.SaveAssets();
             AssetDatabase.Refresh(ImportAssetOptions.ForceSynchronousImport);
             Debug.Log($"ALISA_BUILD_OK: {library.entries.Length} Animator clips; native 36x86; scene {ScenePath}");
@@ -212,66 +200,13 @@ namespace AlisaGame.Editor
             settings.stopTime = timeMs / 1000f;
             AnimationUtility.SetAnimationClipSettings(clip, settings);
             EditorUtility.SetDirty(clip);
-            string machine = MachineName(source.atlasKey);
             return new AlisaAnimationLibrary.Entry
             {
                 id = source.id, key = source.key, label = source.label, group = source.group,
                 note = source.note, historical = source.historical, loop = source.loop,
-                statePath = "Base Layer." + machine + "." + SafeName(source.key),
                 clip = clip, frames = source.frames.Select(index => sprites[index]).ToArray(),
                 durationsMs = source.durationsMs
             };
-        }
-
-        static AnimatorController BuildController(AlisaAnimationLibrary library)
-        {
-            var controller = AssetDatabase.LoadAssetAtPath<AnimatorController>(ControllerPath);
-            if (controller == null) controller = AnimatorController.CreateAnimatorControllerAtPath(ControllerPath);
-            if (!controller.parameters.Any(parameter => parameter.name == "AnimationIndex"))
-                controller.AddParameter("AnimationIndex", AnimatorControllerParameterType.Int);
-            var parameters = controller.parameters;
-            foreach (var parameter in parameters.Where(parameter => parameter.name == "AnimationIndex"))
-                parameter.defaultInt = library.Find(library.defaultKey).id;
-            controller.parameters = parameters;
-            var root = controller.layers[0].stateMachine;
-            var preview = root.states.Select(child => child.state).FirstOrDefault(state => state.name == "Preview");
-            if (preview == null) preview = root.AddState("Preview", new Vector3(260, 60));
-            preview.motion = library.Find(library.defaultKey).clip;
-            preview.writeDefaultValues = false;
-            root.defaultState = preview;
-            int machineIndex = 0;
-            foreach (var group in library.entries.GroupBy(entry => entry.statePath.Split('.')[1]))
-            {
-                var machine = root.stateMachines.Select(child => child.stateMachine).FirstOrDefault(item => item.name == group.Key);
-                if (machine == null) machine = root.AddStateMachine(group.Key, new Vector3(260 + (machineIndex % 2) * 300, 180 + (machineIndex / 2) * 120));
-                machineIndex++;
-                int stateIndex = 0;
-                foreach (var entry in group)
-                {
-                    string stateName = SafeName(entry.key);
-                    var state = machine.states.Select(child => child.state).FirstOrDefault(item => item.name == stateName);
-                    if (state == null) state = machine.AddState(stateName, new Vector3(240 + (stateIndex % 2) * 310, 80 + (stateIndex / 2) * 75));
-                    stateIndex++;
-                    state.motion = entry.clip;
-                    state.writeDefaultValues = false;
-                    var transition = root.anyStateTransitions.FirstOrDefault(item => item.name == "Select " + entry.key);
-                    if (transition == null)
-                    {
-                        transition = root.AddAnyStateTransition(state);
-                        transition.name = "Select " + entry.key;
-                    }
-                    transition.destinationState = state;
-                    transition.hasExitTime = false;
-                    transition.hasFixedDuration = true;
-                    transition.duration = 0;
-                    transition.offset = 0;
-                    transition.canTransitionToSelf = false;
-                    transition.conditions = Array.Empty<AnimatorCondition>();
-                    transition.AddCondition(AnimatorConditionMode.Equals, entry.id, "AnimationIndex");
-                }
-            }
-            EditorUtility.SetDirty(controller);
-            return controller;
         }
 
         static Material BuildMaterial()
@@ -284,43 +219,6 @@ namespace AlisaGame.Editor
             material = new Material(shader) { name = "AlisaSpriteUnlit" };
             AssetDatabase.CreateAsset(material, path);
             return material;
-        }
-
-        static GameObject BuildPrefab(AlisaAnimationLibrary library, AnimatorController controller, Material material)
-        {
-            bool exists = File.Exists(PrefabPath);
-            var root = exists ? PrefabUtility.LoadPrefabContents(PrefabPath) : new GameObject("Alisa");
-            var animator = GetOrAdd<Animator>(root);
-            animator.runtimeAnimatorController = controller;
-            animator.applyRootMotion = false;
-            animator.cullingMode = AnimatorCullingMode.AlwaysAnimate;
-            var visual = root.transform.Find("Visual");
-            if (visual == null)
-            {
-                visual = new GameObject("Visual").transform;
-                visual.SetParent(root.transform, false);
-            }
-            var renderer = GetOrAdd<SpriteRenderer>(visual.gameObject);
-            renderer.sprite = library.Find(library.defaultKey).frames[0];
-            renderer.sharedMaterial = material;
-            renderer.sortingOrder = 10;
-            var actor = GetOrAdd<AlisaActor>(root);
-            actor.library = library;
-            actor.visual = renderer;
-            var shadow = root.transform.Find("Shadow");
-            if (shadow == null)
-            {
-                shadow = new GameObject("Shadow").transform;
-                shadow.SetParent(root.transform, false);
-            }
-            var shadowRenderer = GetOrAdd<SpriteRenderer>(shadow.gameObject);
-            shadowRenderer.sprite = CreateShadow();
-            shadowRenderer.sharedMaterial = material;
-            shadowRenderer.sortingOrder = 0;
-            var saved = PrefabUtility.SaveAsPrefabAsset(root, PrefabPath);
-            if (exists) PrefabUtility.UnloadPrefabContents(root);
-            else UnityEngine.Object.DestroyImmediate(root);
-            return saved;
         }
 
         static Sprite CreateShadow()
@@ -344,45 +242,8 @@ namespace AlisaGame.Editor
             return AssetDatabase.LoadAssetAtPath<Sprite>(path);
         }
 
-        static void BuildScene(GameObject prefab, Material material)
-        {
-            var scene = EditorSceneManager.NewScene(NewSceneSetup.EmptyScene, NewSceneMode.Single);
-            var cameraObject = new GameObject("Main Camera");
-            cameraObject.tag = "MainCamera";
-            var camera = cameraObject.AddComponent<Camera>();
-            camera.orthographic = true;
-            camera.orthographicSize = 3.75f;
-            camera.transform.position = new Vector3(0, 0.125f, -10);
-            camera.clearFlags = CameraClearFlags.SolidColor;
-            camera.backgroundColor = new Color32(31, 34, 41, 255);
-            camera.allowHDR = false;
-            camera.allowMSAA = false;
-            const string floorPath = ArtPath + "/Environment/Alisa_scene_background.png";
-            ConfigureTexture(floorPath, SpriteImportMode.Single);
-            var floor = new GameObject("Courtyard / native 320x240").AddComponent<SpriteRenderer>();
-            floor.sprite = AssetDatabase.LoadAssetAtPath<Sprite>(floorPath);
-            floor.sharedMaterial = material;
-            floor.sortingOrder = -100;
-            var character = (GameObject)PrefabUtility.InstantiatePrefab(prefab, scene);
-            character.transform.position = new Vector3(0, -2.5f, 0);
-            var preview = new GameObject("Animation Preview").AddComponent<AlisaPreview>();
-            preview.actor = character.GetComponent<AlisaActor>();
-            preview.previewCamera = camera;
-            preview.floor = floor;
-            EditorSceneManager.SaveScene(scene, ScenePath);
-            var scenes = EditorBuildSettings.scenes.Where(item => File.Exists(item.path)).ToList();
-            if (scenes.All(item => item.path != ScenePath)) scenes.Insert(0, new EditorBuildSettingsScene(ScenePath, true));
-            EditorBuildSettings.scenes = scenes.ToArray();
-            Selection.activeGameObject = character;
-            if (SceneView.lastActiveSceneView != null)
-            {
-                SceneView.lastActiveSceneView.in2DMode = true;
-                SceneView.lastActiveSceneView.LookAt(new Vector3(0, 0.15f, 0), Quaternion.identity, 4.5f, true);
-            }
-        }
-
-        [MenuItem("Alisa/Открыть сцену просмотра")]
-        public static void OpenPreview() => EditorSceneManager.OpenScene(ScenePath);
+        [MenuItem("Alisa/Открыть игровую сцену")]
+        public static void OpenGame() => EditorSceneManager.OpenScene(ScenePath);
 
         [MenuItem("Alisa/Проверить импорт и Animator")]
         public static void Verify()
@@ -419,14 +280,25 @@ namespace AlisaGame.Editor
                 }
             }
 
-            var instance = (GameObject)PrefabUtility.InstantiatePrefab(prefab);
+            // Sample every source clip in an isolated transient Animator. Archive clips
+            // remain ordinary .anim assets without adding debug states to the game graph.
+            var testScene = EditorSceneManager.NewPreviewScene();
+            var instance = new GameObject("Import verification");
+            SceneManager.MoveGameObjectToScene(instance, testScene);
+            var animator = instance.AddComponent<Animator>();
+            animator.cullingMode = AnimatorCullingMode.AlwaysAnimate;
+            var visual = new GameObject("Visual").AddComponent<SpriteRenderer>();
+            visual.transform.SetParent(instance.transform, false);
+            var machine = new AnimatorStateMachine { name = "Base Layer" };
+            var state = new AnimatorState { name = "Source" };
+            machine.states = new[] { new ChildAnimatorState { state = state } };
+            machine.defaultState = state;
+            var sampling = new AnimatorController { layers = new[] {
+                new AnimatorControllerLayer { name = "Base Layer", defaultWeight = 1f, stateMachine = machine }
+            } };
+            animator.runtimeAnimatorController = sampling;
             try
             {
-                var actor = instance.GetComponent<AlisaActor>();
-                var animator = instance.GetComponent<Animator>();
-                Require(animator.runtimeAnimatorController == controller && actor.visual != null, "Prefab Animator not connected.");
-                animator.Rebind();
-                animator.Update(0);
                 foreach (var entry in library.entries)
                 {
                     var source = manifest.clips.Single(item => item.key == entry.key);
@@ -442,135 +314,34 @@ namespace AlisaGame.Editor
                     for (int i = 0; i < entry.frames.Length; i++)
                         Require(keys[i].value == entry.frames[i] && Mathf.Abs(keys[i].time - entry.FrameTime(i)) < 0.0001f,
                             "Source cel timing changed: " + entry.key);
-                    Require(animator.HasState(0, entry.StateHash), "Animator state missing: " + entry.statePath);
-                    animator.SetInteger("AnimationIndex", entry.id);
+                    state.motion = entry.clip;
+                    animator.Rebind();
+                    animator.speed = 0;
+                    animator.Update(0);
                     for (int i = 0; i < entry.frames.Length; i++)
                     {
                         float time = entry.FrameTime(i) + entry.durationsMs[i] / 2000f;
-                        animator.Play(entry.StateHash, 0, time / entry.Duration);
+                        animator.Play("Base Layer.Source", 0, time / entry.Duration);
                         animator.Update(0);
-                        Require(actor.visual.sprite == entry.frames[i], "Animator sampled the wrong sprite: " + entry.key + " frame " + i);
-                        Require(entry.FrameAt(time) == i, "Viewer frame timing mismatch.");
+                        Require(visual.sprite == entry.frames[i], "Animator sampled the wrong sprite: " + entry.key + " frame " + i);
                     }
                 }
             }
-            finally { UnityEngine.Object.DestroyImmediate(instance); }
-            var scene = SceneManager.GetSceneByPath(ScenePath);
-            bool closeAfterChecking = !scene.isLoaded;
-            if (closeAfterChecking) scene = EditorSceneManager.OpenScene(ScenePath, OpenSceneMode.Additive);
-            Require(scene.GetRootGameObjects().Any(item => item.GetComponent<AlisaPreview>() != null), "Preview scene is not connected.");
-            if (closeAfterChecking) EditorSceneManager.CloseScene(scene, true);
-            Debug.Log($"ALISA_VERIFY_OK: {library.entries.Length} clips sampled through Animator; {framesChecked} native sprites; byte-identical atlases; timing, pivots and loop settings checked.");
+            finally
+            {
+                UnityEngine.Object.DestroyImmediate(instance);
+                UnityEngine.Object.DestroyImmediate(sampling);
+                UnityEngine.Object.DestroyImmediate(machine);
+                UnityEngine.Object.DestroyImmediate(state);
+                EditorSceneManager.ClosePreviewScene(testScene);
+            }
+            AlisaGameplayCheck.VerifyStructure();
+            Debug.Log($"ALISA_VERIFY_OK: {library.entries.Length} clips, {framesChecked} native sprites sampled; timing, pivots and source hashes verified; gameplay scene connected.");
         }
 
         static string SpriteName(string atlas, int index) => atlas + "_" + index.ToString("D3");
 
-        [MenuItem("Alisa/Проверить управление")]
-        public static void VerifyMovement()
-        {
-            Require(!EditorApplication.isPlayingOrWillChangePlaymode, "Stop Play mode before running the movement check.");
-            var prefab = AssetDatabase.LoadAssetAtPath<GameObject>(PrefabPath);
-            Require(prefab != null, "Alisa prefab is missing.");
-            var testScene = EditorSceneManager.NewPreviewScene();
-            try
-            {
-                var instance = (GameObject)PrefabUtility.InstantiatePrefab(prefab, testScene);
-                var actor = instance.GetComponent<AlisaActor>();
-                var preview = instance.AddComponent<AlisaPreview>();
-                preview.actor = actor;
-                instance.GetComponent<Animator>().Rebind();
-                instance.GetComponent<Animator>().Update(0);
-                actor.SetSpeed(1);
-                preview.PlayClip("Front/dance_original");
-                preview.ApplyMovementInput(Vector2.zero, 0.5f);
-                Require(actor.Current.key == "Front/dance_original", "Idle input interrupted clip inspection.");
-                actor.SetPaused(true);
-                preview.closeView = true;
-                preview.ApplyMovementInput(Vector2.right, 0.5f);
-                Require(!actor.Paused && !preview.closeView, "Direction input did not resume movement with a fixed map camera.");
-                Require(actor.Current.key == "Polished/walk_e" && Mathf.Abs(instance.transform.position.x - 1.25f) < 0.0001f,
-                    "Direction input failed to leave the dance and move the real character transform.");
-                Vector3 stopped = instance.transform.position;
-                preview.ApplyMovementInput(Vector2.zero, 0.5f);
-                Require(instance.transform.position == stopped && actor.Current.key == "Polished/idle_e", "Key release did not stop in idle.");
-
-                var directions = new[] { Vector2.right, Vector2.left, Vector2.up, Vector2.down,
-                    new Vector2(1, 1), new Vector2(-1, 1), new Vector2(1, -1), new Vector2(-1, -1) };
-                var names = new[] { "e", "w", "n", "s", "ne", "nw", "se", "sw" };
-                for (int directionIndex = 0; directionIndex < directions.Length; directionIndex++)
-                {
-                    var direction = directions[directionIndex];
-                    instance.transform.position = Vector3.zero;
-                    preview.PlayClip("Front/dance_original");
-                    preview.ApplyMovementInput(direction, 0.2f);
-                    Require(Vector3.Distance(instance.transform.position, (Vector3)direction.normalized * 0.5f) < 0.0001f,
-                        "Cardinal or diagonal movement has the wrong speed.");
-                    Require(actor.Current.key == "Polished/walk_" + names[directionIndex], "Wrong directional walk drawing.");
-                    actor.Seek(0.31f);
-                    float phase = actor.TimeInClip / actor.Current.Duration;
-                    var nextDirection = directions[(directionIndex + 1) % directions.Length];
-                    preview.ApplyMovementInput(nextDirection, 0f);
-                    Require(Mathf.Abs(actor.TimeInClip / actor.Current.Duration - phase) < 0.0001f,
-                        "Turning restarted the step instead of preserving its phase.");
-                    preview.ApplyMovementInput(direction, 0f);
-                    preview.ApplyMovementInput(Vector2.zero, 0f);
-                    Require(actor.Current.key == "Polished/idle_" + names[directionIndex], "Wrong directional idle drawing.");
-                }
-                preview.ApplyMovementInput(new Vector2(-1, -1), 0f);
-                actor.SetPaused(true);
-                stopped = instance.transform.position;
-                preview.ApplyMovementInput(new Vector2(-1, -1), 0.2f);
-                Require(instance.transform.position == stopped, "Paused held movement continued moving.");
-                preview.ApplyMovementInput(Vector2.zero, 0.01f);
-                preview.ApplyMovementInput(Vector2.right, 0.2f);
-                Require(!actor.Paused && instance.transform.position != stopped, "A new direction press did not resume control.");
-                instance.transform.position = new Vector3(8.5f, 2f, 0);
-                preview.ApplyMovementInput(Vector2.one, 1f);
-                Require(instance.transform.position == new Vector3(8.5f, 2f, 0), "Character escaped the map bounds.");
-#if ENABLE_INPUT_SYSTEM
-                // Exercise the keyboard reader too, including a tap shorter than one game frame.
-                var previousKeyboard = Keyboard.current;
-                var keyboard = InputSystem.AddDevice<Keyboard>();
-                try
-                {
-                    preview.PlayClip("Front/dance_original");
-                    InputSystem.QueueStateEvent(keyboard, new KeyboardState(Key.RightArrow));
-                    InputSystem.Update();
-                    preview.SendMessage("Update");
-                    Require(actor.Current.key == "Polished/walk_e", "Keyboard input did not start walking.");
-                    InputSystem.QueueStateEvent(keyboard, new KeyboardState());
-                    InputSystem.Update();
-                    preview.PlayClip("Front/dance_original");
-                    InputSystem.QueueStateEvent(keyboard, new KeyboardState());
-                    InputSystem.Update();
-                    preview.BufferMovementKey(KeyCode.LeftArrow);
-                    preview.SendMessage("Update");
-                    Require(actor.Current.key == "Polished/walk_w", "A short keyboard tap was lost between frames.");
-                }
-                finally
-                {
-                    InputSystem.RemoveDevice(keyboard);
-                    if (previousKeyboard != null && previousKeyboard.added) previousKeyboard.MakeCurrent();
-                }
-#endif
-            }
-            finally { EditorSceneManager.ClosePreviewScene(testScene); }
-            Debug.Log("ALISA_MOVEMENT_OK: keyboard and GUI taps, dance-to-walk, 8 directional walk/idle drawings, phase-preserving turns, diagonal speed, pause/resume and map bounds checked.");
-        }
-
-        static T GetOrAdd<T>(GameObject gameObject) where T : Component
-        {
-            // Unity's missing-component sentinel must be tested with Unity's null operator.
-            var component = gameObject.GetComponent<T>();
-            return component != null ? component : gameObject.AddComponent<T>();
-        }
         static string SafeName(string key) => key.Replace("/", "__");
-        static string MachineName(string atlas)
-        {
-            if (atlas == "RearRedraw" || atlas == "RearStand") return "Rear";
-            if (atlas.StartsWith("Dance")) return "EyeVariants";
-            return atlas;
-        }
         static GUID StableGuid(string name)
         {
             using (var md5 = MD5.Create())

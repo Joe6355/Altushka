@@ -5,6 +5,112 @@
   "defaultKey": "Polished/idle_s",
   "atlases": [
     {
+      "key": "SideRevision",
+      "assetPath": "Assets/Alisa/Art/SideRevision/Alisa_side_revision_atlas.png",
+      "source": "alisa/side_revision/Alisa_side_revision_atlas.png",
+      "sha256": "62ae594d079a3d133424b64fb50ec1829a780028a56e18842557742e9cbcbfea",
+      "width": 216,
+      "height": 172,
+      "frames": [
+        {
+          "h": 86,
+          "w": 36,
+          "x": 0,
+          "y": 0,
+          "pivotX": 18,
+          "pivotY": 85
+        },
+        {
+          "h": 86,
+          "w": 36,
+          "x": 36,
+          "y": 0,
+          "pivotX": 18,
+          "pivotY": 85
+        },
+        {
+          "h": 86,
+          "w": 36,
+          "x": 72,
+          "y": 0,
+          "pivotX": 18,
+          "pivotY": 85
+        },
+        {
+          "h": 86,
+          "w": 36,
+          "x": 108,
+          "y": 0,
+          "pivotX": 18,
+          "pivotY": 85
+        },
+        {
+          "h": 86,
+          "w": 36,
+          "x": 144,
+          "y": 0,
+          "pivotX": 18,
+          "pivotY": 85
+        },
+        {
+          "h": 86,
+          "w": 36,
+          "x": 180,
+          "y": 0,
+          "pivotX": 18,
+          "pivotY": 85
+        },
+        {
+          "h": 86,
+          "w": 36,
+          "x": 0,
+          "y": 86,
+          "pivotX": 18,
+          "pivotY": 85
+        },
+        {
+          "h": 86,
+          "w": 36,
+          "x": 36,
+          "y": 86,
+          "pivotX": 18,
+          "pivotY": 85
+        },
+        {
+          "h": 86,
+          "w": 36,
+          "x": 72,
+          "y": 86,
+          "pivotX": 18,
+          "pivotY": 85
+        },
+        {
+          "h": 86,
+          "w": 36,
+          "x": 108,
+          "y": 86,
+          "pivotX": 18,
+          "pivotY": 85
+        },
+        {
+          "h": 86,
+          "w": 36,
+          "x": 144,
+          "y": 86,
+          "pivotX": 18,
+          "pivotY": 85
+        },
+        {
+          "h": 86,
+          "w": 36,
+          "x": 180,
+          "y": 86,
+          "pivotX": 18,
+          "pivotY": 85
+        }
+      ]
+    },
+    {
       "key": "Polished",
       "assetPath": "Assets/Alisa/Art/Polished/Alisa_motion_polished_atlas.png",
       "source": "alisa/motion_polish/Alisa_motion_polished_atlas.png",
@@ -4264,6 +4370,44 @@
     }
   ],
   "clips": [
+    {
+      "id": 64,
+      "key": "SideRevision/walk_side_right",
+      "label": "Боковой шаг — проверочная правка",
+      "group": "00 Проба — боковой шаг",
+      "atlasKey": "SideRevision",
+      "frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "durationsMs": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "loop": true,
+      "historical": false,
+      "note": "Проверочная правка одного шага: прежнее лицо и верх, 12 новых поз ног. Остальные направления — предыдущий набор."
+    },
     {
       "id": 48,
       "key": "Polished/idle_s",

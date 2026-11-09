@@ -83,6 +83,7 @@ def main() -> None:
                             width=width, height=height, frames=frames))
 
     packs = [
+        ("SideRevision", "alisa/side_revision/Alisa_side_revision.json", "00 Проба — боковой шаг", False),
         ("Polished", "alisa/motion_polish/Alisa_motion_polished.json", "01 Новые анимации — 8 направлений", False),
         ("RearRedraw", "alisa/rear_key_redraw/Alisa_rear_redrawn.json", "Архив — задняя основа", True),
         ("Side", "alisa/side_walk/Alisa_side.json", "Архив — боковые ракурсы", True),
@@ -110,6 +111,8 @@ def main() -> None:
                 clip_historical = False
                 clip_group = "02 Исходный танец"
                 note = "Исходный танец сохранён без изменения кадров и задержек."
+            elif key == "SideRevision":
+                note = "Проверочная правка одного шага: прежнее лицо и верх, 12 новых поз ног. Остальные направления — предыдущий набор."
             elif key == "Polished":
                 note = "Новые позы 36×86. Восемь направлений; фаза шага сохраняется при повороте."
             elif historical:
