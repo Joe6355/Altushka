@@ -9,6 +9,10 @@ using UnityEditor.SceneManagement;
 using UnityEditor.U2D.Sprites;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+#if ENABLE_INPUT_SYSTEM
+using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.LowLevel;
+#endif
 
 namespace AlisaGame.Editor
 {
@@ -460,6 +464,87 @@ namespace AlisaGame.Editor
         }
 
         static string SpriteName(string atlas, int index) => atlas + "_" + index.ToString("D3");
+
+        [MenuItem("Alisa/Проверить управление")]
+        public static void VerifyMovement()
+        {
+            Require(!EditorApplication.isPlayingOrWillChangePlaymode, "Stop Play mode before running the movement check.");
+            var prefab = AssetDatabase.LoadAssetAtPath<GameObject>(PrefabPath);
+            Require(prefab != null, "Alisa prefab is missing.");
+            var testScene = EditorSceneManager.NewPreviewScene();
+            try
+            {
+                var instance = (GameObject)PrefabUtility.InstantiatePrefab(prefab, testScene);
+                var actor = instance.GetComponent<AlisaActor>();
+                var preview = instance.AddComponent<AlisaPreview>();
+                preview.actor = actor;
+                instance.GetComponent<Animator>().Rebind();
+                instance.GetComponent<Animator>().Update(0);
+                actor.SetSpeed(1);
+                preview.PlayClip("Front/dance_original");
+                preview.ApplyMovementInput(Vector2.zero, 0.5f);
+                Require(actor.Current.key == "Front/dance_original", "Idle input interrupted clip inspection.");
+                actor.SetPaused(true);
+                preview.closeView = true;
+                preview.ApplyMovementInput(Vector2.right, 0.5f);
+                Require(!actor.Paused && !preview.closeView, "Direction input did not resume movement with a fixed map camera.");
+                Require(actor.Current.key == "Side/walk_side_right" && Mathf.Abs(instance.transform.position.x - 1.25f) < 0.0001f,
+                    "Direction input failed to leave the dance and move the real character transform.");
+                Vector3 stopped = instance.transform.position;
+                preview.ApplyMovementInput(Vector2.zero, 0.5f);
+                Require(instance.transform.position == stopped && actor.Current.key == "Side/idle_side_right", "Key release did not stop in idle.");
+
+                var directions = new[] { Vector2.right, Vector2.left, Vector2.up, Vector2.down,
+                    new Vector2(1, 1), new Vector2(-1, 1), new Vector2(1, -1), new Vector2(-1, -1) };
+                foreach (var direction in directions)
+                {
+                    instance.transform.position = Vector3.zero;
+                    preview.PlayClip("Front/dance_original");
+                    preview.ApplyMovementInput(direction, 0.2f);
+                    Require(Vector3.Distance(instance.transform.position, (Vector3)direction.normalized * 0.5f) < 0.0001f,
+                        "Cardinal or diagonal movement has the wrong speed.");
+                }
+                actor.SetPaused(true);
+                stopped = instance.transform.position;
+                preview.ApplyMovementInput(new Vector2(-1, -1), 0.2f);
+                Require(instance.transform.position == stopped, "Paused held movement continued moving.");
+                preview.ApplyMovementInput(Vector2.zero, 0.01f);
+                preview.ApplyMovementInput(Vector2.right, 0.2f);
+                Require(!actor.Paused && instance.transform.position != stopped, "A new direction press did not resume control.");
+                instance.transform.position = new Vector3(8.5f, 2f, 0);
+                preview.ApplyMovementInput(Vector2.one, 1f);
+                Require(instance.transform.position == new Vector3(8.5f, 2f, 0), "Character escaped the map bounds.");
+#if ENABLE_INPUT_SYSTEM
+                // Exercise the keyboard reader too, including a tap shorter than one game frame.
+                var previousKeyboard = Keyboard.current;
+                var keyboard = InputSystem.AddDevice<Keyboard>();
+                try
+                {
+                    preview.PlayClip("Front/dance_original");
+                    InputSystem.QueueStateEvent(keyboard, new KeyboardState(Key.RightArrow));
+                    InputSystem.Update();
+                    preview.SendMessage("Update");
+                    Require(actor.Current.key == "Side/walk_side_right", "Keyboard input did not start walking.");
+                    InputSystem.QueueStateEvent(keyboard, new KeyboardState());
+                    InputSystem.Update();
+                    preview.PlayClip("Front/dance_original");
+                    InputSystem.QueueStateEvent(keyboard, new KeyboardState());
+                    InputSystem.Update();
+                    preview.BufferMovementKey(KeyCode.LeftArrow);
+                    preview.SendMessage("Update");
+                    Require(actor.Current.key == "Side/walk_side_left", "A short keyboard tap was lost between frames.");
+                }
+                finally
+                {
+                    InputSystem.RemoveDevice(keyboard);
+                    if (previousKeyboard != null && previousKeyboard.added) previousKeyboard.MakeCurrent();
+                }
+#endif
+            }
+            finally { EditorSceneManager.ClosePreviewScene(testScene); }
+            Debug.Log("ALISA_MOVEMENT_OK: keyboard presses and buffered GUI taps, dance-to-walk, release-to-idle, 8 movement directions, diagonal speed, pause/resume and map bounds checked.");
+        }
+
         static T GetOrAdd<T>(GameObject gameObject) where T : Component
         {
             // Unity's missing-component sentinel must be tested with Unity's null operator.

@@ -18,6 +18,8 @@ namespace AlisaGame
         Vector2 scroll;
         bool showArchive;
         bool movementMode;
+        bool wasMoving;
+        Vector2 pendingMovementTap;
         bool showFloor = true;
         Vector2 facing = Vector2.right;
         Vector3 home;
@@ -41,24 +43,59 @@ namespace AlisaGame
             if (Pressed(KeyCode.R)) ResetPosition();
             if (Pressed(KeyCode.Space))
             {
-                movementMode = false;
-                actor.Select("Front/dance_original");
-                actor.SetPaused(false);
+                PlayClip("Front/dance_original");
+                return;
             }
 
-            if (!movementMode) return;
             Vector2 input = Vector2.zero;
             if (Held(KeyCode.A) || Held(KeyCode.LeftArrow)) input.x--;
             if (Held(KeyCode.D) || Held(KeyCode.RightArrow)) input.x++;
             if (Held(KeyCode.S) || Held(KeyCode.DownArrow)) input.y--;
             if (Held(KeyCode.W) || Held(KeyCode.UpArrow)) input.y++;
+            if (input.sqrMagnitude == 0) input = pendingMovementTap;
+            pendingMovementTap = Vector2.zero;
+            ApplyMovementInput(input, Time.deltaTime);
+        }
+
+        public void PlayClip(string key)
+        {
+            movementMode = false;
+            wasMoving = false;
+            pendingMovementTap = Vector2.zero;
+            actor.Select(key);
+            actor.SetPaused(false);
+        }
+
+        public bool BufferMovementKey(KeyCode key)
+        {
+            switch (key)
+            {
+                case KeyCode.A: case KeyCode.LeftArrow: pendingMovementTap.x--; return true;
+                case KeyCode.D: case KeyCode.RightArrow: pendingMovementTap.x++; return true;
+                case KeyCode.W: case KeyCode.UpArrow: pendingMovementTap.y++; return true;
+                case KeyCode.S: case KeyCode.DownArrow: pendingMovementTap.y--; return true;
+                default: return false;
+            }
+        }
+
+        public void ApplyMovementInput(Vector2 input, float deltaTime)
+        {
             bool moving = input.sqrMagnitude > 0;
+            if (moving && (!movementMode || !wasMoving))
+            {
+                // Direction keys always leave clip inspection and resume normal control.
+                movementMode = true;
+                closeView = false;
+                actor.SetPaused(false);
+            }
+            wasMoving = moving;
+            if (!movementMode) return;
             if (moving) facing = input.normalized;
             string key = MovementKey(facing, moving);
             if (actor.Current == null || actor.Current.key != key) actor.Select(key);
             if (moving && !actor.Paused)
             {
-                Vector3 position = actor.transform.position + (Vector3)(input.normalized * (40f / 16f) * Time.deltaTime * actor.PlaybackSpeed);
+                Vector3 position = actor.transform.position + (Vector3)(input.normalized * (40f / 16f) * deltaTime * actor.PlaybackSpeed);
                 position.x = Mathf.Clamp(position.x, -8.5f, 8.5f);
                 position.y = Mathf.Clamp(position.y, -6.6f, 2f);
                 actor.transform.position = position;
@@ -68,9 +105,11 @@ namespace AlisaGame
         static bool Held(KeyCode key)
         {
 #if ENABLE_INPUT_SYSTEM
-            return Keyboard.current != null && Keyboard.current[InputKey(key)].isPressed;
+            if (Keyboard.current == null) return false;
+            var control = Keyboard.current[InputKey(key)];
+            return control.isPressed || control.wasPressedThisFrame;
 #else
-            return Input.GetKey(key);
+            return Input.GetKey(key) || Input.GetKeyDown(key);
 #endif
         }
 
@@ -149,6 +188,20 @@ namespace AlisaGame
 
         void OnGUI()
         {
+            // A camera only clears its current viewport. Cover the old viewport when zoom changes.
+            if (previewCamera != null)
+            {
+                Rect viewport = previewCamera.pixelRect;
+                float top = Screen.height - viewport.yMax;
+                float bottom = Screen.height - viewport.y;
+                GUI.DrawTexture(new Rect(0, 0, Screen.width, top), Texture2D.blackTexture);
+                GUI.DrawTexture(new Rect(0, bottom, Screen.width, Screen.height - bottom), Texture2D.blackTexture);
+                GUI.DrawTexture(new Rect(0, top, viewport.x, viewport.height), Texture2D.blackTexture);
+                GUI.DrawTexture(new Rect(viewport.xMax, top, Screen.width - viewport.xMax, viewport.height), Texture2D.blackTexture);
+            }
+            // Keep brief GUI key presses until Update, and keep arrows out of the timeline slider.
+            var inputEvent = Event.current;
+            if (inputEvent.type == EventType.KeyDown && BufferMovementKey(inputEvent.keyCode)) inputEvent.Use();
             if (!showPanel)
             {
                 GUI.Label(new Rect(12, 12, 280, 28), "F1 — показать управление");
@@ -187,13 +240,8 @@ namespace AlisaGame
             GUILayout.EndHorizontal();
             closeView = GUILayout.Toggle(closeView, "Крупный план");
             showFloor = GUILayout.Toggle(showFloor, "Игровой фон");
-            bool newMovement = GUILayout.Toggle(movementMode, "Перемещение — WASD / стрелки");
-            if (newMovement != movementMode)
-            {
-                movementMode = newMovement;
-                actor.SetPaused(false);
-                ResetPosition();
-            }
+            GUILayout.Label("WASD / стрелки — идти; без клавиш — idle", small);
+            GUILayout.Label(movementMode ? "Управление с клавиатуры" : "Просмотр клипа — WASD включит ходьбу", small);
             if (movementMode)
                 GUILayout.Label("Вверх: новая спина; вбок: профиль; вниз: передние диагонали. Новых задних диагоналей и прямого вида на камеру пока нет.", small);
             GUILayout.Label("Space — танец · P — пауза · , / . — кадры\nR — вернуть в центр · F1 — скрыть панель", small);
@@ -213,9 +261,7 @@ namespace AlisaGame
                 bool active = actor.Current == entry;
                 if (GUILayout.Button((active ? "● " : "") + entry.label, active ? selected : button, GUILayout.MinHeight(30)))
                 {
-                    movementMode = false;
-                    actor.Select(entry.key);
-                    actor.SetPaused(false);
+                    PlayClip(entry.key);
                     ResetPosition();
                 }
             }
