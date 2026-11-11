@@ -1,0 +1,1471 @@
+fileFormatVersion: 2
+guid: b58bee512d4a2ce43920832de0b88726
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7406595765202262906
+    second: Alisa_diagonals_atlas_0
+  - first:
+      213: 5853997702263428282
+    second: Alisa_diagonals_atlas_1
+  - first:
+      213: 787221988379607557
+    second: Alisa_diagonals_atlas_2
+  - first:
+      213: 2866858055822530848
+    second: Alisa_diagonals_atlas_3
+  - first:
+      213: -6843505363056743553
+    second: Alisa_diagonals_atlas_4
+  - first:
+      213: 1022045426824643804
+    second: Alisa_diagonals_atlas_5
+  - first:
+      213: -1225645778615784369
+    second: Alisa_diagonals_atlas_6
+  - first:
+      213: 7044985328471239890
+    second: Alisa_diagonals_atlas_7
+  - first:
+      213: -5077320514014125106
+    second: Alisa_diagonals_atlas_8
+  - first:
+      213: 4606746311437171110
+    second: Alisa_diagonals_atlas_9
+  - first:
+      213: 1506951768472535493
+    second: Alisa_diagonals_atlas_10
+  - first:
+      213: 8933776311003878790
+    second: Alisa_diagonals_atlas_11
+  - first:
+      213: 4194665911873547962
+    second: Alisa_diagonals_atlas_12
+  - first:
+      213: 8218883124962489336
+    second: Alisa_diagonals_atlas_13
+  - first:
+      213: -7350283158776394940
+    second: Alisa_diagonals_atlas_14
+  - first:
+      213: 5250545576648890153
+    second: Alisa_diagonals_atlas_15
+  - first:
+      213: -1126341655673273246
+    second: Alisa_diagonals_atlas_16
+  - first:
+      213: -8991805628255715576
+    second: Alisa_diagonals_atlas_17
+  - first:
+      213: -5344669442428032504
+    second: Alisa_diagonals_atlas_18
+  - first:
+      213: 2303862060558670871
+    second: Alisa_diagonals_atlas_19
+  - first:
+      213: 472914065979979483
+    second: Alisa_diagonals_atlas_20
+  - first:
+      213: -1499968406307548516
+    second: Alisa_diagonals_atlas_21
+  - first:
+      213: 293255531091320394
+    second: Alisa_diagonals_atlas_22
+  - first:
+      213: 7030901282078785101
+    second: Alisa_diagonals_atlas_23
+  - first:
+      213: 5573018903350216422
+    second: Alisa_diagonals_atlas_24
+  - first:
+      213: -8376996517525942161
+    second: Alisa_diagonals_atlas_25
+  - first:
+      213: -7728256753326996310
+    second: Alisa_diagonals_atlas_26
+  - first:
+      213: 3227301383749564781
+    second: Alisa_diagonals_atlas_27
+  - first:
+      213: -4066762722349591272
+    second: Alisa_diagonals_atlas_28
+  - first:
+      213: -5794998274208769188
+    second: Alisa_diagonals_atlas_29
+  - first:
+      213: -8145904608283908741
+    second: Alisa_diagonals_atlas_30
+  - first:
+      213: 6791781940206088623
+    second: Alisa_diagonals_atlas_31
+  - first:
+      213: 9131951141489259546
+    second: Alisa_diagonals_atlas_32
+  - first:
+      213: -6357961213179355198
+    second: Alisa_diagonals_atlas_33
+  - first:
+      213: 1578141695932182830
+    second: Alisa_diagonals_atlas_34
+  - first:
+      213: 6244180796476464837
+    second: Alisa_diagonals_atlas_35
+  - first:
+      213: -7843035698163167317
+    second: Alisa_diagonals_atlas_36
+  - first:
+      213: -2221835736304735494
+    second: Alisa_diagonals_atlas_37
+  - first:
+      213: 6392126490214637471
+    second: Alisa_diagonals_atlas_38
+  - first:
+      213: -1850637566606289952
+    second: Alisa_diagonals_atlas_39
+  - first:
+      213: 4485768801453282750
+    second: Alisa_diagonals_atlas_40
+  - first:
+      213: 4273519985627049054
+    second: Alisa_diagonals_atlas_41
+  - first:
+      213: 2478055638152814184
+    second: Alisa_diagonals_atlas_42
+  - first:
+      213: -5810017270444610878
+    second: Alisa_diagonals_atlas_43
+  - first:
+      213: 3419254824853226870
+    second: Alisa_diagonals_atlas_44
+  - first:
+      213: -1187313820696105257
+    second: Alisa_diagonals_atlas_45
+  - first:
+      213: 7872778328432719860
+    second: Alisa_diagonals_atlas_46
+  - first:
+      213: 5309304441821623595
+    second: Alisa_diagonals_atlas_47
+  - first:
+      213: 4316211786599488264
+    second: Alisa_diagonals_atlas_48
+  - first:
+      213: -3814506700477532275
+    second: Alisa_diagonals_atlas_49
+  - first:
+      213: -6976048504074430329
+    second: Alisa_diagonals_atlas_50
+  - first:
+      213: 7234399896082337318
+    second: Alisa_diagonals_atlas_51
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BlenderDiagonals_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5277778, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8da4475f524580c01e882268329f34
+      internalID: -805719675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_001
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5277778, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2054f85431289a954702ae47daf9782
+      internalID: 1434199240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_002
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5277778, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ca9c537a34c7875d014bd7d52f68c6
+      internalID: -504538528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_003
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5277778, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cde33f4c85bd172e81c5f9f4607aad7
+      internalID: 404490121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_004
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5277778, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f558c95fbd46dc6bb38bfdd4299aacb5
+      internalID: 1483722917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_005
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5277778, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048140dac9cd9ec54201cd298f88d60d
+      internalID: -841587568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_006
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5277778, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08d454f8f22691b6bd12d29c5bffe94
+      internalID: 58034408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_007
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5277778, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4a2cf25136750975ce9d245090ce81
+      internalID: 595753172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_008
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5277778, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 820ba04a8785f0c05ca0043d87ca9bab
+      internalID: 213437961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_009
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5277778, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f54e0f265b0d8ebd60942679d1439365
+      internalID: -437074283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_010
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5277778, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff736f9cbda7e487c88867cfb1c865d
+      internalID: 989913710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_011
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5277778, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61effcbfdc2520747b20249808e476dd
+      internalID: 1796877056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_012
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5277778, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f496c7b80cd796ae22de0b80c0f56b4
+      internalID: -1519728743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_013
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5277778, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf0264e5f09b54b5c53794b6e6a7365
+      internalID: 828359137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_014
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5277778, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e48871a8b67c7b2208262d0e6e67238
+      internalID: 556645345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_015
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5277778, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088ca62bb16029c34d534555c896de65
+      internalID: 124578051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_016
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5277778, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9eead711a61ce248fa3ff63a1aafabf
+      internalID: 1300429757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_017
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5277778, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d361021f01649fcb563e33a6009054
+      internalID: 96121446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_018
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5277778, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ee4f7fde40b5b5a6ded8338638f4f9
+      internalID: 1828005348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_019
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 172
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5277778, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70573d80b45a62c64dd0080686d343f2
+      internalID: 1479141852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_020
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 227fe0b977fa50c7e329d496ddaaaa63
+      internalID: -1216296266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_021
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8489861b35f7cd5f6778ce82e731ad
+      internalID: -461750764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_022
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd0dc9ffb488b8aaf8d7b14f502bb51
+      internalID: -830338324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_023
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6623ccceee11ca1ddfc5aff7b11def
+      internalID: -1917302807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_024
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47108577de83d9ba19d03798a244d8a
+      internalID: -1323376604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_025
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d483ba02e63971c4230d8addf11e5b
+      internalID: 1654411764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_026
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16fb9dc816ad39eba37a57dbc23be6ae
+      internalID: -1670847422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_027
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25d0aabaee8caba65d4c8357b14a56d
+      internalID: -284439457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_028
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0de91ae300e8635fe7c15c0b56f19f
+      internalID: -1895145349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_029
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65679cf5e077d5d23dcdb5712a8ad43a
+      internalID: -1546153275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_030
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09df9ad2e64142d72c876aa782c2581
+      internalID: 1833023055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_031
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df899d6a0e99c334990e5ec06cb2511
+      internalID: -57786551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_032
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1797f7870be0cecf2d9eefee22eb72
+      internalID: 1479756109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_033
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5bbf01a4873c994a38dfbedd16f2e8
+      internalID: 348192244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_034
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e110f75d9afa93ea1a89c233f3b193d
+      internalID: 912060123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_035
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2e769e88f7fda88f6e29a14fd60b8f
+      internalID: 1618447178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_036
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49c942a64d26711509e6a69e53eb232
+      internalID: 215410154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_037
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c94810a8dba7efb701a4772bf075f52
+      internalID: 1405792258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_038
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a08175e68075000a2e42a0afba0d303
+      internalID: -1235078394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_039
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 86
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a787b64dc3b9703486b32ef656b238cd
+      internalID: -1273502941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_040
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5277778, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0522c169303a71abd29209c9e64030ba
+      internalID: -2051054852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_041
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5277778, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f4a3245963e9b0a55e6210f34ec13c
+      internalID: 1710723205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_042
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5277778, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6e0bb0107578ad48eb9b53e996d5fb
+      internalID: 1159258814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_043
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 0
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5277778, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a08b4ad6d73567e033b6ddd8c779e6d
+      internalID: 1252049783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_044
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5277778, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e29cf4908ef9348c42187596874cf9
+      internalID: 893780238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_045
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5277778, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b79ba8f54ba72bde2f9185c9a03f66b
+      internalID: 2037854522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_046
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6aff517fd67cdb3e99cc8cd9547ad5b
+      internalID: -1792665342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_047
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 0
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef610f74eff8fc269c01c073f0c22d78
+      internalID: -1868815694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_048
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a07096ca44fdb23cf4596f4cbc22862
+      internalID: 1653997745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_049
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 0
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2f1629dbcbd3d145e4f4d66482ab2b
+      internalID: -1753682180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_050
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4971746c8b0b9da7ed3b0f9a7f5441
+      internalID: -1849981149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlenderDiagonals_051
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 0
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.11627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8890eb71c969bdce4aaa564b9d3ee24
+      internalID: 2134963925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e1a753e4434b08044add324e09415e1f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BlenderDiagonals_000: -805719675
+      BlenderDiagonals_001: 1434199240
+      BlenderDiagonals_002: -504538528
+      BlenderDiagonals_003: 404490121
+      BlenderDiagonals_004: 1483722917
+      BlenderDiagonals_005: -841587568
+      BlenderDiagonals_006: 58034408
+      BlenderDiagonals_007: 595753172
+      BlenderDiagonals_008: 213437961
+      BlenderDiagonals_009: -437074283
+      BlenderDiagonals_010: 989913710
+      BlenderDiagonals_011: 1796877056
+      BlenderDiagonals_012: -1519728743
+      BlenderDiagonals_013: 828359137
+      BlenderDiagonals_014: 556645345
+      BlenderDiagonals_015: 124578051
+      BlenderDiagonals_016: 1300429757
+      BlenderDiagonals_017: 96121446
+      BlenderDiagonals_018: 1828005348
+      BlenderDiagonals_019: 1479141852
+      BlenderDiagonals_020: -1216296266
+      BlenderDiagonals_021: -461750764
+      BlenderDiagonals_022: -830338324
+      BlenderDiagonals_023: -1917302807
+      BlenderDiagonals_024: -1323376604
+      BlenderDiagonals_025: 1654411764
+      BlenderDiagonals_026: -1670847422
+      BlenderDiagonals_027: -284439457
+      BlenderDiagonals_028: -1895145349
+      BlenderDiagonals_029: -1546153275
+      BlenderDiagonals_030: 1833023055
+      BlenderDiagonals_031: -57786551
+      BlenderDiagonals_032: 1479756109
+      BlenderDiagonals_033: 348192244
+      BlenderDiagonals_034: 912060123
+      BlenderDiagonals_035: 1618447178
+      BlenderDiagonals_036: 215410154
+      BlenderDiagonals_037: 1405792258
+      BlenderDiagonals_038: -1235078394
+      BlenderDiagonals_039: -1273502941
+      BlenderDiagonals_040: -2051054852
+      BlenderDiagonals_041: 1710723205
+      BlenderDiagonals_042: 1159258814
+      BlenderDiagonals_043: 1252049783
+      BlenderDiagonals_044: 893780238
+      BlenderDiagonals_045: 2037854522
+      BlenderDiagonals_046: -1792665342
+      BlenderDiagonals_047: -1868815694
+      BlenderDiagonals_048: 1653997745
+      BlenderDiagonals_049: -1753682180
+      BlenderDiagonals_050: -1849981149
+      BlenderDiagonals_051: 2134963925
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

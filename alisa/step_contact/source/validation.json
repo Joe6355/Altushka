@@ -1,0 +1,26 @@
+{
+  "native": [
+    36,
+    86
+  ],
+  "frames": 32,
+  "tags": 4,
+  "walkFrames": 12,
+  "walkMs": 960,
+  "headUnchanged": true,
+  "idleUnchanged": true,
+  "mirrorPhase": 6,
+  "plantedToeSamples": 5,
+  "toeWorldPoint": [
+    10,
+    85
+  ],
+  "approvedHashesUnchanged": 7,
+  "unityImport": {
+    "atlases": 14,
+    "clips": 86,
+    "sprites": 713,
+    "sourceCopiesExact": true
+  },
+  "playCheck": "ALISA_GAMEPLAY_OK: real PlayerInput keyboard, 8 directions and clips, diagonal speed, release-to-idle, dance interruption, short taps, physics bounds and full-viewport camera verified."
+}

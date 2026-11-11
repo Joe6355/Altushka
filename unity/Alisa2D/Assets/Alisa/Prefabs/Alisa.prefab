@@ -167,6 +167,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AlisaGame.AlisaPlayerController
   moveSpeed: 2.34375
+  startingFacing: {x: -1, y: -1}
   visual: {fileID: 8031549083843883160}
   shadow: {fileID: 1324716490208367863}
 --- !u!1 &1813925153125734022
@@ -250,7 +251,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -1085110500, guid: fa2110239d1ff5a47ae74fab92b96ca3, type: 3}
+  m_Sprite: {fileID: -1792665342, guid: b58bee512d4a2ce43920832de0b88726, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

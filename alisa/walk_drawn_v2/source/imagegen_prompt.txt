@@ -1,0 +1,23 @@
+Use case: identity-preserve.
+Asset: one production pixel-art sprite sheet for a single looping walk animation, eight consecutive cels in a 4-column by 2-row grid, transparent background.
+
+Inputs: Image 1 is the original Alisa sprite, the identity, exact adult body proportions, costume, palette and pixel-cluster reference to preserve. Image 2 shows the ORIGINAL successful dance, only as a reference for her curvy silhouette, original drawing style and lively cloth/torso. Do NOT reproduce that dance or its spread-foot stance.
+
+Draw a smooth, self-assured feminine walk TOWARD THE LOWER LEFT of the screen, a front-left three-quarter view with the very mild elevated RPG camera of the reference. This is a natural grounded walk with deliberate hip sway and a soft weight shift, not marching, skipping, running, kicking, tiptoeing or a catwalk cross-step. Hands remain comfortably on her hips as in the original. The pelvis actually moves over each support leg; shoulders counterbalance gently. Torso, bust, neck and hips form one coherent body that participates in the walk. Keep the chest's natural secondary motion subtle and the skirt's pleats following the hips with a small delay. The head is steady with small vertical settling, eyes looking in the direction of travel. Keep EXACTLY one head design and one face throughout.
+
+Preserve the original: white bob haircut, distinctive single curl, blue half-lidded eyes and small original face, black fitted sweater with the same small chest keyhole, narrow waist, full bust and hips, short white pleated skirt with its original pinkish hem accents, charcoal thigh-high stockings with clear black outlines, compact flat black shoes. The adult character's original proportions MUST stay: head/curl approximately native rows 0-30, neck/torso rows 30-46, skirt rows 44-58, long stocking-clad legs and shoes rows 58-85. Do not enlarge her head or shrink her figure. No chibi redesign, new outfit, apron, high heels, weapons or accessories.
+
+Eight cels, reading left to right across the first row then the second row, are successive poses of ONE SAME continuous gait, equally spaced in time:
+1 left foot forward heel contact, right foot trailing at toe-off, weight settling;
+2 left leg supports weight with a soft knee, right knee begins passing;
+3 right leg passes underneath the pelvis, left heel begins rising, torso slightly higher;
+4 right foot extends toward its next contact, left toe still brushes the ground;
+5 right foot forward heel contact, left foot trails, opposite hip loaded;
+6 right leg supports with a soft knee, left knee passes;
+7 left leg passes under the pelvis, right heel begins rising;
+8 left foot extends for the contact in cel 1, right toe brushes the ground.
+The two contact poses must show opposite leading legs. Both shoes point along the travel direction. The knee and ankle must stay anatomically connected, thighs remain full and calves taper naturally. Never make a detached foot, rubber leg, stilt, pointy boot or triangular peg. The planted foot remains flat in support. A swing foot lifts only a few native pixels and never rises to the skirt.
+
+Composition: 1536 x 1024 canvas, exact 4x2 equal grid, each cell 384 x 512. Each sprite is drawn as 36x86 native pixel art enlarged by exactly 4 with nearest-neighbor pixels: nominal art area 144x344, centered at x=120,y=84 in each cell. All eight share the same scale, neck location, registration and overall body height; maintain at least 4 pixels of safety around every full-body silhouette. Keep all feet inside their cell. Genuine alpha transparency everywhere outside the sprites. No text, labels, grid lines, panels, background, contact shadows or floor.
+
+Style: disciplined small-resolution hand-authored game pixel art matching the supplied original, clean connected one-native-pixel dark outlines, a small stable palette, readable shaped clusters and deliberate knees/ankles. No antialiased painted illustration, smooth gradients, new miniature texture or random pixel noise. Art quality, anatomical clarity and original identity are more important than adding detail.

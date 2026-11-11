@@ -1,0 +1,1221 @@
+{
+  "frames": [
+    {
+      "filename": "Alisa_diagonals 0.aseprite",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 50
+    },
+    {
+      "filename": "Alisa_diagonals 1.aseprite",
+      "frame": {
+        "x": 36,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 50
+    },
+    {
+      "filename": "Alisa_diagonals 2.aseprite",
+      "frame": {
+        "x": 72,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 50
+    },
+    {
+      "filename": "Alisa_diagonals 3.aseprite",
+      "frame": {
+        "x": 108,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 50
+    },
+    {
+      "filename": "Alisa_diagonals 4.aseprite",
+      "frame": {
+        "x": 144,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 50
+    },
+    {
+      "filename": "Alisa_diagonals 5.aseprite",
+      "frame": {
+        "x": 180,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 50
+    },
+    {
+      "filename": "Alisa_diagonals 6.aseprite",
+      "frame": {
+        "x": 216,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 50
+    },
+    {
+      "filename": "Alisa_diagonals 7.aseprite",
+      "frame": {
+        "x": 252,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 50
+    },
+    {
+      "filename": "Alisa_diagonals 8.aseprite",
+      "frame": {
+        "x": 288,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 50
+    },
+    {
+      "filename": "Alisa_diagonals 9.aseprite",
+      "frame": {
+        "x": 324,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 50
+    },
+    {
+      "filename": "Alisa_diagonals 10.aseprite",
+      "frame": {
+        "x": 360,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 50
+    },
+    {
+      "filename": "Alisa_diagonals 11.aseprite",
+      "frame": {
+        "x": 396,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 50
+    },
+    {
+      "filename": "Alisa_diagonals 12.aseprite",
+      "frame": {
+        "x": 432,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 50
+    },
+    {
+      "filename": "Alisa_diagonals 13.aseprite",
+      "frame": {
+        "x": 468,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 50
+    },
+    {
+      "filename": "Alisa_diagonals 14.aseprite",
+      "frame": {
+        "x": 504,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 50
+    },
+    {
+      "filename": "Alisa_diagonals 15.aseprite",
+      "frame": {
+        "x": 540,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 50
+    },
+    {
+      "filename": "Alisa_diagonals 16.aseprite",
+      "frame": {
+        "x": 576,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 50
+    },
+    {
+      "filename": "Alisa_diagonals 17.aseprite",
+      "frame": {
+        "x": 612,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 50
+    },
+    {
+      "filename": "Alisa_diagonals 18.aseprite",
+      "frame": {
+        "x": 648,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 50
+    },
+    {
+      "filename": "Alisa_diagonals 19.aseprite",
+      "frame": {
+        "x": 684,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 50
+    },
+    {
+      "filename": "Alisa_diagonals 20.aseprite",
+      "frame": {
+        "x": 0,
+        "y": 86,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 50
+    },
+    {
+      "filename": "Alisa_diagonals 21.aseprite",
+      "frame": {
+        "x": 36,
+        "y": 86,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 50
+    },
+    {
+      "filename": "Alisa_diagonals 22.aseprite",
+      "frame": {
+        "x": 72,
+        "y": 86,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 50
+    },
+    {
+      "filename": "Alisa_diagonals 23.aseprite",
+      "frame": {
+        "x": 108,
+        "y": 86,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 50
+    },
+    {
+      "filename": "Alisa_diagonals 24.aseprite",
+      "frame": {
+        "x": 144,
+        "y": 86,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 50
+    },
+    {
+      "filename": "Alisa_diagonals 25.aseprite",
+      "frame": {
+        "x": 180,
+        "y": 86,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 50
+    },
+    {
+      "filename": "Alisa_diagonals 26.aseprite",
+      "frame": {
+        "x": 216,
+        "y": 86,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 50
+    },
+    {
+      "filename": "Alisa_diagonals 27.aseprite",
+      "frame": {
+        "x": 252,
+        "y": 86,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 50
+    },
+    {
+      "filename": "Alisa_diagonals 28.aseprite",
+      "frame": {
+        "x": 288,
+        "y": 86,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 50
+    },
+    {
+      "filename": "Alisa_diagonals 29.aseprite",
+      "frame": {
+        "x": 324,
+        "y": 86,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 50
+    },
+    {
+      "filename": "Alisa_diagonals 30.aseprite",
+      "frame": {
+        "x": 360,
+        "y": 86,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 50
+    },
+    {
+      "filename": "Alisa_diagonals 31.aseprite",
+      "frame": {
+        "x": 396,
+        "y": 86,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 50
+    },
+    {
+      "filename": "Alisa_diagonals 32.aseprite",
+      "frame": {
+        "x": 432,
+        "y": 86,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 50
+    },
+    {
+      "filename": "Alisa_diagonals 33.aseprite",
+      "frame": {
+        "x": 468,
+        "y": 86,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 50
+    },
+    {
+      "filename": "Alisa_diagonals 34.aseprite",
+      "frame": {
+        "x": 504,
+        "y": 86,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 50
+    },
+    {
+      "filename": "Alisa_diagonals 35.aseprite",
+      "frame": {
+        "x": 540,
+        "y": 86,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 50
+    },
+    {
+      "filename": "Alisa_diagonals 36.aseprite",
+      "frame": {
+        "x": 576,
+        "y": 86,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 50
+    },
+    {
+      "filename": "Alisa_diagonals 37.aseprite",
+      "frame": {
+        "x": 612,
+        "y": 86,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 50
+    },
+    {
+      "filename": "Alisa_diagonals 38.aseprite",
+      "frame": {
+        "x": 648,
+        "y": 86,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 50
+    },
+    {
+      "filename": "Alisa_diagonals 39.aseprite",
+      "frame": {
+        "x": 684,
+        "y": 86,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 50
+    },
+    {
+      "filename": "Alisa_diagonals 40.aseprite",
+      "frame": {
+        "x": 0,
+        "y": 172,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 200
+    },
+    {
+      "filename": "Alisa_diagonals 41.aseprite",
+      "frame": {
+        "x": 36,
+        "y": 172,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 200
+    },
+    {
+      "filename": "Alisa_diagonals 42.aseprite",
+      "frame": {
+        "x": 72,
+        "y": 172,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 200
+    },
+    {
+      "filename": "Alisa_diagonals 43.aseprite",
+      "frame": {
+        "x": 108,
+        "y": 172,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 200
+    },
+    {
+      "filename": "Alisa_diagonals 44.aseprite",
+      "frame": {
+        "x": 144,
+        "y": 172,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 200
+    },
+    {
+      "filename": "Alisa_diagonals 45.aseprite",
+      "frame": {
+        "x": 180,
+        "y": 172,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 200
+    },
+    {
+      "filename": "Alisa_diagonals 46.aseprite",
+      "frame": {
+        "x": 216,
+        "y": 172,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 200
+    },
+    {
+      "filename": "Alisa_diagonals 47.aseprite",
+      "frame": {
+        "x": 252,
+        "y": 172,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 200
+    },
+    {
+      "filename": "Alisa_diagonals 48.aseprite",
+      "frame": {
+        "x": 288,
+        "y": 172,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 200
+    },
+    {
+      "filename": "Alisa_diagonals 49.aseprite",
+      "frame": {
+        "x": 324,
+        "y": 172,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 200
+    },
+    {
+      "filename": "Alisa_diagonals 50.aseprite",
+      "frame": {
+        "x": 360,
+        "y": 172,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 200
+    },
+    {
+      "filename": "Alisa_diagonals 51.aseprite",
+      "frame": {
+        "x": 396,
+        "y": 172,
+        "w": 36,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 86
+      },
+      "duration": 200
+    }
+  ],
+  "meta": {
+    "app": "https://www.aseprite.org/",
+    "version": "1.3.18.6-x64",
+    "image": "Alisa_diagonals_atlas.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 720,
+      "h": 258
+    },
+    "scale": "1",
+    "frameTags": [
+      {
+        "name": "walk_se",
+        "from": 0,
+        "to": 19,
+        "direction": "forward",
+        "color": "#000000ff",
+        "pivot": {
+          "x": 19,
+          "y": 76
+        },
+        "label": "Ходьба вниз-вправо"
+      },
+      {
+        "name": "walk_sw",
+        "from": 20,
+        "to": 39,
+        "direction": "forward",
+        "color": "#000000ff",
+        "pivot": {
+          "x": 17,
+          "y": 76
+        },
+        "label": "Ходьба вниз-влево"
+      },
+      {
+        "name": "idle_se",
+        "from": 40,
+        "to": 45,
+        "direction": "forward",
+        "color": "#000000ff",
+        "pivot": {
+          "x": 19,
+          "y": 76
+        },
+        "label": "Стойка вниз-вправо"
+      },
+      {
+        "name": "idle_sw",
+        "from": 46,
+        "to": 51,
+        "direction": "forward",
+        "color": "#000000ff",
+        "pivot": {
+          "x": 17,
+          "y": 76
+        },
+        "label": "Стойка вниз-влево"
+      }
+    ],
+    "layers": [
+      {
+        "name": "Алиса",
+        "opacity": 255,
+        "blendMode": "normal"
+      }
+    ],
+    "slices": [],
+    "gameplay": {
+      "playbackRate": 1.1227876645100145,
+      "stridePx": 23.616668701171875
+    }
+  }
+}

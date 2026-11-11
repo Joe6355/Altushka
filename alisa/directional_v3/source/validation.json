@@ -1,0 +1,28 @@
+{
+  "native": [
+    36,
+    86
+  ],
+  "cels": 96,
+  "tags": 12,
+  "walkMs": 960,
+  "idleMs": 2400,
+  "walkFrames": 12,
+  "maxTorsoBob": 1,
+  "stableHeads": true,
+  "headAppearanceUnchanged": true,
+  "cleanGarmentMasks": true,
+  "noLegHeightNormalisation": true,
+  "maxFootExtentStep": 2,
+  "binaryAlpha": true,
+  "connectedBodies": true,
+  "mirrors": true,
+  "approvedFilesUnchanged": 7,
+  "unityImport": {
+    "atlases": 13,
+    "clips": 82,
+    "sprites": 681,
+    "sourceCopiesExact": true
+  },
+  "playCheck": "ALISA_GAMEPLAY_OK: real PlayerInput keyboard, 8 directions and clips, diagonal speed, release-to-idle, dance interruption, short taps, physics bounds and full-viewport camera verified."
+}

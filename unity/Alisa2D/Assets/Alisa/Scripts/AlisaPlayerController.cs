@@ -10,6 +10,8 @@ namespace AlisaGame
     {
         [Header("Movement")]
         [Min(0.1f)] public float moveSpeed = 37.5f / 16f;
+        [SerializeField, Tooltip("Направление взгляда при появлении персонажа.")]
+        Vector2 startingFacing = Vector2.down;
         [Header("Graphics")]
         public SpriteRenderer visual;
         public SpriteRenderer shadow;
@@ -38,6 +40,7 @@ namespace AlisaGame
         {
             body = GetComponent<Rigidbody2D>();
             animator = GetComponent<Animator>();
+            facing = FacingDirection(startingFacing);
         }
 
         void OnEnable() => UpdateAnimation();
@@ -56,9 +59,15 @@ namespace AlisaGame
             {
                 pendingTap = movement;
                 IsDancing = false;
-                int octant = (Mathf.RoundToInt(Mathf.Atan2(movement.y, movement.x) * Mathf.Rad2Deg / 45f) + 8) % 8;
-                facing = Directions[octant];
+                facing = FacingDirection(movement);
             }
+        }
+
+        static Vector2 FacingDirection(Vector2 direction)
+        {
+            if (direction.sqrMagnitude < .001f) return Vector2.down;
+            int octant = (Mathf.RoundToInt(Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg / 45f) + 8) % 8;
+            return Directions[octant];
         }
 
         public void ToggleDance()

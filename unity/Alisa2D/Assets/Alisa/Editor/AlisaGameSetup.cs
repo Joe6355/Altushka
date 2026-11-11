@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using UnityEditor;
@@ -26,19 +27,25 @@ namespace AlisaGame.Editor
 
         internal static string ClipKey(int direction, bool walking)
         {
+            if (direction == 5 || direction == 7)
+                return "BlenderDiagonals/" + (walking ? "walk_" : "idle_") + Suffixes[direction];
             if (direction == 0 || direction == 4)
                 return walking ? "SideRevision/walk_side_right" : "Side/idle_side_right";
-            return "Polished/" + (walking ? "walk_" : "idle_") + Suffixes[direction];
+            return "DirectionalV3/" + (walking ? "walk_" : "idle_") + Suffixes[direction];
         }
 
-        internal static bool Build(AlisaAnimationLibrary library, Material material, Sprite footShadow)
+        internal static bool Build(AlisaAnimationLibrary library, Material material, Sprite footShadow, float diagonalRate)
         {
             var existing = AssetDatabase.LoadAssetAtPath<GameObject>(PrefabPath);
             if (File.Exists(ScenePath) && existing != null && existing.GetComponent<AlisaPlayerController>() != null)
+            {
+                if (diagonalRate > 0) ConnectFrontDiagonals(library, existing, diagonalRate);
                 return false;
+            }
             var controller = BuildController(library);
             var controls = BuildInput();
             var prefab = BuildPrefab(library, controller, controls, material, footShadow);
+            if (diagonalRate > 0) ConnectFrontDiagonals(library, prefab, diagonalRate);
             if (!File.Exists(ScenePath))
             {
                 EditorSceneManager.SaveOpenScenes();
@@ -52,6 +59,56 @@ namespace AlisaGame.Editor
             EditorBuildSettings.scenes = new[] { new EditorBuildSettingsScene(ScenePath, true) }
                 .Concat(EditorBuildSettings.scenes.Where(s => s.path != ScenePath && s.path != OldScenePath && File.Exists(s.path))).ToArray();
             return true;
+        }
+
+        static void ConnectFrontDiagonals(AlisaAnimationLibrary library, GameObject prefab, float rate)
+        {
+            var controller = AssetDatabase.LoadAssetAtPath<AnimatorController>(ControllerPath);
+            var states = controller.layers[0].stateMachine.states;
+            var updates = new List<(BlendTree tree, ChildMotion[] children)>();
+            foreach (bool walking in new[] { false, true })
+            {
+                string stateName = walking ? "Walk" : "Idle";
+                if (!(states.Single(s => s.state.name == stateName).state.motion is BlendTree tree))
+                    throw new InvalidOperationException(stateName + " directional blend tree is missing.");
+                var children = tree.children;
+                bool changed = false;
+                foreach (int direction in new[] { 5, 7 })
+                {
+                    int index = Array.FindIndex(children, child => child.position == Directions[direction]);
+                    if (index < 0) throw new InvalidOperationException(stateName + " front diagonal is missing.");
+                    string key = ClipKey(direction, walking);
+                    var entry = library.Find(key);
+                    if (entry == null) throw new InvalidOperationException("Missing clip: " + key);
+                    float timeScale = walking ? rate : 1f;
+                    if (children[index].motion == entry.clip && children[index].timeScale == timeScale && children[index].cycleOffset == 0)
+                        continue;
+                    children[index].motion = entry.clip;
+                    children[index].timeScale = timeScale;
+                    children[index].cycleOffset = 0; // The mirrored cels already include the half-cycle offset.
+                    changed = true;
+                }
+                if (changed) updates.Add((tree, children));
+            }
+            foreach (var (tree, children) in updates)
+            {
+                tree.children = children;
+                EditorUtility.SetDirty(tree);
+            }
+
+            var player = prefab.GetComponent<AlisaPlayerController>();
+            Vector2 start = new SerializedObject(player).FindProperty("startingFacing").vector2Value;
+            int initialDirection = Array.IndexOf(Directions, start);
+            if (initialDirection != 5 && initialDirection != 7) return;
+            Sprite idle = library.Find(ClipKey(initialDirection, false)).frames[0];
+            if (player.visual.sprite == idle) return;
+            var contents = PrefabUtility.LoadPrefabContents(PrefabPath);
+            try
+            {
+                contents.GetComponent<AlisaPlayerController>().visual.sprite = idle;
+                PrefabUtility.SaveAsPrefabAsset(contents, PrefabPath);
+            }
+            finally { PrefabUtility.UnloadPrefabContents(contents); }
         }
 
         static AnimatorController BuildController(AlisaAnimationLibrary library)
@@ -102,10 +159,18 @@ namespace AlisaGame.Editor
             };
             AssetDatabase.AddObjectToAsset(tree, controller);
             tree.children = Enumerable.Range(0, 8).Select(i => new ChildMotion {
-                motion = library.Find(ClipKey(i, walking)).clip, position = Directions[i], timeScale = 1,
+                motion = DirectionalClip(library, i, walking), position = Directions[i], timeScale = 1,
                 cycleOffset = walking && i == 4 ? .5f : 0f
             }).ToArray();
             return tree;
+        }
+
+        static AnimationClip DirectionalClip(AlisaAnimationLibrary library, int direction, bool walking)
+        {
+            var entry = library.Find(ClipKey(direction, walking));
+            if (entry == null && (direction == 5 || direction == 7))
+                entry = library.Find("StepContact/" + (walking ? "walk_" : "idle_") + Suffixes[direction]);
+            return entry.clip;
         }
 
         static AnimatorStateTransition Transition(AnimatorState from, AnimatorState to)
@@ -164,7 +229,7 @@ namespace AlisaGame.Editor
                 animator.cullingMode = AnimatorCullingMode.AlwaysAnimate;
                 var visual = GetChild(root.transform, "Visual");
                 var renderer = GetOrAdd<SpriteRenderer>(visual.gameObject);
-                renderer.sprite = library.Find("Polished/idle_s").frames[0];
+                renderer.sprite = library.Find("DirectionalV3/idle_s").frames[0];
                 renderer.sharedMaterial = material;
                 renderer.sortingOrder = 0;
                 var shadow = GetOrAdd<SpriteRenderer>(GetChild(root.transform, "Shadow").gameObject);

@@ -83,8 +83,13 @@ def main() -> None:
                             width=width, height=height, frames=frames))
 
     packs = [
-        ("SideRevision", "alisa/side_revision/Alisa_side_revision.json", "00 Проба — боковой шаг", False),
-        ("Polished", "alisa/motion_polish/Alisa_motion_polished.json", "01 Новые анимации — 8 направлений", False),
+        ("BlenderDiagonals", "alisa/blender_walk/game/Alisa_diagonals.json", "00 Передние диагонали", False),
+        ("StepContact", "alisa/step_contact/Alisa_step_contact.json", "Архив — проверка опоры", True),
+        ("DirectionalV3", "alisa/directional_v3/Alisa_directional_v3.json", "01 Новые передние и задние направления", False),
+        ("DrawnWalk", "alisa/walk_drawn_v2/Alisa_walk_drawn.json", "Архив — передние диагонали v2", True),
+        ("ConfidentWalk", "alisa/confident_walk/Alisa_confident_walk.json", "Архив — деформированный шаг", True),
+        ("SideRevision", "alisa/side_revision/Alisa_side_revision.json", "00 Боковой шаг A/D", False),
+        ("Polished", "alisa/motion_polish/Alisa_motion_polished.json", "Архив — первый набор 8 направлений", True),
         ("RearRedraw", "alisa/rear_key_redraw/Alisa_rear_redrawn.json", "Архив — задняя основа", True),
         ("Side", "alisa/side_walk/Alisa_side.json", "Архив — боковые ракурсы", True),
         ("Front", "alisa/motion_next/Alisa_motion_next.json", "Архив — передние диагонали", True),
@@ -92,9 +97,13 @@ def main() -> None:
         ("RearPolishedArchive", "alisa/back_walk_polished/Alisa_back_polished.json", "Архив — спина, предыдущая версия", True),
     ]
     front_data = None
+    front_diagonal_playback_rate = 0.0
     for key, json_path, group, historical in packs:
         path = ROOT / json_path
         data = json.loads(path.read_text("utf-8"))
+        if key == "BlenderDiagonals":
+            front_diagonal_playback_rate = data["meta"]["gameplay"]["playbackRate"]
+            assert front_diagonal_playback_rate > 0
         frames = []
         for item in data["frames"]:
             frames.append(dict(**item["frame"], pivotX=18, pivotY=85))
@@ -111,10 +120,24 @@ def main() -> None:
                 clip_historical = False
                 clip_group = "02 Исходный танец"
                 note = "Исходный танец сохранён без изменения кадров и задержек."
+            elif key == "BlenderDiagonals":
+                note = "Игровые диагонали из модели Blender. Темп согласован со скоростью на дворе, поворот сохраняет фазу шага."
+            elif key == "StepContact":
+                note = "Проверочный диагональный шаг: колено ведёт перенос, опорный носок закреплён в пяти контрольных фазах при 37,5 px/s. Голова и idle сохранены от v3."
+            elif key == "DirectionalV3":
+                note = "Шесть направлений: постоянная внешность, 12 фаз по 80 мс, подъём корпуса до 1 px. Юбка отделена от кистей и ног; покадровые ноги без изменения общей высоты слоя. Боковой шаг A/D и танец сохранены."
+                if tag['name'].endswith(('_sw', '_se')):
+                    clip_historical = True
+                    clip_group = "Архив — передние диагонали v3"
+                    note = "Предыдущие передние диагонали v3."
+            elif key == "DrawnWalk":
+                note = "Предыдущая проба передних диагоналей. Заменена в игровом Animator набором DirectionalV3."
+            elif key == "ConfidentWalk":
+                note = "Отклонённая проверка деформации исходного танца."
             elif key == "SideRevision":
-                note = "Проверочная правка одного шага: прежнее лицо и верх, 12 новых поз ног. Остальные направления — предыдущий набор."
+                note = "Принятая боковая ходьба на A/D: прежнее лицо и верх, 12 фаз по 80 мс. Кадры не изменены."
             elif key == "Polished":
-                note = "Новые позы 36×86. Восемь направлений; фаза шага сохраняется при повороте."
+                note = "Отклонённый первый набор восьми направлений; сохранён для истории."
             elif historical:
                 note = "Предыдущий эксперимент. Клип показан на месте, без записанного перемещения по сцене."
             add_clip(f"{key}/{tag['name']}", tag.get("label", LABELS.get(tag["name"], tag["name"])), clip_group,
@@ -147,7 +170,8 @@ def main() -> None:
     copy_if_changed(background, DEST / "Environment/Alisa_scene_background.png")
     clips.sort(key=lambda clip: (clip["historical"], clip["group"]))
     result = dict(nativeWidth=36, nativeHeight=86, pixelsPerUnit=16,
-                  defaultKey="Polished/idle_s", atlases=atlases, clips=clips)
+                  frontDiagonalPlaybackRate=front_diagonal_playback_rate,
+                  defaultKey="DirectionalV3/idle_s", atlases=atlases, clips=clips)
     encoded = json.dumps(result, ensure_ascii=False, indent=2) + "\n"
     if not MANIFEST.exists() or MANIFEST.read_text("utf-8") != encoded:
         MANIFEST.write_text(encoded, encoding="utf-8", newline="\n")

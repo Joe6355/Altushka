@@ -28,6 +28,7 @@ namespace AlisaGame.Editor
         [Serializable] sealed class Manifest
         {
             public int nativeWidth, nativeHeight, pixelsPerUnit;
+            public float frontDiagonalPlaybackRate;
             public string defaultKey;
             public Atlas[] atlases;
             public SourceClip[] clips;
@@ -77,7 +78,7 @@ namespace AlisaGame.Editor
             library.entries = manifest.clips.Select(source => BuildClip(source, sprites[source.atlasKey])).ToArray();
             EditorUtility.SetDirty(library);
             var material = BuildMaterial();
-            if (AlisaGameSetup.Build(library, material, CreateShadow()))
+            if (AlisaGameSetup.Build(library, material, CreateShadow(), manifest.frontDiagonalPlaybackRate))
             {
                 EditorSettings.defaultBehaviorMode = EditorBehaviorMode.Mode2D;
                 EditorSettings.serializationMode = SerializationMode.ForceText;
